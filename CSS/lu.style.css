@@ -1,0 +1,580 @@
+
+/* ------------------------  MEDIA QUERIES ------------------------ */
+
+@media screen and (max-width:375){
+    .DC{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1000) {
+    
+    .DC{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375){
+    p{
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width:800){
+   p{
+        font-size: 16px !important;
+    }
+
+}
+
+/* -------------------------------- NAVIGATION STYLING ---------------------------------------------- */
+
+.navbar {
+    background:#9f4eef;
+    margin: 0, auto;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(245, 251, 64);
+    text-decoration-line: underline;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/*------------------------------------ END NAVIGATION ----------------------------------------------*/
+
+/* -------------------------------   OVERALL BLANKET STYLES  ------------------------------------------ */
+
+span{
+    font-weight: 750;
+    color:#831beb
+}
+
+body {
+    background: rgb(228, 186, 255);
+}
+
+
+h1{
+    text-align: center;
+    color:#8a45d0;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 5%;
+}
+
+h2{
+    color: #831beb;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.bold{
+    font-weight: 600;
+    font-size: 24px;
+    color: #8835da;
+    padding: 10%;
+}
+
+.ul{
+    text-decoration: underline;
+    font-weight: 400;
+    color:#9c18ab;
+}
+
+.hs{
+    text-decoration: underline;
+    color:#9c18ab;
+    font-size: 24px;
+}
+
+.row{
+    padding: 5;
+}
+
+
+.hero{
+    background-color: #954bdf76;
+    display: flex;
+    border-radius: 2%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*------------------------------------ END OVERALL STYLES ----------------------------------------------*/
+
+
+/* -------------------------------   SECTION HEADING STYLES  ------------------------------------------ */
+
+.RESEARCH{
+    background-color: #ead5ff;
+}
+
+.ITERATION{
+    background-color:#f8f7a8;
+    width: 100%;
+}
+
+.PROTOTYPING{
+    background-color: #872de1;
+}
+
+/*------------------------------------ END SECTION HEADINGS ----------------------------------------------*/
+
+
+/* -------------------------------           IMAGES        ------------------------------------------ */
+.HIFIimg{
+   padding-top: 10%;
+   padding-bottom: 20%;
+}
+
+
+.img-fluid{
+    padding: 1%;
+}
+
+#img1{
+    width: 80%;
+    justify-self: center;
+    padding-left: 10%;
+}
+
+
+.room{
+    padding: 5%;
+}
+
+.moreRoom{
+    padding: 10%;
+}
+
+/* ------- **** Nintendo Dudes **** -------- */
+
+
+.mushroom{
+    padding-top: 10px;
+}
+
+
+
+.lilDudesDown{
+    padding-top: 50px;
+}
+
+.lilDudesDown2{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30x;
+}
+
+/*------------------------------------ END IMAGES ----------------------------------------------*/
+
+/* -------------------------------    TEXT STYLES   ------------------------------------------ */
+
+.logoText{
+    color:rgb(243, 245, 207);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin: 0 auto;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+
+.bodyText{
+    color:#360864;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bodyBold{
+    color: #680fc1;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+
+.DC{
+    color:#f8f7a8;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: start;
+    padding: 5%;
+    padding-top: 25%;
+
+}
+
+
+.TY{
+    color:#f8f7a8;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: start;
+    padding: 5%;
+}
+
+
+.headerBold{
+    color:#ead7fd;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.HIFI{
+    color: #f8f7a8;
+    text-align: right;
+    padding-left: 10%;
+    padding-right: 25%;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-top: 30%;
+    padding-bottom: 25%;
+}
+
+.kirby{
+    color:#821aea;
+    font-size: 20px;
+    padding: 10%;
+    padding-top: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20%;
+}
+
+#kirb{
+    padding-bottom: 20%;
+}
+
+.ProBlurbs{
+    color:#f8f7a8;
+    text-align:left;
+    font-size: 20px;
+    padding-top: 25%;
+    padding-left: 25%;
+    padding-right: 10%;
+
+}
+
+#para{
+    color: #f8f7a8;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.ProBlurb{
+    color:#f8f7a8;
+    text-align:right;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 2%;
+    padding-top: 25%;
+
+}
+
+.ProImgs{
+    width: 500px;
+    height: 550px;
+    padding-left: 10%;
+}
+
+.Pos{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.Pos2{
+    padding-top: 50px;
+}
+
+.ProText{
+    color:#f8f7a8;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: center;
+    padding: 2%;
+}
+
+.pro{
+    color:#f8f7a8;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+.proBold{
+    color:#f8f7a8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.lg{
+    font-size: 26px;
+    color:#e8e49e;
+    font-weight:400;
+}
+
+.LU{
+    color:rgb(243, 240, 70);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.LU1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+/*------------------------------------ END TEXT ----------------------------------------------*/
+
+
+/* ------------------------------- TITLES AND HEADERs ------------------------------------------ */
+
+.card-header{
+    background-color: #eddefc00;
+    color:rgb(168, 43, 190);
+    margin: 0 auto;
+    width:100%;
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.card-title{
+    color:#9e0fad;
+    font-size: 24px;
+}
+
+.title2{
+    text-decoration: underline;
+    color: #50138c;
+}
+
+.mid{
+    font-size: 32px;
+    font-weight: 300;
+    text-decoration: underline;
+    color:#fafae3;
+    padding-top: 2%;
+    padding: 5%;
+}
+
+/*.mid{
+    padding-top: 4%;
+}
+/* ---------------------------- END TITLES AND HEADERS ------------------------------------------ */
+
+
+/* -------------------------------    DIV STYLES    ------------------------------------------ */
+
+.kp{
+    background-color: #f0e4f585;
+    height: 80%;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+
+.card-body{
+    color: #8d25b0;
+}
+
+.card-body2{
+    color:#50138c;
+    padding-top: 0;
+    padding: 10%;
+    margin: auto 0;
+}
+
+.dirCom{
+    background-color: #ba84f078;
+    width: 80%;
+    height: 95%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.ind{
+    margin: 0 auto;
+    padding-left: 5%;
+}
+
+
+.card-img-top{
+    background-color: #be8fede7;
+    border-radius: 5%;
+    padding: 2%;
+    width: 300px;
+    height: 300px;
+}
+
+
+.card{
+    border-color: rgba(254, 254, 139, 0.846);
+    border-width: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f8f1ff;
+}
+
+.around{
+    padding-bottom: 5%;
+}
+
+.aroundcard{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#f7f6e0;
+}
+
+.ThankYou{
+    background-color:#f8f7a8;
+    width: 75%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 10%;
+
+}
+
+/*------------------------------------ END DIVS ----------------------------------------------*/
+
+
+/* ---------------  ***MISCS***  --------------- */
+
+#sketch{
+    padding-left: 10%;
+}
+
+#belowSketch{
+    padding-top: 10%;
+}
+
+.InDir{
+    color:#f8f7a8;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#shine{
+    color:#f8f7a8;
+    font-size: 20px;
+    font-weight: 300;
+    text-align:left;
+    padding: 5%;
+}
+
+#efluffy{
+    width: 200px;
+    height: 250px;
+    padding: 5%;
+}
+
+#Thankyou{
+    font-weight: 800;
+
+}
+
+#tytext{
+    color:#831beb;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.DigPro{
+    color: rgb(254, 255, 225);
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 200;
+    padding: 5%;
+    
+}
+
+.inPro{
+    background: #dab6fe8e;
+    margin: 0 auto;
+}
+
+.inPr{
+    background-color: #dcc0f869;
+}
+
+/***** FOOTER *******/
+
+.footerbgc{
+    background-color: #081151;
+}
+
+ter section*/
+
+.foot{
+    padding-left: 20%;
+}
+
+
+.footer{
+    font-size: 24px;
+    color:#ffff;
+    display: flex;
+}
+
+.ft{
+    display: flex;
+}
+
+.Anna{
+    padding-left: 45%;
+    padding-right: 5%;
+    padding-top: 4%;
+}
+
+.contactlist{
+    padding-left: 10%;
+}
+
+.social{
+    padding: 5%;
+}
+
+p.contact{
+    justify-content: start;
+    padding: 2%;
+    font-size: 32px;
+    text-decoration: underline;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*End Footer*/
+
+/* -- #IMG1 & #LULogo ID's can be found in IMG section -- */
+
+/* END STYLES */
+
+/* ---------- *** FOOTER *** ----------------*/
+
