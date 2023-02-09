@@ -363,34 +363,36 @@ section{
 /*footer section*/
 
 .ft{
+    display: block;
     display: flex;
 }
 
 .Anna{
-    width: 400px;
-    height: 275px;
-    padding-left: 5%;
-    padding-right: 25%;
-    margin: 0 auto;
-    padding-bottom: 25%;
+    width: 300px;
+    height: 200px;
+    padding-top: 5%;
 }
 
-.ft{
-    padding-left: 25%;
-}
 
 .contactlist{
-    padding-top: 2%;
+    display: flex;
+
+}
+
+.social{
+    padding: 5%;
 }
 
 .footer{
     font-size: 24px;
+    padding: 2%;
     color: #ffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
 }
 
 
-p.contact{
+.contact{
     justify-content: center;
     text-decoration: underline;
     font-size: 32px;
