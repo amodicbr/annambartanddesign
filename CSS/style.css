@@ -1,0 +1,607 @@
+/* MEDIA QUERIES ARE SET TO 700PX NOT SET TO MOBILE DEVICE */
+
+/*IMPORTANT TO JAVASCRIPT*/
+
+@keyframes rotating{
+    from {transform-origin: 0;}
+    to {transform: rotate(360deg)}
+}
+
+.rotate{
+    animation-name: rotating;
+    animation-duration: 4s;
+}
+    
+
+/* navigation section */
+
+nav{
+    background-color: #9d135db6 ;
+    margin: 0 auto;
+    display: flex;
+    width: 85%;
+
+}
+
+.navigation{
+    padding-top: 2%;
+}
+
+
+.navul{
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
+    justify-content: center;
+}
+
+
+
+ .navLlist{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+ul{
+    justify-content:center;
+}
+
+li{
+    display: inline-block;
+    }
+
+/*END NAV*/
+
+body{
+    background-color: #081151 ;
+}
+
+div .containerGrid{
+    justify-content: center;
+    align-content: center;
+}
+
+.containerGrid{
+    padding-top: 5%;
+    color:aliceblue;
+    font-style: italic;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:  1fr 1fr;
+    grid-template-areas:
+        "...topRow topRow rightContent..."
+        " ... ... leftSidebar leftSidebar leftSidebar"
+    
+}
+
+
+.topRow{
+    font-weight: bold;
+    color:rgb(97, 159, 244);
+    grid-area: topRow;
+
+}
+
+.leftSidebar{
+    font-weight:800px;
+    color:rgb(67, 74, 216);
+    grid-area: leftSidebar;
+
+}
+
+
+.rightContent{
+    font-size: larger;
+    font-weight: 900;
+    grid-area: rightContent;
+}
+
+/*.rotate{
+    transform: rotate(90deg);
+}*/
+
+#logo{
+    display:flex;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+#aboutMe, #resume, #myWork{
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.blink{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.CSA{
+    color:#fbfbeede;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+
+}
+
+
+
+.blurb{
+    color:aliceblue;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.blu{
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+button{
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #f76f91;
+    color:aliceblue;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+/* end hero Image */
+
+
+/* Case Studies*/
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+    color: #152497;
+}
+
+
+section{
+    background-color: lightblue;
+}
+
+
+#liftup, #humanesoc, #treasd{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    width: 75%;
+}
+  
+
+#lift{
+    border-radius: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 3fr 1fr;
+    grid-template-areas:
+    "... ... title title ..."
+    "... ... subt subt ..."
+    "... logo info info ..."
+    "... ... info info ..."
+    "... ... full ...  ..."
+    ;
+}
+
+
+#humane, #treas{
+    border-radius: 10px;
+    margin: 0 auto;
+    align-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 3fr 1fr;
+    grid-template-areas:
+    "... title title title ..."
+    "... logo info info ..."
+    "... ... info info ..."
+    "... ... full ... ..."
+    ;
+}
+
+#lift{
+    background-color: rgb(249, 249, 157);
+}
+
+#humane{
+    background-color:rgb(249, 148, 137);
+}
+
+#treas{
+    background-color: #ffff;
+}
+
+
+#ttitle, #htitle{
+    grid-area: title;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+}
+
+
+#ltitle{
+    padding-top: 40px;
+    margin: 0;
+    grid-area: title;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#be31e9;
+    font-size: 40px;
+}
+
+
+
+.full{
+    grid-area: full;
+    padding-bottom: 20px;
+}
+
+.caseimg{
+    display:flex;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.button3{
+    background-color: rgb(188, 211, 238);
+    color:#0d1973;
+    width: 250px;
+    height: 75px;
+    font-size: 24px;
+}
+
+.buttonall{
+    width: 500px;
+    height: 100px;
+    font-size: 36px;
+}
+
+
+.subtitle{
+    grid-area: subt;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color:#73278a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.subtitle{
+    font-size:32px;
+}
+
+
+
+#htitle{
+    color:rgb(207, 249, 253);
+    font-size: 24px;
+}
+
+
+#ttitle{
+    color:#081151;
+    font-size:24px;
+}
+
+
+
+#llogo, #hlogo, #tlogo{
+    grid-area: logo;
+    padding-bottom: 50px;
+}
+
+#linfo, #hinfo, #tinfo{
+    grid-area: info;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+#linfo{
+    color:#73278a;
+
+}
+
+#hinfo{
+    color:rgb(250, 241, 229);
+
+}
+
+#tinfo{
+    color: #081151;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin: auto;
+    background-color: lightblue;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+
+/* END CASE STUDIES */
+
+/*footer section*/
+
+.ft{
+    display: flex;
+}
+
+.Anna{
+    width: 400px;
+    height: 275px;
+    padding-left: 5%;
+    padding-right: 25%;
+    margin: 0 auto;
+    padding-bottom: 25%;
+}
+
+.ft{
+    padding-left: 25%;
+}
+
+.contactlist{
+    padding-top: 2%;
+}
+
+.footer{
+    font-size: 24px;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+p.contact{
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 32px;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*End Footer*/
+
+@media screen and (max-width: 700px){
+    nav{
+        width: 50%;
+        background-color: #081151;
+        padding-right: 25%;
+        
+    }
+
+    ul{
+        justify-content:center;
+    }
+
+    li{
+        display: inline-block;
+        }
+
+
+    .containerGrid{
+        font-size: 36px;
+    }
+
+    .header{
+        font-size: 48px;
+    }
+
+    
+
+     .blurb{
+        font-size: 18px;
+        padding:0;
+    }
+
+    
+    .CSA{
+        font-size: 24px;
+    }
+
+
+    .caseimg{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #lift{
+        align-content: center;
+        justify-content: center;
+    }
+
+    #ltitle{
+        font-size: 20px;
+    }
+
+    #htitle{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #linfo, #hinfo, #tinfo{
+        font-size: 14px;
+    }
+
+    #liftup, #humanesoc, #treasd{
+        width: 100%;
+    }
+
+    .subtitle{
+        font-size: 20px;
+    }
+
+    .buttonall{
+        font-size: 18px;
+        width: 300px;
+        height: 75px;
+    }
+    
+    .button3{
+        width: 125px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+    .foot{
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .ft{
+        padding: 0;
+    }
+
+    .Anna{
+        width: 200px;
+        height: 125px;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 374px){
+    .navul{
+        width: 50%;
+        background-color: #081151;
+        
+    }
+
+
+    .containerGrid{
+        font-size: 36px;
+    }
+
+    .header{
+        font-size: 48px;
+    }
+
+    .navli{
+        display: inline-block;
+        }
+
+     .blurb{
+        font-size: 18px;
+        padding:0;
+    }
+
+    
+    .CSA{
+        font-size: 24px;
+    }
+
+
+    .caseimg{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #lift{
+        align-content: center;
+        justify-content: center;
+    }
+
+    #ltitle{
+        font-size: 20px;
+    }
+
+    #htitle{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #linfo, #hinfo, #tinfo{
+        font-size: 14px;
+    }
+
+    #liftup, #humanesoc, #treasd{
+        width: 100%;
+    }
+
+    .subtitle{
+        font-size: 20px;
+    }
+
+    .buttonall{
+        font-size: 18px;
+        width: 300px;
+        height: 75px;
+    }
+    
+    .button3{
+        width: 125px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+    .foot{
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .ft{
+        padding: 0;
+    }
+
+    .Anna{
+        width: 100px;
+        height: 125px;
+        padding: 0;
+    }
+
+}
+
+
+
+/* Other */
+
+hr{
+    height: 4px;
+}
+
+
+p{
+    margin: auto;
+    padding: 0;
+}
+
