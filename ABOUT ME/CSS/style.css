@@ -5,21 +5,62 @@ body{
     background-color: rgb(167, 167, 241);
 }
 
+nav{
+    background-image: url(/Images\ HW:17//Nav.png);
+    background-size: cover;
+}
+
+
+li{
+    justify-content: center;
+    display: inline-block;
+}
+
+.nava{
+    padding-right: 10%;
+}
+
+#resume, #about, #work{
+    width: 100px;
+}
+
+#work{
+    padding-top: 200px;
+}
+
+#resume{
+    padding-top: 150px;
+}
+
+#about{
+    padding-top: 125px;
+}
+
 .ani{
     padding-left: 25%;
 }
 
 .animals{
     background-color: rgb(167, 167, 241);
-    padding-bottom: 200px;
+    padding-bottom: 10%;
 }
 
 
 .lwimg{
     background-color:rgb(167, 167, 241);
+}
+
+h1{
+    color:rgb(134, 10, 123);
+    text-decoration: underline;
+    text-align: center;
 
 }
 
+
+.card-img{
+    padding: 2%;
+}
 
 .card-text{
     margin: 0 auto;
@@ -29,8 +70,7 @@ body{
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 50px;
-    padding-bottom: 5%;
+    padding-top: 30%;
 }
 
 
@@ -47,6 +87,7 @@ small{
 .smalltext{
     padding-left: 25%;
     padding-right: 25%;
+    padding-top: 5%;
 }
 
 .strong{
@@ -112,7 +153,6 @@ p.contact{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
  
 @media (max-width: 768px){
     .card-text{
@@ -125,6 +165,40 @@ p.contact{
         padding-right: 10% !important;
         padding-top: 50px !important;
         padding-bottom: 5% !important;
+        padding-top: 200px !important;
+    }
+
+    h1{
+        color:rgb(134, 10, 123);
+        text-decoration: underline;
+        text-align: center;
+    }
+
+
+
+    .card-img{
+        padding: 5%;
+        height: 600px;
+    }
+
+    .nava{
+        padding-right: 10%;
+    }
+    
+    #resume, #about, #work{
+        width: 75px;
+    }
+    
+    #work{
+        padding-top: 50px;
+    }
+    
+    #resume{
+        padding-top: 40px;
+    }
+    
+    #about{
+        padding-top: 30px;
     }
 
     .ani{
@@ -132,13 +206,10 @@ p.contact{
         width: 70%;
     }
 
-    .background{
-        padding-bottom: 25%;
-    }
 
     .animals{
         background-color: rgb(167, 167, 241);
-        padding-bottom: 800px; 
+        padding-bottom: 55%; 
     }
     
      }
