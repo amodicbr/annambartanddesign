@@ -16,43 +16,46 @@
 /* navigation section */
 
 nav{
-    background-color: #9d135db6 ;
-    margin: 0 auto;
-    display: flex;
-    width: 85%;
-
+    background-image: url(/Images\ HW:17//Nav.png);
+    background-size: cover;
 }
 
-.navigation{
-    padding-top: 2%;
+
+li{
+    justify-content: center;
+    display: inline-block;
 }
 
+.nava{
+    padding-right: 10%;
+}
+
+#resume, #about, #work{
+    width: 100px;
+}
+
+#work{
+    padding-top: 200px;
+}
+
+#resume{
+    padding-top: 150px;
+}
+
+#about{
+    padding-top: 125px;
+}
 
 .navul{
-    display:flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffff;
     justify-content: center;
 }
 
 
-
- .navLlist{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #ffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
-}
-
-
 ul{
     justify-content:center;
 }
-
-li{
-    display: inline-block;
-    }
 
 /*END NAV*/
 
@@ -66,7 +69,6 @@ div .containerGrid{
 }
 
 .containerGrid{
-    padding-top: 5%;
     color:aliceblue;
     font-style: italic;
     font-size: 48px;
@@ -80,18 +82,18 @@ div .containerGrid{
     
 }
 
-
 .topRow{
     font-weight: bold;
-    color:rgb(97, 159, 244);
+    color:rgb(134, 182, 249);
     grid-area: topRow;
 
 }
 
 .leftSidebar{
-    font-weight:800px;
-    color:rgb(67, 74, 216);
+    font-weight: 900px;
+    color:rgb(223, 224, 255);
     grid-area: leftSidebar;
+    font-size: 40px;
 
 }
 
@@ -112,7 +114,6 @@ div .containerGrid{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding-top: 20px;
     padding-left: 100px;
 }
 
@@ -131,7 +132,7 @@ div .containerGrid{
 
 .CSA{
     color:#fbfbeede;
-    padding: 20px;
+    padding: 5%;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -247,19 +248,18 @@ section{
 #ttitle, #htitle{
     grid-area: title;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 20px;
+    padding: 10%;
 }
 
 
 #ltitle{
-    padding-top: 40px;
+    padding: 10%;
     margin: 0;
     grid-area: title;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#be31e9;
     font-size: 40px;
 }
-
 
 
 .full{
@@ -403,21 +403,46 @@ section{
 /*End Footer*/
 
 @media screen and (max-width: 700px){
-    nav{
+    /*nav{
         width: 50%;
-        background-color: #081151;
+        background: #081151;
         padding-right: 25%;
         
     }
 
     ul{
         justify-content:center;
+    }*/
+    .nava{
+        padding-right: 10%;
+    }
+    
+    #resume, #about, #work{
+        width: 75px;
+    }
+    
+    #work{
+        padding-top: 50px;
+    }
+    
+    #resume{
+        padding-top: 40px;
+    }
+    
+    #about{
+        padding-top: 30px;
     }
 
-    li{
-        display: inline-block;
-        }
-
+    #logo{
+        display:flex;
+        align-items: flex-end;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-bottom: 50px;
+    }
 
     .containerGrid{
         font-size: 36px;
@@ -431,7 +456,7 @@ section{
 
      .blurb{
         font-size: 18px;
-        padding:0;
+        padding:10%;
     }
 
     
@@ -502,10 +527,45 @@ section{
 }
 
 @media screen and (max-width: 374px){
-    .navul{
+    /*.navul{
         width: 50%;
         background-color: #081151;
         
+    }
+    nav{
+        width: 50%;
+        background: #081151;
+    }*/
+
+    .nava{
+        padding-right: 10%;
+    }
+    
+    #resume, #about, #work{
+        width: 75px;
+    }
+    
+    #work{
+        padding-top: 80px;
+    }
+    
+    #resume{
+        padding-top: 75px;
+    }
+    
+    #about{
+        padding-top: 70px;
+    }
+
+    #logo{
+        display:flex;
+        align-items: flex-end;
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-bottom: 50px;
     }
 
 

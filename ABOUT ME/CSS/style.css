@@ -1,0 +1,168 @@
+
+@media screen and (max-width:375){
+    .card-text{
+         font-size: 14px !important;
+     }
+     .animal-img{
+        padding-left: 25% !important;
+        padding-top: 20% !important;
+    }
+    
+ }
+ 
+ 
+ @media screen and (max-width:1000){
+     .card-text{
+         font-size: 14px !important;
+     }
+     .animal-img{
+        padding-left: 25% !important;
+        padding-top: 20% !important;
+    }
+        
+     }
+ 
+
+
+body{
+    background-color: rgb(167, 167, 241);
+}
+
+.animals{
+    background-color: rgb(167, 167, 241);
+    padding-bottom: 800px;
+}
+
+.animal{
+    background-color: rgb(167, 167, 241);
+   
+}
+
+.lwimg{
+    background-color:rgb(167, 167, 241);
+
+}
+
+
+.card-text{
+    margin: 0 auto;
+    color:#081151;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50px;
+    padding-bottom: 5%;
+}
+
+
+.ani{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card-img-overlay{
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.card-img{
+    width: 100%;
+}
+
+
+small{
+    font-size: 16px;
+}
+
+.small{
+   width: 40%;
+   padding: 2%;
+}
+
+.strong{
+    font-size: 24px;
+    font-weight: 400;
+    color:rgb(134, 10, 123);
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(134, 10, 123);
+}
+
+.tall{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************8***** FOOTER *******/
+
+.footerbgc{
+    background-color: #081151;
+}
+
+
+
+.foot{
+    padding-left: 20%;
+}
+
+
+.footer{
+    font-size: 24px;
+    color:#ffff;
+    display: flex;
+}
+
+.ft{
+    display: flex;
+}
+
+.Anna{
+    padding-left: 45%;
+    padding-right: 5%;
+    padding-top: 4%;
+}
+
+.contactlist{
+    padding-left: 10%;
+}
+
+.social{
+    padding: 5%;
+}
+
+p.contact{
+    justify-content: start;
+    padding: 2%;
+    font-size: 32px;
+    text-decoration: underline;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
