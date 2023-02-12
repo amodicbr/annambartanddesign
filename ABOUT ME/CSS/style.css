@@ -1,13 +1,70 @@
 
+    @media screen and (max-width: 400px){
+        
+        .background{
+            height: 1200px !important;
+        }
+
+        nav{
+            height: 500px !important;
+        }
+
+        nav .justify-content-start{
+            padding-right: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        nav .justify-content-end{
+            padding-right: 0 !important;
+            padding-bottom: 0 !important;
+        }
+
+        #home{
+            width: 100px !important;
+            padding-top: 30px !important;
+        }
+    
+    
+        .card-img{
+            height: 0 !important;
+        }
+       
+        
+        #resume, #work{
+            width: 75px;
+        }
+        
+        #resume{
+            padding-top: 50px !important;
+        }
+        
+        .smalltext{
+            padding: 2%;
+            font-size: 14px;
+        }
+
+        .animals{
+            padding-top: 100px !important;
+        }
+
+    }
 
 
 body{
-    background-color: rgb(167, 167, 241);
+    background-color: rgb(160, 160, 240);
 }
+
 
 nav{
     background-image: url(/Images\ HW:17//Nav.png);
     background-size: cover;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: underline;
+    color:rgb(125, 2, 136);
 }
 
 
@@ -50,21 +107,9 @@ nav .justify-content-start{
 }
 
 .animals{
-    background-color: rgb(167, 167, 241);
-    padding-bottom: 25%;
+    background-color: rgb(193, 193, 241);
+    padding-bottom: 30%;
 }
-
-
-.lwimg{
-    background-color:rgb(167, 167, 241);
-}
-
-h1{
-    color:rgb(251, 248, 251);
-    text-decoration: underline;
-    text-align: center;
-}
-
 
 .card-img{
     padding: 2%;
@@ -78,7 +123,7 @@ h1{
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 20%;
+    padding-top: 25% !important;
 }
 
 
@@ -163,6 +208,20 @@ p.contact{
 
  
 @media (max-width: 768px){
+    .background{
+        height: 860px !important;
+    }
+
+    nav .justify-content-start{
+        padding-right: 40%;
+        padding-top: 10%;
+    }
+    
+    nav .justify-content-end{
+        padding-right: 10%;
+        padding-bottom: 5%;
+    }
+
     .card-text{
         margin: 0 auto !important;
         color:#081151 !important;
@@ -171,62 +230,46 @@ p.contact{
         text-align: center !important;
         padding-left: 10% !important;
         padding-right: 10% !important;
-        padding-top: 50px !important;
         padding-bottom: 5% !important;
-        padding-top: 200px !important;
+        padding-top: 300px !important;
     }
 
     #home{
         width:75px;
     }
-    
-    nav .justify-content-start{
-        padding-right: 300px;
-        padding-top: 50px;
-    }
 
-    h1{
-        color:rgb(134, 10, 123);
-        text-decoration: underline;
-        text-align: center;
-    }
 
 
     .card-img{
-        padding: 5%;
-        height: 600px;
+        height: 0px;
     }
 
-    .nava{
-        padding-right: 10%;
-    }
+   
     
-    #resume, #about, #work{
+    #resume, #work{
         width: 75px;
     }
-    
-    #work{
-        padding-top: 50px;
-    }
-    
+
     #resume{
-        padding-top: 40px;
+        padding-bottom: 250px;
     }
+
     
-    #about{
-        padding-top: 30px;
+    .smalltext{
+        padding: 2%;
+        font-size: 14px;
     }
 
     .ani{
-        padding-bottom: 25%;
         width: 70%;
     }
 
 
     .animals{
         background-color: rgb(167, 167, 241);
-        padding-bottom: 65%; 
     }
     
      }
- 
+
+    
+    
