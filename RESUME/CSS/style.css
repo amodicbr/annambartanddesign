@@ -1,0 +1,206 @@
+/* MEDIA QUERIES ARE SET TO 700PX NOT SET TO MOBILE DEVICE */
+
+/*IMPORTANT TO JAVASCRIPT*/
+
+    
+
+/* navigation section */
+
+nav{
+    background-image: url(/Images\ HW:17//Nav.png);
+    background-size: cover;
+}
+
+
+li{
+    justify-content: center;
+    display: inline-block;
+}
+
+.nava{
+    padding-right: 10%;
+}
+
+#resume, #about, #work{
+    width: 100px;
+}
+
+#work{
+    padding-top: 200px;
+}
+
+#resume{
+    padding-top: 150px;
+}
+
+#about{
+    padding-top: 125px;
+}
+
+.navul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
+    justify-content: center;
+}
+
+
+ul{
+    justify-content:center;
+}
+
+/*END NAV*/
+
+body{
+    background-color: #081151 ;
+}
+
+/*footer section*/
+
+.ft{
+    display: block;
+    display: flex;
+}
+
+.Anna{
+    width: 300px;
+    height: 200px;
+    padding-top: 5%;
+}
+
+
+.contactlist{
+    display: flex;
+
+}
+
+.social{
+    padding: 5%;
+}
+
+.footer{
+    font-size: 24px;
+    padding: 2%;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+
+.contact{
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 32px;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*End Footer*/
+
+@media screen and (max-width: 700px){
+    /*nav{
+        width: 50%;
+        background: #081151;
+        padding-right: 25%;
+        
+    }
+
+    ul{
+        justify-content:center;
+    }*/
+    .nava{
+        padding-right: 10%;
+    }
+
+
+    .buttonall{
+        font-size: 18px;
+        width: 300px;
+        height: 75px;
+    }
+    
+    .button3{
+        width: 125px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+    .foot{
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .ft{
+        padding: 0;
+    }
+
+    .Anna{
+        width: 200px;
+        height: 125px;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 374px){
+    /*.navul{
+        width: 50%;
+        background-color: #081151;
+        
+    }
+    nav{
+        width: 50%;
+        background: #081151;
+    }*/
+
+    .nava{
+        padding-right: 10%;
+    }
+    
+    .navli{
+        display: inline-block;
+        }
+
+
+    .buttonall{
+        font-size: 18px;
+        width: 300px;
+        height: 75px;
+    }
+    
+    .button3{
+        width: 125px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+    .foot{
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .ft{
+        padding: 0;
+    }
+
+    .Anna{
+        width: 100px;
+        height: 125px;
+        padding: 0;
+    }
+
+}
+
+
+
+/* Other */
+
+hr{
+    height: 4px;
+}
+
+
+p{
+    margin: auto;
+    padding: 0;
+}
+
