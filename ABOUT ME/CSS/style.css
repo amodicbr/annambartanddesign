@@ -1,27 +1,48 @@
 
     @media screen and (max-width: 400px){
-        
+        body{
+            width: 375px !important;
+        }
+
         .background{
-            height: 1200px !important;
+            height: 3000px !important;
         }
 
         nav{
-            height: 500px !important;
+            height: 800px !important;
+            padding-bottom: 100px !important;
+            width: 375px !important;
         }
 
         nav .justify-content-start{
             padding-right: 0 !important;
             padding-top: 0 !important;
+            margin: 0 auto;
         }
         
         nav .justify-content-end{
-            padding-right: 0 !important;
+            padding-right: 200px !important;
             padding-bottom: 0 !important;
+            margin: 0 auto;
+        }
+
+        .card-img-overlay{
+            padding-top: 50px !important;
+            padding-left: 5% !important;
+            padding-right: 5% !important;
+            padding-bottom: 200px;
+            width: 350px;
+        }
+
+        .card-text{
+            padding-left: 10% !important;
+            padding-right: 10% !important;
+            font-size: small !important;
         }
 
         #home{
-            width: 100px !important;
-            padding-top: 30px !important;
+            width: 75px !important;
+            padding-bottom: 0px !important;
         }
     
     
@@ -31,12 +52,11 @@
        
         
         #resume, #work{
-            width: 75px;
+            width: 60px;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
         }
-        
-        #resume{
-            padding-top: 50px !important;
-        }
+    
         
         .smalltext{
             padding: 2%;
@@ -44,7 +64,11 @@
         }
 
         .animals{
-            padding-top: 100px !important;
+            padding-top: 0px !important;
+        }
+
+        .footerbgc{
+            width: 375px;
         }
 
     }
@@ -207,19 +231,9 @@ p.contact{
 }
 
  
-@media (max-width: 768px){
+@media (max-width: 900px){
     .background{
-        height: 860px !important;
-    }
-
-    nav .justify-content-start{
-        padding-right: 40%;
-        padding-top: 10%;
-    }
-    
-    nav .justify-content-end{
-        padding-right: 10%;
-        padding-bottom: 5%;
+        height: 950px !important;
     }
 
     .card-text{
@@ -236,24 +250,21 @@ p.contact{
 
     #home{
         width:75px;
+        padding-top: 25px;
     }
 
 
-
-    .card-img{
-        height: 0px;
-    }
-
-   
+   .card-img{
+    height: 0px;
+   }
     
     #resume, #work{
         width: 75px;
+        padding-bottom: 500px;
+        padding-top: 0;
     }
-
-    #resume{
-        padding-bottom: 250px;
-    }
-
+    
+  
     
     .smalltext{
         padding: 2%;
