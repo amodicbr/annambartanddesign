@@ -1,11 +1,9 @@
 
     @media screen and (max-width: 400px){
-        body{
-            width: 375px !important;
-        }
 
-        .background{
-            height: 3000px !important;
+        .ani{
+            width: 250px;
+            margin: 0 auto;
         }
 
         nav{
@@ -14,38 +12,33 @@
             width: 375px !important;
         }
 
-        nav .justify-content-start{
-            padding-right: 0 !important;
-            padding-top: 0 !important;
-            margin: 0 auto;
-        }
-        
-        nav .justify-content-end{
-            padding-right: 200px !important;
-            padding-bottom: 0 !important;
-            margin: 0 auto;
-        }
-
-        .card-img-overlay{
-            padding-top: 50px !important;
-            padding-left: 5% !important;
-            padding-right: 5% !important;
-            padding-bottom: 200px;
-            width: 350px;
-        }
 
         .card-text{
-            padding-left: 10% !important;
-            padding-right: 10% !important;
             font-size: small !important;
         }
 
         #home{
             width: 75px !important;
-            padding-bottom: 0px !important;
+        }
+
+        .other{
+            padding-right: 0px !important;
+        }
+
+        .home{
+            padding-left: 0px !important;
+        }
+        
+         #work{
+            width: 65px !important;
+            padding: 0px!important;
         }
     
-    
+        #resume{
+            width: 75px !important;
+            padding: 0px !important;
+        }
+
         .card-img{
             height: 0 !important;
         }
@@ -75,13 +68,26 @@
 
 
 body{
-    background-color: rgb(160, 160, 240);
+    background-color: rgba(214, 214, 240, 0.194);
 }
 
 
-nav{
+.nav{
     background-image: url(/Images\ HW:17//Nav.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 355px;
+}
+
+ul{
+    display: block;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+li{
+    display: inline-block;
 }
 
 .title{
@@ -91,38 +97,33 @@ nav{
     color:rgb(125, 2, 136);
 }
 
-
-li{
-    justify-content: center;
-    display: inline-block;
+.card-img-overlay{
+    position:relative;
 }
 
-.nava{
-    padding-right: 10%;
+.other{
+    padding-right: 200px;
+}
+
+.home{
+    padding-left: 800px;
 }
 
 #home{
     width:125px;
-    padding-top: 10%;
+    padding-top: 20%;
 }
 
-nav .justify-content-start{
-    padding-right: 65%;
-    padding-top: 2%;
-}
 
-#resume, #work{
+#resume{
     width: 100px;
-    padding-top: 2%;
+    padding: 2%;
+    
 }
 
 #work{
-    padding-top: 75px;
-    padding-right: 10%;
-}
-
-#resume{
-    padding-top: 85px;
+    width: 85px;
+    padding: 2%;
 }
 
 
@@ -131,12 +132,12 @@ nav .justify-content-start{
 }
 
 .animals{
-    background-color: rgb(193, 193, 241);
-    padding-bottom: 30%;
-}
-
-.card-img{
-    padding: 2%;
+    background-image: url(/IMGS/Animals\ in\ the\ City.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .card-text{
@@ -147,12 +148,15 @@ nav .justify-content-start{
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 25% !important;
 }
 
 
 .card-img-overlay{
     margin: 0 auto;
+}
+
+.background{
+    padding-bottom: 10%;
 }
 
 
@@ -231,9 +235,10 @@ p.contact{
 }
 
  
-@media (max-width: 900px){
-    .background{
-        height: 950px !important;
+@media (max-width: 1000px){
+
+    body{
+        background-color:rgb(160, 160, 240) ;
     }
 
     .card-text{
@@ -242,42 +247,29 @@ p.contact{
         font-size: 16px !important;
         font-weight: 300 !important;
         text-align: center !important;
-        padding-left: 10% !important;
-        padding-right: 10% !important;
-        padding-bottom: 5% !important;
-        padding-top: 300px !important;
     }
 
-    #home{
-        width:75px;
-        padding-top: 25px;
-    }
-
-
-   .card-img{
-    height: 0px;
-   }
     
-    #resume, #work{
-        width: 75px;
-        padding-bottom: 500px;
-        padding-top: 0;
+    .other{
+        padding-top: 4%;
     }
-    
-  
+
+    .home{
+        padding-left: 200px;
+    }
     
     .smalltext{
         padding: 2%;
         font-size: 14px;
     }
 
-    .ani{
-        width: 70%;
+    #home{
+        padding-top: 5%;
     }
 
-
     .animals{
-        background-color: rgb(167, 167, 241);
+        background-image: none;
+        padding-bottom: 30%;
     }
     
      }
