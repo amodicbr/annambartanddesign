@@ -1,5 +1,5 @@
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 375px){
 
         .ani{
             width: 250px;
@@ -8,10 +8,16 @@
 
         nav{
             height: 800px !important;
-            padding-bottom: 100px !important;
-            width: 375px !important;
+            padding-bottom: 0px !important;
         }
 
+
+        ul{
+         display: block;
+         padding-top: 0% !important;
+         padding-left: 0% !important;
+         padding-right: 0% !important;
+        }
 
         .card-text{
             font-size: small !important;
@@ -19,6 +25,7 @@
 
         #home{
             width: 75px !important;
+            padding: 0px !important;
         }
 
         .other{
@@ -60,8 +67,73 @@
             padding-top: 0px !important;
         }
 
-        .footerbgc{
-            width: 375px;
+
+    }
+
+
+    @media screen and (max-width: 500px){
+
+        .ani{
+            width: 250px;
+            margin: 0 auto;
+        }
+
+
+        ul{
+         display: block;
+         padding-top: 0% !important;
+         padding-left: 0% !important;
+         padding-right: 0% !important;
+        }
+
+        .card-text{
+            font-size: small !important;
+        }
+
+        #home{
+            width: 75px !important;
+            padding: 0px !important;
+        }
+
+        .resume{
+            padding-right: 0px !important;
+            padding-left: 25px;
+            padding-top: 25px;
+        }
+
+        .home{
+            padding-left: 65px !important;
+        }
+        
+         #work{
+            width: 65px !important;
+            padding: 0px!important;
+        }
+    
+        #resume{
+            width: 75px !important;
+            padding: 0px !important;
+        }
+
+        .card-img{
+            height: 0 !important;
+        }
+       
+        
+        #resume, #work{
+            width: 60px;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+    
+        
+        .smalltext{
+            padding: 2%;
+            font-size: 14px;
+        }
+
+        .animals{
+            padding-top: 0px !important;
         }
 
     }
