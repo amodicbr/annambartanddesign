@@ -20,6 +20,10 @@ nav{
     background-size: cover;
 }
 
+nav.justify-content-end{
+    padding-bottom: 100px;
+}
+
 
 li{
     justify-content: center;
@@ -147,8 +151,8 @@ div .containerGrid{
     color:aliceblue;
     font-size: 22px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .blu{
@@ -174,191 +178,143 @@ button{
 
 /* end hero Image */
 
+.case-studies{
+    padding: 2%;
+    background-color: #081151;
+}
 
-/* Case Studies*/
+/************************************************** CASE STUDIES *********************************************/
+.card-group{
+    padding: 5% !important;
+    background-color: #4c4ecc97;
+}
 
-.header{
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 64px;
-    color: #152497;
+.card{
+    background-color: #7879eaaf;
+    border: none;
+    padding: 2%;
+    
 }
 
 
-section{
-    background-color: lightblue;
+small.text-muted{
+    color:rgb(241, 152, 228) !important;
+    text-decoration: underline;
+    font-size: 24px;
 }
 
+.text-muted-s{
+    font-size: 20px;
+    color:rgba(72, 13, 72, 0.969);
+}
 
-#liftup, #humanesoc, #treasd{
-    display:flex;
-    align-content: center;
-    justify-content: center;
-    padding-top: 5%;
+/** LIFT UP **/
+
+
+.card-img-top-lu{
+    padding-bottom: 3.25%;
+}
+
+.card-body-lu{
+    background-color:#e3bfffd2;
+    padding: 5%;
+    height: 1010px;
+}
+
+.card-title-lu{
+    font-size: 32px;
+    font-weight: 600px;
+    color:rgb(246, 246, 102);
+    padding: 10%;
+    text-align: center;
+}
+
+strong.lu{
+    color:#7310a9;
+    font-size: 22px;
+    font-weight: 500px
+}
+
+.card-text-lu{
+    font-size: 20px;
+    font-weight: 300px;
+    color:rgb(64, 9, 79);
+    padding-bottom: 55px;
+    padding-top: 10%;
+}
+/** END LIFT UP **/
+
+/** HSNY **/
+.card-img-top-hs{
     padding-bottom: 5%;
-    margin: 0 auto;
-    width: 75%;
-}
-  
-
-#lift{
-    border-radius: 10px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr 3fr 1fr;
-    grid-template-areas:
-    "... ... title title ..."
-    "... ... subt subt ..."
-    "... logo info info ..."
-    "... ... info info ..."
-    "... ... full ...  ..."
-    ;
 }
 
-
-#humane, #treas{
-    border-radius: 10px;
-    margin: 0 auto;
-    align-content: flex-start;
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr 3fr 1fr;
-    grid-template-areas:
-    "... title title title ..."
-    "... logo info info ..."
-    "... ... info info ..."
-    "... ... full ... ..."
-    ;
+.card-body-hs{
+    background-color:rgb(249, 146, 161);
+    padding: 5%;
+    height: 1010px;
 }
 
-#lift{
-    background-color: rgb(249, 249, 157);
+.card-title-hs{
+    color:rgb(249, 249, 249);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8%;
 }
 
-#humane{
-    background-color:rgb(249, 148, 137);
-}
-
-#treas{
-    background-color: #ffff;
-}
-
-
-#ttitle, #htitle{
-    grid-area: title;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10%;
-}
-
-
-#ltitle{
-    padding: 10%;
-    margin: 0;
-    grid-area: title;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#be31e9;
-    font-size: 40px;
-}
-
-
-.full{
-    grid-area: full;
-    padding-bottom: 20px;
-}
-
-.caseimg{
-    display:flex;
-    width: 300px;
-    height: 300px;
-}
-
-
-
-.button3{
-    background-color: rgb(188, 211, 238);
-    color:#0d1973;
-    width: 250px;
-    height: 75px;
-    font-size: 24px;
-}
-
-.buttonall{
-    width: 500px;
-    height: 100px;
-    font-size: 36px;
-}
-
-
-.subtitle{
-    grid-area: subt;
-    padding-bottom: 20px;
+.card-text-hs{
     font-size: 20px;
-    color:#73278a;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300px;
+    color:rgb(252, 252, 252);
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
-
-.subtitle{
-    font-size:32px;
+strong.hs{
+    color:#7c0c13;
+    font-size: 22px;
+    font-weight: 500px
 }
 
+/* END HSNY */
 
+/* TREAS */
 
-#htitle{
-    color:rgb(207, 249, 253);
-    font-size: 24px;
+.card-img-top-t{
+    padding-bottom: 32px;
 }
 
+.card-body-treas{
+    background-color:rgb(248, 252, 255);
+    padding: 5%;
+    height: 1010px;
+}
 
-#ttitle{
+.card-text-treas{
+    text-align: start;
+    font-size: 20px;
+    font-weight: 300px;
+    color:rgb(71, 71, 79);
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+strong.t{
     color:#081151;
-    font-size:24px;
 }
 
-
-
-#llogo, #hlogo, #tlogo{
-    grid-area: logo;
-    padding-bottom: 50px;
+.card-title-treas{
+    color: grey;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    padding: 10%;
 }
 
-#linfo, #hinfo, #tinfo{
-    grid-area: info;
-    padding-left: 10px;
-    padding-bottom: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-}
+/* END TREAS */
 
-
-#linfo{
-    color:#73278a;
-
-}
-
-#hinfo{
-    color:rgb(250, 241, 229);
-
-}
-
-#tinfo{
-    color: #081151;
-}
-
-.button2{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-    margin: auto;
-    background-color: lightblue;
-    color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-}
-
-
-/* END CASE STUDIES */
+/************************************************** END CASE STUDIES *********************************************/
 
 /*footer section*/
 
@@ -413,9 +369,6 @@ section{
     ul{
         justify-content:center;
     }*/
-    .nava{
-        padding-right: 10%;
-    }
     
     #resume, #about, #work{
         width: 75px;
