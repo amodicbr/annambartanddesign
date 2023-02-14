@@ -178,6 +178,16 @@ button{
 
 /* end hero Image */
 
+#ct{
+    display: flex;
+}
+
+.casetitle{
+    color: rgb(241, 152, 228);
+    font-size: 48px;
+    font-weight: 300px;
+}
+
 .case-studies{
     padding: 2%;
     background-color: #081151;
@@ -313,6 +323,40 @@ strong.t{
 }
 
 /* END TREAS */
+
+
+.linkdIN{
+    display: inline-block;
+    padding-left: 30%;
+}
+
+.linkt{
+    color:rgb(241, 152, 228);
+    font-size: 34px;
+    font-weight: 400;
+    padding-left: 10%;
+    text-decoration: underline;
+    padding-bottom: 30%;
+}
+
+#looking{
+    display: flex;
+}
+
+#look{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 200;
+    display: flex;
+    padding-bottom: 2%;
+}
+
+#light{
+    width: 75px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
 
 /************************************************** END CASE STUDIES *********************************************/
 
