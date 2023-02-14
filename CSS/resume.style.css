@@ -1,100 +1,167 @@
 /* MEDIA QUERIES ARE SET TO 700PX NOT SET TO MOBILE DEVICE */
 
-/*IMPORTANT TO JAVASCRIPT*/
+/*MEDIA QUERIES*/
 
     
+@media screen and (max-width: 375px){
 
-/* navigation section */
+    nav{
+        height: 800px !important;
+        padding-bottom: 0px !important;
+    }
 
-nav{
-    background-image: url(/Images\ HW:17//Nav.png);
-    background-size: cover;
+
+    ul{
+     display: block;
+     padding-top: 0% !important;
+     padding-left: 0% !important;
+     padding-right: 0% !important;
+    }
+
+    #home{
+        width: 75px !important;
+        padding: 0px !important;
+    }
+
+    .other{
+        padding-right: 0px !important;
+    }
+
+    .home{
+        padding-left: 0px !important;
+    }
+    
+     #work{
+        width: 65px !important;
+        padding: 0px!important;
+    }
+
+    #resume{
+        width: 50px !important;
+        padding: 0px !important;
+    }
+
+
 }
 
 
-li{
-    justify-content: center;
-    display: inline-block;
+@media screen and (max-width: 500px){
+
+    ul{
+     display: block;
+     padding-top: 0% !important;
+     padding-left: 0% !important;
+     padding-right: 0% !important;
+    }
+
+    .card-text{
+        font-size: small !important;
+    }
+
+    #home{
+        width: 75px !important;
+        padding: 0px !important;
+    }
+
+    .about{
+        padding-right: 0px !important;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    .home{
+        padding-left: 150px !important;
+        padding-top: 20%;
+    }
+    
+     #work{
+        width: 65px !important;
+        padding: 0px!important;
+    }
+
+    #about{
+        width: 60px !important;
+        padding: 0px !important;
+    }
+
+    #about, #work{
+        width: 60px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
 }
 
-.nava{
-    padding-right: 10%;
+@media (max-width: 1000px){
+
+    body{
+        background-color:rgb(160, 160, 240) ;
+    }
+    
+    .card-text{
+        margin: 0 auto !important;
+        color:#081151 !important;
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        text-align: center !important;
+    }
+    
+    
+    .other{
+        padding-top: 4%;
+    }
+    
+    .home{
+        padding-left: 300px;
+        padding-top: 10%;
+    }
+    
+    .smalltext{
+        padding: 2%;
+        font-size: 14px;
+    }
+    
+    #home{
+        padding-top: 5%;
+    }
 }
 
-#resume, #about, #work{
-    width: 100px;
-}
+@media screen and (max-width: 374px){
+    /*.navul{
+        width: 50%;
+        background-color: #081151;
+        
+    }
+    nav{
+        width: 50%;
+        background: #081151;
+    }*/
 
-#work{
-    padding-top: 200px;
-}
-
-#resume{
-    padding-top: 150px;
-}
-
-#about{
-    padding-top: 125px;
-}
-
-.navul{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffff;
-    justify-content: center;
-}
+    .nava{
+        padding-right: 10%;
+    }
+    
+    .navli{
+        display: inline-block;
+        }
 
 
-ul{
-    justify-content:center;
-}
+    .foot{
+        margin: 0 auto;
+        padding-left: 0px;
+    }
 
-/*END NAV*/
+    .ft{
+        padding: 0;
+    }
 
-body{
-    background-color: #081151 ;
-}
-
-/*footer section*/
-
-.ft{
-    display: block;
-    display: flex;
-}
-
-.Anna{
-    width: 300px;
-    height: 200px;
-    padding-top: 5%;
-}
-
-
-.contactlist{
-    display: flex;
+    .Anna{
+        width: 100px;
+        height: 125px;
+        padding: 0;
+    }
 
 }
 
-.social{
-    padding: 5%;
-}
-
-.footer{
-    font-size: 24px;
-    padding: 2%;
-    color: #ffff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-}
-
-
-.contact{
-    justify-content: center;
-    text-decoration: underline;
-    font-size: 32px;
-    color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/*End Footer*/
 
 @media screen and (max-width: 700px){
     /*nav{
@@ -141,56 +208,145 @@ body{
 
 }
 
-@media screen and (max-width: 374px){
-    /*.navul{
-        width: 50%;
-        background-color: #081151;
-        
-    }
-    nav{
-        width: 50%;
-        background: #081151;
-    }*/
 
-    .nava{
-        padding-right: 10%;
-    }
-    
-    .navli{
-        display: inline-block;
-        }
+/************************** NAVIGATION ***********************/
 
+.nav{
+background-image: url(/Images\ HW:17//Nav.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 375px;
+}
 
-    .buttonall{
-        font-size: 18px;
-        width: 300px;
-        height: 75px;
-    }
-    
-    .button3{
-        width: 125px;
-        height: 65px;
-        font-size: 18px;
-    }
+.navul{
+display: block;
+padding-left: 5%;
+padding-right: 5%;
+}
 
-    .foot{
-        margin: 0 auto;
-        padding-left: 0px;
-    }
-
-    .ft{
-        padding: 0;
-    }
-
-    .Anna{
-        width: 100px;
-        height: 125px;
-        padding: 0;
-    }
-
+.navli, .resume, .home{
+display: inline-block;
 }
 
 
+.other{
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.home{
+    padding-left: 850px;
+    padding-top: 2%;
+}
+
+#home{
+width:125px;
+padding-top: 35px;
+}
+
+
+#about{
+    width: 75px;
+}
+
+#work{
+width: 85px;
+padding: 2%;
+}
+
+.myresume{
+    padding: 5%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+button{
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #a20573;
+    color:aliceblue;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+
+/*******************************************************8***** FOOTER *******/
+
+.footerbgc{
+background-color: #081151;
+}
+
+
+.ft{
+    display: block;
+    display: flex;
+}
+
+
+.footer{
+font-size: 24px;
+color:#ffff;
+display: flex;
+padding: 2%;
+}
+
+.ft{
+display: flex;
+}
+
+.Anna{
+padding: 5;
+}
+
+.contactlist{
+display: flex;
+padding-left: 2%;
+}
+
+.social{
+padding: 5%;
+}
+
+.contact{
+justify-content: center;
+font-size: 32px;
+text-decoration: underline;
+color:aliceblue;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+/* navigation section */
+
+nav{
+    background-image: url(/Images\ HW:17//Nav.png);
+    background-size: cover;
+}
+
+
+.navli{
+    justify-content: center;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+
+
+/*END NAV*/
+
+body{
+    background-color: #081151 ;
+}
 
 /* Other */
 
