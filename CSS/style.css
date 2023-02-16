@@ -1,64 +1,67 @@
-/* MEDIA QUERIES ARE SET TO 700PX NOT SET TO MOBILE DEVICE */
 
-/*IMPORTANT TO JAVASCRIPT*/
-
-@keyframes rotating{
-    from {transform-origin: 0;}
-    to {transform: rotate(360deg)}
+/** WAVES **/
+.wave{
+    z-index: 1;
+    position: absolute;
+    height: 75px;
+    opacity: 60%;
 }
 
-.rotate{
-    animation-name: rotating;
-    animation-duration: 4s;
-}
+.wave2{
+    z-index: 1;
+    position: absolute;
+    margin-top: 40rem;
     
+}
+
+.footerwave{
+    height: 100%;
+
+}
+
+/** **/
 
 /* navigation section */
 
 nav{
-    background-image: url(/Images\ HW:17//Nav.png);
-    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    justify-content: end;
+    width: 100%;
+    margin-top: 1em;
 }
 
-nav.justify-content-end{
-    padding-bottom: 100px;
-}
 
-
-li{
-    justify-content: center;
-    display: inline-block;
-}
-
-.nava{
-    padding-right: 10%;
-}
-
-#resume, #about, #work{
-    width: 100px;
-}
-
-#work{
-    padding-top: 100px;
+#about{
+    margin-top: 10%;
 }
 
 #resume{
-    padding-top: 150px;
+    margin-top: 40%;
 }
 
-#about{
-    padding-top: 125px;
+
+.nava{
+    padding-right: 5%;
 }
+
+li{
+    justify-content: end;
+    display: inline-block;
+}
+
 
 .navul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffff;
-    justify-content: center;
+    justify-content: end;
 }
 
+#about, #resume, #work{
+    align-items: flex-start;
+    justify-content: center;
+    width: 100px;
 
-ul{
-    justify-content:center;
 }
 
 /*END NAV*/
@@ -67,70 +70,62 @@ body{
     background-color: #081151 ;
 }
 
-div .containerGrid{
-    justify-content: center;
-    align-content: center;
+/** Hero Img **/
+
+.name{
+    color:rgb(241, 152, 228);
+    padding-left: 2%;
+    font-size: 16px;
+    z-index: 4;
+    padding-top: 2%;
 }
 
-.containerGrid{
-    color:aliceblue;
-    font-style: italic;
-    font-size: 48px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows:  1fr 1fr;
-    grid-template-areas:
-        "...topRow topRow rightContent..."
-        " ... ... leftSidebar leftSidebar leftSidebar"
-    
-}
-
-.topRow{
-    font-weight: bold;
-    color:rgb(134, 182, 249);
-    grid-area: topRow;
-
-}
-
-.leftSidebar{
-    font-weight: 900px;
-    color:rgb(223, 224, 255);
-    grid-area: leftSidebar;
-    font-size: 40px;
-
+.subtitle{
+    color:#f693e6a0;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 3;
+    padding-left: 10%;
 }
 
 
-.rightContent{
-    font-size: larger;
-    font-weight: 900;
-    grid-area: rightContent;
+.hero{
+    z-index: 2;
+    position: relative;
+    margin-top: 5rem;
+    padding-bottom: 5%;
 }
 
-/*.rotate{
-    transform: rotate(90deg);
-}*/
 
-#logo{
-    display:flex;
-    align-items: flex-end;
-    margin-left: auto;
-    margin-right: auto;
+.UXUI{
+    margin: 0 auto;
     width: 60%;
-    padding-left: 100px;
+    padding-top: 5%;
 }
 
-#aboutMe, #resume, #myWork{
-    align-items: flex-start;
-    justify-content: center;
+.UX, .UI{
+    color: rgba(255, 255, 255, 0.797);
+    font-size: 32px;
+    font-weight:600;
+    font-style: italic;
 }
 
+.UI{
+    margin-left: 10%;
+}
+
+#push{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+}
 
 .blink{
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -145,18 +140,19 @@ div .containerGrid{
 
 }
 
-
+#logo{
+    width: 50%;
+    margin-left: 33%;
+    margin-bottom: 2rem;
+}
 
 .blurb{
     color:aliceblue;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 200;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.blu{
-    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .button{
@@ -176,15 +172,66 @@ button{
     font-size: larger;
 }
 
-/* end hero Image */
+.blu{
+    text-align: center;
+}
+
+
+/** Hero Image **/
+
+/** Strengths Card **/
+
+.strengthCard{
+    padding: 10%;
+    margin-bottom: 5px;
+}
+
+.linkt{
+    color:rgb(241, 152, 228);
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+#look{
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#light{
+    width: 40px;
+}
+
+.GreenLight{
+    display: block;
+}
+
+#light, #look{
+    display: inline-block;
+}
+
+.LinkdINStuff{
+    text-align: center;
+}
+
+
+/** Strengths Card **/
+
+/*** CASE STUDIES ***/
+
+.casestudiessection{
+    z-index: 2;
+    position: relative;
+}
 
 #ct{
     display: flex;
 }
 
 .casetitle{
-    color: rgb(241, 152, 228);
-    font-size: 48px;
+    color: rgb(253, 253, 253);
+    font-size: 32px;
     font-weight: 300px;
 }
 
@@ -193,7 +240,7 @@ button{
     background-color: #081151;
 }
 
-/************************************************** CASE STUDIES *********************************************/
+
 .card-group{
     padding: 5% !important;
     background-color: #4c4ecc97;
@@ -218,201 +265,86 @@ small.text-muted{
     color:rgba(72, 13, 72, 0.969);
 }
 
-/** LIFT UP **/
+.card-img-top-t{
+    padding-bottom: 25px;
+}
 
-
-.card-img-top-lu{
-    padding-bottom: 3.25%;
+.card-img-top-lu{ 
+    padding-bottom: 10px;
 }
 
 .card-body-lu{
-    background-color:#e3bfffd2;
+    background-color: rgba(204, 221, 253, 0.61);
     padding: 5%;
-    height: 1010px;
+    height: 95%;
 }
 
-.card-title-lu{
-    font-size: 32px;
-    font-weight: 600px;
-    color:rgb(246, 246, 102);
-    padding: 10%;
-    text-align: center;
-}
-
-strong.lu{
-    color:#7310a9;
-    font-size: 22px;
-    font-weight: 500px
-}
-
-.card-text-lu{
-    font-size: 20px;
-    font-weight: 300px;
-    color:rgb(64, 9, 79);
-    padding-bottom: 55px;
-    padding-top: 10%;
-}
-/** END LIFT UP **/
-
-/** HSNY **/
 .card-img-top-hs{
-    padding-bottom: 5%;
+    padding-bottom: 13.75px;
 }
 
-.card-body-hs{
-    background-color:rgb(249, 146, 161);
-    padding: 5%;
-    height: 1010px;
+.card-body{
+    background-color: rgba(204, 221, 253, 0.61);
+    padding-top: 25px;
+    height: 60%;
 }
 
-.card-title-hs{
-    color:rgb(249, 249, 249);
-    font-size: 28px;
-    font-weight: 600;
-    text-align: center;
-    padding: 8%;
-}
-
-.card-text-hs{
-    font-size: 20px;
-    font-weight: 300px;
-    color:rgb(252, 252, 252);
-    padding-bottom: 10%;
-    padding-top: 10%;
-}
-
-strong.hs{
-    color:#7c0c13;
-    font-size: 22px;
-    font-weight: 500px
-}
-
-/* END HSNY */
-
-/* TREAS */
-
-.card-img-top-t{
-    padding-bottom: 32px;
-}
-
-.card-body-treas{
-    background-color:rgb(248, 252, 255);
-    padding: 5%;
-    height: 1010px;
-}
-
-.card-text-treas{
-    text-align: start;
-    font-size: 20px;
-    font-weight: 300px;
-    color:rgb(71, 71, 79);
-    padding-bottom: 10%;
-    padding-top: 5%;
-}
-
-strong.t{
+.card-text{
     color:#081151;
 }
 
-.card-title-treas{
-    color: grey;
+.card-title{
     text-align: center;
-    font-weight: 600;
-    font-size: 28px;
-    padding: 10%;
+    color:#a20573;
+    font-size: 26px;
 }
 
-/* END TREAS */
-
-
-.linkdIN{
-    display: inline-block;
-    padding-left: 30%;
+.card-title-lu{
+    text-align: center;
+    color:#a20573;
+    font-size: 26px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.linkt{
-    color:rgb(241, 152, 228);
-    font-size: 34px;
-    font-weight: 400;
-    padding-left: 10%;
-    text-decoration: underline;
-    padding-bottom: 30%;
-}
+/** Case Studies **/
 
-#looking{
-    display: flex;
-}
+/*** FOOTER ***/
 
-#look{
-    color: aliceblue;
-    font-size: 30px;
-    font-weight: 200;
-    display: flex;
-    padding-bottom: 2%;
-}
-
-#light{
-    width: 75px;
-    margin: 0 auto;
-    padding: 2%;
-}
-
-
-/************************************************** END CASE STUDIES *********************************************/
-
-/*footer section*/
-
-.ft{
-    display: block;
-    display: flex;
-}
 
 .Anna{
     width: 300px;
-    height: 200px;
-    padding-top: 5%;
 }
 
+.ft{
+    margin-top: 25px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
 
-.contactlist{
-    display: flex;
-
+ul.foot{
+    padding-left: 25%;
 }
 
 .social{
     padding: 5%;
+    width: 50px;
 }
 
 .footer{
     font-size: 24px;
-    padding: 2%;
+    padding: 1%;
     color: #ffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
 }
 
 
-.contact{
-    justify-content: center;
-    text-decoration: underline;
-    font-size: 32px;
-    color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 /*End Footer*/
 
-@media screen and (max-width: 700px){
-    /*nav{
-        width: 50%;
-        background: #081151;
-        padding-right: 25%;
-        
-    }
-
-    ul{
-        justify-content:center;
-    }*/
+@media screen and (max-width: 1000px){
     
     #resume, #about, #work{
         width: 75px;
@@ -506,14 +438,6 @@ strong.t{
         font-size: 18px;
     }
 
-    .foot{
-        margin: 0 auto;
-        padding-left: 0px;
-    }
-
-    .ft{
-        padding: 0;
-    }
 
     .Anna{
         width: 200px;
@@ -524,23 +448,11 @@ strong.t{
 }
 
 @media screen and (max-width: 374px){
-    /*.navul{
-        width: 50%;
-        background-color: #081151;
-        
-    }
-    nav{
-        width: 50%;
-        background: #081151;
-    }*/
 
-    .nava{
-        padding-right: 10%;
-    }
-    
-    #resume, #about, #work{
-        width: 75px;
-    }
+#about, #resume, #work{
+    width: 50px;
+}
+
     
     #work{
         padding-top: 80px;
@@ -633,14 +545,6 @@ strong.t{
         font-size: 18px;
     }
 
-    .foot{
-        margin: 0 auto;
-        padding-left: 0px;
-    }
-
-    .ft{
-        padding: 0;
-    }
 
     .Anna{
         width: 100px;
@@ -655,7 +559,11 @@ strong.t{
 /* Other */
 
 hr{
-    height: 4px;
+    height: 1px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 95%;
+    color:#e597f35c;
 }
 
 
@@ -664,3 +572,6 @@ p{
     padding: 0;
 }
 
+.empty{
+    height: 100px;
+}

@@ -1,67 +1,340 @@
 
-    @media screen and (max-width: 375px){
+   /************** BOOTSTRAP NAV *******************/ 
+
+
+   .navbar{
+    justify-content: end !important;
+    padding-right: 25px;
+}
+
+
+.nav-link{
+   color: #f2a0e2 !important;
+   font-size: 20px;
+   font-weight: 800;
+}
+
+
+.bg-body-tertiary {
+   --bs-bg-opacity: 0;
+   background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+
+.fixed-top {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+
+button.navbar-toggler {
+   width: 10% !important;
+   height: 75px !important;
+   font-size: var(--bs-navbar-toggler-font-size);
+   line-height: 1;
+   color: #5c76ee;
+   background-color: #d675c39d;
+   border: var(--bs-border-width) solid ;
+   border-radius: var(--bs-navbar-toggler-border-radius);
+   border-color:#795ced!important;
+   border-width: 2px;
+   transition: var(--bs-navbar-toggler-transition);
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+   --bs-offcanvas-zindex: 1045;
+   --bs-offcanvas-width: 400px;
+   --bs-offcanvas-height: 30vh;
+   --bs-offcanvas-padding-x: 1rem;
+   --bs-offcanvas-padding-y: 1rem;
+   --bs-offcanvas-color: rgb(198, 180, 248);
+   --bs-offcanvas-title-line-height: none !important;
+}
+
+
+.offcanvas-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+   --bs-offcanvas-zindex: 1045;
+   --bs-offcanvas-title-line-height: none !important;
+}
+
+.offcanvas {
+   position: fixed;
+   background-color:#081151a4 !important;
+}
+
+
+.btn-close {
+   --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
+   --bs-btn-close-opacity: 0.5;
+   --bs-btn-close-hover-opacity: 0.75;
+   --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+   --bs-btn-close-focus-opacity: 1;
+   --bs-btn-close-disabled-opacity: 0.25;
+   --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+   box-sizing: content-box;
+   width: 1em;
+   height: 1em;
+   padding: 0.25em 0.25em;
+   color: var(--bs-btn-close-color);
+   background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
+   border: 0;
+   border-radius: 0.375rem;
+}
+
+#offcanvasNavbarLabel{
+   color:#c3cdf5;
+}
+
+.nav-linkH{
+   color:#fff;
+   font-size: 24px;
+   font-weight: 800;
+   text-decoration: none;
+}
+
+
+.nav-linkR{
+color:#e94fca99;
+font-size: 20px;
+font-weight: 400;
+text-decoration: none;
+padding-left: 5%;
+}
+
+/************** BOOTSTRAP NAV *******************/
+
+body{
+    background-color: #081151;
+}
+
+
+.card-img-overlay{
+    position:relative;
+    text-decoration: none !important;
+}
+
+
+.ani{
+    padding-left: 25%;
+}
+
+.animals{
+    background-image: url(/IMGS/Animals\ in\ the\ City.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    color:rgba(206, 74, 224, 0.816);
+}
+
+.card-text{
+    margin: 0 auto;
+    color:#080f3a;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50px;
+    text-decoration: none !important;
+}
+
+
+.card-img-overlay{
+    margin: 0 auto;
+    text-decoration: none !important;
+}
+
+.background{
+    padding-bottom: 10%;
+}
+
+
+small{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.smalltext{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.strong{
+    font-size: 24px;
+    font-weight: 400;
+    color:rgb(180, 11, 169);
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(240, 93, 227);
+}
+
+.tall{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/*** FOOTER ***/
+
+.ft{
+    z-index: 1;
+    background-color: #081151;
+}
+
+li{
+    justify-content: end;
+    display: inline-block;
+}
+
+
+.navul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
+    justify-content: end;
+}
+
+
+.Anna{
+    width: 300px;
+    padding-left: 5%;
+    padding-top: 15%;
+}
+
+
+ul.foot{
+    padding-left: 20%;
+
+}
+
+.social{
+    width: 50px;
+    padding: 2%;
+}
+
+.footer{
+    font-size: 24px;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
+}
+
+
+/*End Footer*/
+ 
+@media (max-width: 1000px){
+
+    body{
+        background-color:#081151;
+    }
+
+    .card-text{
+        margin: 0 auto !important;
+        color:#f1f2f9 !important;
+        font-size: 20px !important;
+        font-weight: 300 !important;
+        text-align: center !important;
+    }
+
+
+    .animals{
+        background-image: none;
+        padding-bottom: 30%;
+    }
+
+    .strong{
+        font-size: 24px;
+        font-weight: 400;
+        color:rgb(188, 241, 244);
+    }
+
+    .bold{
+        font-size: 20px;
+        font-weight: 600;
+        color:rgb(246, 202, 243);
+    }
+    
+    .title{
+        font-size: 32px;
+        font-weight: 600;
+        color:rgb(229, 149, 240);
+    }
+    
+    .smalltext{
+        padding: 2%;
+        font-size: 14px;
+        color:#ebedf8;
+    }
+
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    color:rgb(221, 106, 236);
+}
+
+    
+     }
+
+    
+     @media screen and (max-width: 375px){
 
         .ani{
             width: 250px;
             margin: 0 auto;
         }
 
-        nav{
-            height: 800px !important;
-            padding-bottom: 0px !important;
-        }
-
-
-        ul{
-         display: block;
-         padding-top: 0% !important;
-         padding-left: 0% !important;
-         padding-right: 0% !important;
-        }
-
         .card-text{
             font-size: small !important;
         }
 
-        #home{
-            width: 75px !important;
-            padding: 0px !important;
-        }
-
-        .other{
-            padding-right: 0px !important;
-        }
-
-        .home{
-            padding-left: 0px !important;
-        }
-        
-         #work{
-            width: 65px !important;
-            padding: 0px!important;
+        .strong{
+            font-size: 20px;
+            font-weight: 400;
+            color:rgb(188, 241, 244);
         }
     
-        #resume{
-            width: 75px !important;
-            padding: 0px !important;
+        .bold{
+            font-size: 18px;
+            font-weight: 600;
+            color:rgb(246, 202, 243);
         }
+        
+        .title{
+            font-size: 24px;
+            font-weight: 600;
+            color:rgb(229, 149, 240);
+        }
+        
+        .smalltext{
+            padding: 2%;
+            font-size: 14px;
+            color:#ebedf8;
+        }
+    
 
         .card-img{
             height: 0 !important;
         }
        
-        
-        #resume, #work{
-            width: 60px;
-            padding-top: 0px !important;
-            padding-bottom: 0px !important;
-        }
-    
-        
-        .smalltext{
-            padding: 2%;
-            font-size: 14px;
-        }
 
         .animals{
             padding-top: 0px !important;
@@ -86,9 +359,14 @@
          padding-right: 0% !important;
         }
 
-        .card-text{
-            font-size: small !important;
-        }
+          .card-text{
+        margin: 0 auto !important;
+        color:#f1f2f9 !important;
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        text-align: center !important;
+    }
+
 
         #home{
             width: 75px !important;
@@ -118,13 +396,6 @@
         .card-img{
             height: 0 !important;
         }
-       
-        
-        #resume, #work{
-            width: 60px;
-            padding-top: 0px !important;
-            padding-bottom: 0px !important;
-        }
     
         
         .smalltext{
@@ -137,214 +408,3 @@
         }
 
     }
-
-
-body{
-    background-color: rgba(214, 214, 240, 0.194);
-}
-
-
-.nav{
-    background-image: url(/Images\ HW:17//Nav.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 355px;
-}
-
-ul{
-    display: block;
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-li{
-    display: inline-block;
-}
-
-.title{
-    font-size: 32px;
-    font-weight: 600;
-    text-decoration: underline;
-    color:rgb(125, 2, 136);
-}
-
-.card-img-overlay{
-    position:relative;
-}
-
-.other{
-    padding-right: 200px;
-}
-
-.home{
-    padding-left: 800px;
-}
-
-#home{
-    width:125px;
-    padding-top: 20%;
-}
-
-
-#resume{
-    width: 100px;
-    padding: 2%;
-    
-}
-
-#work{
-    width: 85px;
-    padding: 2%;
-}
-
-
-.ani{
-    padding-left: 25%;
-}
-
-.animals{
-    background-image: url(/IMGS/Animals\ in\ the\ City.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.card-text{
-    margin: 0 auto;
-    color:#081151;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-
-.card-img-overlay{
-    margin: 0 auto;
-}
-
-.background{
-    padding-bottom: 10%;
-}
-
-
-small{
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.smalltext{
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 5%;
-}
-
-.strong{
-    font-size: 24px;
-    font-weight: 400;
-    color:rgb(134, 10, 123);
-}
-
-.bold{
-    font-size: 20px;
-    font-weight: 600;
-    color:rgb(134, 10, 123);
-}
-
-.tall{
-    font-size: 22px;
-    font-weight: 300;
-}
-
-/*******************************************************8***** FOOTER *******/
-
-.footerbgc{
-    background-color: #081151;
-}
-
-
-
-.foot{
-    padding-left: 20%;
-}
-
-
-.footer{
-    font-size: 24px;
-    color:#ffff;
-    display: flex;
-}
-
-.ft{
-    display: flex;
-}
-
-.Anna{
-    padding-left: 45%;
-    padding-right: 5%;
-    padding-top: 4%;
-}
-
-.contactlist{
-    padding-left: 10%;
-}
-
-.social{
-    padding: 5%;
-}
-
-p.contact{
-    justify-content: start;
-    padding: 2%;
-    font-size: 32px;
-    text-decoration: underline;
-    color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
- 
-@media (max-width: 1000px){
-
-    body{
-        background-color:rgb(160, 160, 240) ;
-    }
-
-    .card-text{
-        margin: 0 auto !important;
-        color:#081151 !important;
-        font-size: 16px !important;
-        font-weight: 300 !important;
-        text-align: center !important;
-    }
-
-    
-    .other{
-        padding-top: 4%;
-    }
-
-    .home{
-        padding-left: 200px;
-    }
-    
-    .smalltext{
-        padding: 2%;
-        font-size: 14px;
-    }
-
-    #home{
-        padding-top: 5%;
-    }
-
-    .animals{
-        background-image: none;
-        padding-bottom: 30%;
-    }
-    
-     }
-
-    
-    

@@ -121,7 +121,7 @@ h2{
 }
 
 .ITERATION{
-    background-color:#f8f7a8;
+    background-color:#e9e9b5;
     width: 100%;
 }
 
@@ -202,14 +202,14 @@ h2{
     color:#360864;
     text-align: center;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
 .bodyBold{
     color: #680fc1;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     padding-top: 5%;
 }
@@ -217,7 +217,7 @@ h2{
 
 .DC{
     color:#f8f7a8;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     text-align: start;
     padding: 5%;
@@ -228,7 +228,7 @@ h2{
 
 .TY{
     color:#f8f7a8;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     text-align: start;
     padding: 5%;
@@ -312,7 +312,7 @@ h2{
 
 .ProText{
     color:#f8f7a8;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 24px;
     text-align: center;
     padding: 2%;
@@ -321,7 +321,7 @@ h2{
 .pro{
     color:#f8f7a8;
     text-decoration: underline;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 24px;
     text-align: center;
 }
@@ -347,7 +347,7 @@ h2{
 .LU1{
     color: #fff;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 /*------------------------------------ END TEXT ----------------------------------------------*/
@@ -503,7 +503,7 @@ h2{
 #tytext{
     color:#831beb;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .DigPro{
@@ -516,65 +516,55 @@ h2{
 }
 
 .inPro{
-    background: #dab6fe8e;
+    background: #dab6fe2e;
     margin: 0 auto;
 }
 
 .inPr{
-    background-color: #dcc0f869;
+    background-color: #dcc0f824;
 }
 
-/***** FOOTER *******/
+/** FOOTER **/
 
-.footerbgc{
-    background-color: #081151;
+.ft{
+    z-index: 1;
+    background-color:#081151;
 }
 
-ter section*/
+li{
+    justify-content: end;
+    display: inline-block;
+}
 
-.foot{
+
+.navul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
+    justify-content: end;
+}
+
+
+.Anna{
+    width: 300px;
+    padding-left: 5%;
+    padding-top: 15%;
+}
+
+
+ul.foot{
     padding-left: 20%;
+
+}
+
+.social{
+    width: 50px;
+    padding: 2%;
 }
 
 
 .footer{
     font-size: 24px;
-    color:#ffff;
-    display: flex;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
 }
-
-.ft{
-    display: flex;
-}
-
-.Anna{
-    padding-left: 45%;
-    padding-right: 5%;
-    padding-top: 4%;
-}
-
-.contactlist{
-    padding-left: 10%;
-}
-
-.social{
-    padding: 5%;
-}
-
-p.contact{
-    justify-content: start;
-    padding: 2%;
-    font-size: 32px;
-    text-decoration: underline;
-    color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/*End Footer*/
-
-/* -- #IMG1 & #LULogo ID's can be found in IMG section -- */
-
-/* END STYLES */
-
-/* ---------- *** FOOTER *** ----------------*/
-
