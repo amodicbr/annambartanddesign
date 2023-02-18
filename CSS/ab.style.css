@@ -113,7 +113,7 @@ padding-left: 5%;
 /************** BOOTSTRAP NAV *******************/
 
 body{
-    background-color: #081151;
+    background-color: #b3bbf8;
 }
 
 
@@ -128,19 +128,16 @@ body{
 }
 
 .animals{
-    background-image: url(/IMGS/Animals\ in\ the\ City.png);
+    background-image: url(/IMGS/Windows.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 
 .title{
     font-size: 32px;
     font-weight: 600;
-    color:rgba(206, 74, 224, 0.816);
+    color:rgba(38, 38, 109, 0.816);
 }
 
 .card-text{
@@ -162,7 +159,7 @@ body{
 }
 
 .background{
-    padding-bottom: 10%;
+    padding: 10%;
 }
 
 
@@ -174,6 +171,7 @@ small{
 .smalltext{
     padding-left: 25%;
     padding-right: 25%;
+    padding-top: 5%;
 }
 
 .strong{
@@ -185,7 +183,7 @@ small{
 .bold{
     font-size: 20px;
     font-weight: 600;
-    color:rgb(240, 93, 227);
+    color:rgb(206, 24, 190);
 }
 
 .tall{
@@ -243,12 +241,12 @@ ul.foot{
 @media (max-width: 1000px){
 
     body{
-        background-color:#081151;
+        background-color:#b8bff1;
     }
 
     .card-text{
         margin: 0 auto !important;
-        color:#f1f2f9 !important;
+        color:#242634 !important;
         font-size: 20px !important;
         font-weight: 300 !important;
         text-align: center !important;
@@ -263,32 +261,32 @@ ul.foot{
     .strong{
         font-size: 24px;
         font-weight: 400;
-        color:rgb(188, 241, 244);
+        color:rgb(96, 14, 116);
     }
 
     .bold{
         font-size: 20px;
         font-weight: 600;
-        color:rgb(246, 202, 243);
+        color:rgb(154, 66, 184);
     }
     
     .title{
         font-size: 32px;
         font-weight: 600;
-        color:rgb(229, 149, 240);
+        color:rgb(146, 17, 163);
     }
     
     .smalltext{
         padding: 2%;
         font-size: 14px;
-        color:#ebedf8;
+        color:#242527;
     }
 
 
 .title{
     font-size: 32px;
     font-weight: 600;
-    color:rgb(221, 106, 236);
+    color:rgb(56, 36, 59);
 }
 
     

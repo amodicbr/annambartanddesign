@@ -187,3 +187,13 @@ ul.foot{
 
 
 /*End Footer*/
+
+h1{
+    color: white;
+}
+
+.H1{
+    padding: 25%;
+    text-align: center;
+    margin-bottom: 60%;
+}
