@@ -29,6 +29,13 @@
 
 /* -------------------------------- NAVIGATION STYLING ---------------------------------------------- */
 
+
+h3{
+    padding-left: 5%;
+    padding-top: 2%;
+
+}
+
 .navbar {
     background:#9f4eef;
     margin: 0, auto;
@@ -528,7 +535,7 @@ h2{
 
 .ft{
     z-index: 1;
-    background-color:#081151;
+    background-color:#08115100;
 }
 
 li{
@@ -539,7 +546,7 @@ li{
 
 .navul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffff;
+    color: rgb(6, 9, 44);
     justify-content: end;
 }
 
@@ -564,7 +571,7 @@ ul.foot{
 
 .footer{
     font-size: 24px;
-    color: #ffff;
+    color: rgb(8, 5, 48);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 2%;
 }

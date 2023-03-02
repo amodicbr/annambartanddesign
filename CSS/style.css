@@ -99,8 +99,7 @@ body{
 
 .UXUI{
     margin: 0 auto;
-    width: 60%;
-    padding-top: 12%;
+    text-align: center;
 }
 
 .UX, .UI{
@@ -110,17 +109,11 @@ body{
     font-style: italic;
 }
 
-.UI{
-    margin-left: 10%;
+.UX{
+    padding-left: 10%;
 }
 
-#push{
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    font-size: 40px;
-    font-weight: 300;
-    font-style: italic;
-}
+
 
 .blink{
     display: flex;
@@ -140,10 +133,12 @@ body{
 
 }
 
+
 #logo{
-    width: 60%;
-    margin-left: 30%;
-    margin-top: 0;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 20%;
+    padding-bottom: 5%;
 }
 
 .blurb{
@@ -165,11 +160,12 @@ button{
     height: 60px;
     width: 250px;
     border-radius: 5px;
+    margin: 50px;
     background-color: #a20573;
     color:aliceblue;
-    margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+
 }
 
 .blu{
@@ -351,27 +347,29 @@ ul.foot{
     }
     
     #work{
-        padding-top: 50px;
+        padding-top: 10px;
     }
     
     #resume{
-        padding-top: 40px;
+        padding-top: 5px;
     }
     
     #about{
-        padding-top: 30px;
+        padding-top: 5px;
+    }
+    
+    .UXUI{
+        padding-top: 2%;
     }
 
-    #logo{
-        display:flex;
-        align-items: flex-end;
-        margin-left: auto;
-        margin-right: auto;
-        width: 98%;
-        padding-top: 20px;
-        padding-left: 100px;
-        padding-bottom: 50px;
+    .UX, .UI{
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 25px;
+        font-weight:500;
+        font-style: italic;
     }
+    
+
 
     .containerGrid{
         font-size: 36px;
@@ -381,7 +379,6 @@ ul.foot{
         font-size: 48px;
     }
 
-    
 
      .blurb{
         font-size: 18px;
