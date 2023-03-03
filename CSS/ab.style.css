@@ -120,6 +120,7 @@ body{
 .card-img-overlay{
     position:relative;
     text-decoration: none !important;
+    opacity: 100%;
 }
 
 
@@ -137,12 +138,12 @@ body{
 .title{
     font-size: 32px;
     font-weight: 600;
-    color:rgba(38, 38, 109, 0.816);
+    color:#242634;
 }
 
 .card-text{
     margin: 0 auto;
-    color:#080f3a;
+    color:#242634;
     font-size: 18px;
     font-weight: 300;
     text-align: center;
@@ -163,27 +164,24 @@ body{
 }
 
 
-small{
-    font-size: 20px;
-    font-weight: 300;
-}
-
 .smalltext{
     padding-left: 25%;
     padding-right: 25%;
     padding-top: 5%;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .strong{
     font-size: 24px;
     font-weight: 400;
-    color:rgb(180, 11, 169);
+    color:rgb(101, 10, 92);
 }
 
 .bold{
     font-size: 20px;
     font-weight: 600;
-    color:rgb(206, 24, 190);
+    color:rgba(154, 53, 144, 0.661);
 }
 
 .tall{
@@ -195,7 +193,7 @@ small{
 
 .ft{
     z-index: 1;
-    background-color: #081151;
+    background-color: #08115100;
 }
 
 li{
@@ -206,7 +204,7 @@ li{
 
 .navul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffff;
+    color: #C387BF;
     justify-content: end;
 }
 
@@ -215,6 +213,7 @@ li{
     width: 300px;
     padding-left: 5%;
     padding-top: 15%;
+    opacity: 75%;
 }
 
 
@@ -230,7 +229,7 @@ ul.foot{
 
 .footer{
     font-size: 24px;
-    color: #ffff;
+    color:#C387BF;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 2%;
 }
@@ -261,13 +260,13 @@ ul.foot{
     .strong{
         font-size: 24px;
         font-weight: 400;
-        color:rgb(96, 14, 116);
+        color:rgb(101, 10, 92);
     }
 
     .bold{
         font-size: 20px;
         font-weight: 600;
-        color:rgb(154, 66, 184);
+        color:rgba(154, 53, 144, 0.661);
     }
     
     .title{

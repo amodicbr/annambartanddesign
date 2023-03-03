@@ -128,16 +128,107 @@ body{
     background-color: #081151;
 }
 
-/* */
-
-.myresume{
-    padding: 10%;
-    padding-top: 25%;
+p{
+    margin: auto;
+    padding: 0;
 }
+
 
 /**** BODY ****/
 
-/*** FOOTER ***/
+/*** CASE STUDIES ***/
+
+.casestudiessection{
+    z-index: 2;
+    position: relative;
+}
+
+#ct{
+    display: flex;
+}
+
+.casetitle{
+    color: rgb(253, 253, 253);
+    font-size: 32px;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.case-studies{
+    padding: 2%;
+    background-color: #081151;
+}
+
+
+.card-group{
+    padding: 5% !important;
+    background-color: #4c4ecc97;
+}
+
+.card{
+    background-color: #7879eaaf;
+    border: none;
+    padding: 2%;
+    
+}
+
+
+small.text-muted{
+    color:rgb(241, 152, 228) !important;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.text-muted-s{
+    font-size: 20px;
+    color:rgba(72, 13, 72, 0.969);
+}
+
+.card-img-top-t{
+    padding-bottom: 25px;
+}
+
+.card-img-top-lu{ 
+    padding-bottom: 10px;
+}
+
+.card-body-lu{
+    background-color: rgba(204, 221, 253, 0.61);
+    padding: 5%;
+    height: 95%;
+}
+
+.card-img-top-hs{
+    padding-bottom: 13.75px;
+}
+
+.card-body{
+    background-color: rgba(204, 221, 253, 0.61);
+    padding-top: 25px;
+    height: 60%;
+}
+
+.card-text{
+    color:#081151;
+}
+
+.card-title{
+    text-align: center;
+    color:#a20573;
+    font-size: 26px;
+}
+
+.card-title-lu{
+    text-align: center;
+    color:#a20573;
+    font-size: 26px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/** Case Studies **/
+
+
 /*** FOOTER ***/
 
 .ft{

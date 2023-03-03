@@ -19,6 +19,12 @@
 
 }
 
+.bold{
+    font-size: 24px;
+    font-weight: 600;
+    color:#b8248ce6;
+}
+
 /** **/
 
 /* navigation section */
@@ -82,24 +88,25 @@ body{
 
 .subtitle{
     color:#f693e6a0;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
     z-index: 3;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 
 .hero{
     z-index: 2;
     position: relative;
-    margin-top: 5rem;
     padding-bottom: 5%;
+    margin-top: 2%;
 }
 
 
 .UXUI{
     margin: 0 auto;
     text-align: center;
+    padding: 0;
 }
 
 .UX, .UI{
@@ -107,11 +114,13 @@ body{
     font-size: 32px;
     font-weight:600;
     font-style: italic;
+    padding-top: 0;
 }
 
 .UX{
     padding-left: 10%;
 }
+
 
 
 
@@ -124,13 +133,12 @@ body{
 
 .CSA{
     color:#fbfbeede;
-    padding: 5%;
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
-
+    padding-top: 10%;
 }
 
 
@@ -138,7 +146,6 @@ body{
     width: 75%;
     margin-left: 15%;
     margin-right: 20%;
-    padding-bottom: 5%;
 }
 
 .blurb{
@@ -184,31 +191,29 @@ button{
 
 .linkt{
     color:rgb(241, 152, 228);
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 300;
     text-decoration: underline;
+    padding-left: 15%;
+    padding-top: 0;
+    z-index: 2;
+    position: relative;
 }
 
 #look{
-    font-size: 32px;
-    font-weight: 300;
-    color: #fff;
+    font-size: 24px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.91);
+    padding-left: 15%;
 }
 
 #light{
-    width: 40px;
+    width: 20px;
 }
 
-.GreenLight{
-    display: block;
-}
 
 #light, #look{
     display: inline-block;
-}
-
-.LinkdINStuff{
-    text-align: center;
 }
 
 
@@ -379,6 +384,13 @@ ul.foot{
         font-size: 48px;
     }
 
+    .hero{
+        z-index: 2;
+        position: relative;
+        margin-top: 8%;
+    }
+    
+
 
      .blurb{
         font-size: 18px;
@@ -448,6 +460,10 @@ ul.foot{
 
 #about, #resume, #work{
     width: 50px;
+}
+
+.hero{
+    margin-top: 10%;
 }
 
     
