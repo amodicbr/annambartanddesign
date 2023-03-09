@@ -1,5 +1,19 @@
 
 /** WAVES **/
+
+h2{
+    color:#f9f9f9;
+    text-align: center;
+    font-weight: 300;
+}
+
+h3{
+    color:#f47bd0c9;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+}
+
 .wave{
     z-index: 1;
     position: absolute;
@@ -287,7 +301,7 @@ small.text-muted{
 }
 
 .card-img-top-lu{ 
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .card-body-lu{
@@ -374,7 +388,7 @@ ul.foot{
 
 /*End Footer*/
 
-@media screen and (max-width: 1200px) and (min-width: 699px){
+@media screen and (max-width: 1200px) and (min-width: 701px){
     
     #resume, #about, #work{
         width: 75px;
@@ -393,7 +407,7 @@ ul.foot{
     }
     
     .UXUI{
-        padding-top: 5%;
+        padding-top: 20%;
     }
 
     .UX, .UI{
@@ -402,8 +416,6 @@ ul.foot{
         font-weight:500;
         font-style: italic;
     }
-    
-
 
     .containerGrid{
         font-size: 36px;
@@ -418,19 +430,15 @@ ul.foot{
         position: relative;
         margin-top: 8%;
     }
-    
-
 
      .blurb{
         font-size: 18px;
         padding:10%;
     }
 
-    
     .CSA{
         font-size: 24px;
     }
-
 
     .caseimg{
         width: 200px;
@@ -484,7 +492,7 @@ ul.foot{
     }
 
     .ft{
-        padding-top: 50%;
+        padding-top: 40%;
     }
 
     ul.foot{
@@ -493,22 +501,39 @@ ul.foot{
     }
 
     .footerwave{
-        height: 35%;
+        height: 25%;
     }
 }
 
 
 @media screen and (max-width: 700px) and (min-width: 375px){
     .nav{
-        padding-top: 5%;
+        padding-top: 10%;
     }
 
     .UXUI{
-    padding-top: 15%;
+    padding-top: 40%;
     }
 
     .card{
-        padding: 5%;
+        padding: 3%;
+    }
+
+    .CSA{
+        padding-top: 20%;
+        font-size: 24px;
+    }
+
+    .blurb{
+        padding-bottom: 20%;
+    }
+
+    .button{
+        padding-bottom: 15%;
+    }
+
+    #ct{
+        padding: 10%;
     }
 
     .ft{
@@ -523,10 +548,14 @@ ul.foot{
         padding-left: 10%;
     }
 
+    .ft{
+        padding-top: 50%;
+    }
+
     .footerwave{
         z-index: 1;
         width: 100%;
-        height: 35%;
+        height: 40%;
     }
 
 }
@@ -542,6 +571,9 @@ ul.foot{
     margin-top: 0;
     }
 
+    .card{
+        padding: 8%;
+    }
     
     #work{
         padding-top: 80px;

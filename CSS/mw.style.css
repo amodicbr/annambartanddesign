@@ -3,7 +3,7 @@
 
 .wave2{
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     opacity: 75%;
 }
 
@@ -229,7 +229,9 @@ small.text-muted{
 /*** FOOTER ***/
 
 .ft{
-    z-index: 2;
+    z-index: 1;
+    position: relative;
+    padding-top: 50%;
 }
 
 li{
