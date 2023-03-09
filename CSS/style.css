@@ -15,8 +15,10 @@
 }
 
 .footerwave{
-    height: 100%;
-
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    padding: 0;
 }
 
 .bold{
@@ -51,10 +53,7 @@ nav{
     padding-right: 5%;
 }
 
-li{
-    justify-content: end;
-    display: inline-block;
-}
+
 
 
 .navul{
@@ -98,7 +97,6 @@ body{
 .hero{
     z-index: 2;
     position: relative;
-    padding-bottom: 5%;
     margin-top: 2%;
 }
 
@@ -106,7 +104,7 @@ body{
 .UXUI{
     margin: 0 auto;
     text-align: center;
-    padding: 0;
+    padding:0;
 }
 
 .UX, .UI{
@@ -160,20 +158,32 @@ body{
 .button{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding: 1%;
 }
 
 button{
     height: 60px;
     width: 250px;
     border-radius: 5px;
-    margin: 50px;
-    background-color: #a20573;
+    margin: 5%;
+    background-color: #ee60c3d0;
     color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
-
 }
+
+.button2{
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 5%;
+    background-color: #ee60c3d0;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+
 
 .blu{
     text-align: center;
@@ -217,7 +227,14 @@ button{
 }
 
 
-/** Strengths Card **/
+/** BLURB **/
+
+.playful{
+    color:#f5d3eb;
+    font-size: 20px;
+    font-weight: 200; 
+    font-style: italic;
+}
 
 /*** CASE STUDIES ***/
 
@@ -234,21 +251,20 @@ button{
     color: rgb(253, 253, 253);
     font-size: 32px;
     font-weight: 300px;
+    padding: 5%;
 }
 
 .case-studies{
-    padding: 2%;
     background-color: #081151;
 }
 
 
 .card-group{
-    padding: 5% !important;
-    background-color: #4c4ecc97;
+    background-color: #4c4ecc00;
 }
 
 .card{
-    background-color: #7879eaaf;
+    background-color: #787aea00;
     border: none;
     padding: 2%;
     
@@ -318,14 +334,9 @@ small.text-muted{
 }
 
 .ft{
-    margin-top: 25px;
-    z-index: 1;
+    margin: 0 auto;
+    z-index: 2;
     position: absolute;
-    width: 100%;
-}
-
-ul.foot{
-    padding-left: 25%;
 }
 
 .social{
@@ -333,11 +344,9 @@ ul.foot{
     width: 50px;
 }
 
+
 .footer{
-    font-size: 24px;
-    padding: 1%;
-    color: #ffff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 
@@ -345,7 +354,7 @@ ul.foot{
 
 /*End Footer*/
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     
     #resume, #about, #work{
         width: 75px;
@@ -364,7 +373,7 @@ ul.foot{
     }
     
     .UXUI{
-        padding-top: 2%;
+        padding-top: 5%;
     }
 
     .UX, .UI{

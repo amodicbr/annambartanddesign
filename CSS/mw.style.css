@@ -184,22 +184,19 @@ small.text-muted{
     color:rgba(72, 13, 72, 0.969);
 }
 
-.card-img-top-t{
-    padding-bottom: 25px;
-}
 
-.card-img-top-lu{ 
-    padding-bottom: 10px;
-}
 
 .card-body-lu{
     background-color: rgba(204, 221, 253, 0.61);
     padding: 5%;
     height: 95%;
 }
+.card-img-top-t, .card-img-top-lu{
+    padding-bottom: 13.75px;
+}
 
 .card-img-top-hs{
-    padding-bottom: 13.75px;
+    padding-bottom: 10px;
 }
 
 .card-body{
