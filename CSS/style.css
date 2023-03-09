@@ -16,7 +16,7 @@
 
 .footerwave{
     z-index: 1;
-    position: relative;
+    position: absolute;
     width: 100%;
     padding: 0;
 }
@@ -329,32 +329,52 @@ small.text-muted{
 /*** FOOTER ***/
 
 
-.Anna{
-    width: 300px;
+.ft{
+    z-index: 1;
+    position: relative;
+    padding-left: 5%;
 }
 
-.ft{
-    margin: 0 auto;
-    z-index: 2;
-    position: absolute;
+li{
+    justify-content: end;
+    display: inline-block;
+}
+
+
+.navul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
+    justify-content: end;
+}
+
+
+.Anna{
+    width: 300px;
+    padding-left: 5%;
+    padding-top: 15%;
+}
+
+
+ul.foot{
+    padding-left: 20%;
 }
 
 .social{
-    padding: 5%;
     width: 50px;
+    padding: 2%;
 }
-
 
 .footer{
-    color: white;
+    font-size: 24px;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
 }
-
-
 
 
 /*End Footer*/
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) and (min-width: 699px){
     
     #resume, #about, #work{
         width: 75px;
@@ -463,17 +483,64 @@ small.text-muted{
         padding: 0;
     }
 
+    .ft{
+        padding-top: 50%;
+    }
+
+    ul.foot{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .footerwave{
+        height: 35%;
+    }
 }
+
+
+@media screen and (max-width: 700px) and (min-width: 375px){
+    .nav{
+        padding-top: 5%;
+    }
+
+    .UXUI{
+    padding-top: 15%;
+    }
+
+    .card{
+        padding: 5%;
+    }
+
+    .ft{
+        padding: 0;
+    }
+
+    li{
+        display: block;
+    }
+
+    ul.foot{
+        padding-left: 10%;
+    }
+
+    .footerwave{
+        z-index: 1;
+        width: 100%;
+        height: 35%;
+    }
+
+}
+
 
 @media screen and (max-width: 374px){
 
-#about, #resume, #work{
+    #about, #resume, #work{
     width: 50px;
-}
+    }
 
-.hero{
-    margin-top: 10%;
-}
+    .hero{
+    margin-top: 0;
+    }
 
     
     #work{
@@ -574,6 +641,23 @@ small.text-muted{
         padding: 0;
     }
 
+
+    .footerwave{
+    z-index: 1;
+    width: 100%;
+    height: 20%;
+    }
+
+    .ft{
+    padding-bottom: 0;
+    }
+
+    ul.foot{
+    padding-left: 5%;
+    padding-top: 5%;
+    }
+
+
 }
 
 
@@ -595,5 +679,6 @@ p{
 }
 
 .empty{
-    height: 100px;
+    height: 500px;
 }
+
