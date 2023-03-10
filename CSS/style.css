@@ -165,9 +165,12 @@ body{
 }
 
 .button{
+    display: flex;
     justify-content: center;
+}
+
+.buttons{
     padding: 1%;
-    margin: 0 auto;
 }
 
 button{
@@ -505,18 +508,7 @@ ul.foot{
     .nav{
         padding-top: 10%;
     }
-
-    #resume{
-        padding-top: 15%;
-    }
     
-    #about{
-        padding-top: 30%;
-    }
-    
-    .UXUI{
-        padding-top: 20%;
-    }
 
     .UXUI{
     padding-top: 40%;
