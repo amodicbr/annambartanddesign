@@ -150,6 +150,19 @@ button{
     font-size: larger;
 }
 
+.empty{
+    height: 10px;
+}
+
+.playful{
+    color:#f5d3eb;
+    font-size: 20px;
+    font-weight: 200; 
+    font-style: italic;
+    width: 75%;
+}
+
+
 /**** BODY ****/
 body {
     width: 100%;
@@ -171,7 +184,6 @@ body {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
   }
   
   fieldset {
