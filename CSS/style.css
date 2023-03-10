@@ -15,21 +15,21 @@ h3{
 }
 
 .wave{
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     height: 75px;
     opacity: 60%;
 }
 
 .wave2{
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     margin-top: 40rem;
     
 }
 
 .footerwave{
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     width: 100%;
     padding: 0;
@@ -46,7 +46,7 @@ h3{
 /* navigation section */
 
 nav{
-    z-index: 2 !important;
+    z-index: 1030 !important;
     position: absolute !important;
     justify-content: end !important;
     width: 100%;
@@ -548,7 +548,7 @@ ul.foot{
     }
 
     .footerwave{
-        z-index: 1;
+        z-index: -1;
         width: 100%;
         height: 40%;
     }
