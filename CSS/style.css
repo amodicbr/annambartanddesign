@@ -165,9 +165,9 @@ body{
 }
 
 .button{
-
     justify-content: center;
     padding: 1%;
+    margin: 0 auto;
 }
 
 button{
@@ -386,19 +386,19 @@ ul.foot{
 @media screen and (max-width: 1200px) and (min-width: 701px){
     
     #resume, #about, #work{
-        width: 75px;
+        width: 65px;
     }
     
     #work{
-        padding-top: 10px;
+        padding-top: 10%;
     }
     
     #resume{
-        padding-top: 5px;
+        padding-top: 15%;
     }
     
     #about{
-        padding-top: 5px;
+        padding-top: 30%;
     }
     
     .UXUI{
@@ -506,6 +506,18 @@ ul.foot{
         padding-top: 10%;
     }
 
+    #resume{
+        padding-top: 15%;
+    }
+    
+    #about{
+        padding-top: 30%;
+    }
+    
+    .UXUI{
+        padding-top: 20%;
+    }
+
     .UXUI{
     padding-top: 40%;
     }
@@ -524,7 +536,8 @@ ul.foot{
     }
 
     .button{
-        padding-bottom: 15%;
+        justify-content: center;
+        margin-left: 10%;
     }
 
     #ct{
