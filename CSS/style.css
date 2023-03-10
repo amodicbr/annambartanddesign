@@ -46,11 +46,10 @@ h3{
 /* navigation section */
 
 nav{
-    z-index: 2;
-    position: absolute;
-    justify-content: end;
+    z-index: 2 !important;
+    position: absolute !important;
+    justify-content: end !important;
     width: 100%;
-    margin-top: 1em;
 }
 
 
@@ -61,13 +60,6 @@ nav{
 #resume{
     margin-top: 40%;
 }
-
-
-.nava{
-    padding-right: 5%;
-}
-
-
 
 
 .navul{
@@ -87,6 +79,7 @@ nav{
 
 body{
     background-color: #081151 ;
+    width: 100%;
 }
 
 /** Hero Img **/
@@ -119,6 +112,8 @@ body{
     margin: 0 auto;
     text-align: center;
     padding:0;
+    z-index: 2;
+    position: relative;
 }
 
 .UX, .UI{
@@ -170,7 +165,7 @@ body{
 }
 
 .button{
-    display: flex;
+
     justify-content: center;
     padding: 1%;
 }
@@ -506,7 +501,7 @@ ul.foot{
 }
 
 
-@media screen and (max-width: 700px) and (min-width: 375px){
+@media screen and (max-width: 700px) and (min-width: 376px){
     .nav{
         padding-top: 10%;
     }
@@ -561,14 +556,51 @@ ul.foot{
 }
 
 
-@media screen and (max-width: 374px){
+@media screen and (max-width: 375px){
+    .bold{
+        font-size: 16px;
+    }
+
+    nav{
+    z-index: 2 !important;
+    padding: 5% !important;
+    margin-right: 10%;
+    }
+
 
     #about, #resume, #work{
-    width: 50px;
+        width: 50px !important;
+        z-index: 2 !important;
     }
+
+    .UXUI{
+        margin-top: 40%;
+    }
+
+    .UX, .UI{
+        font-size: 16px;
+    }
+
 
     .hero{
     margin-top: 0;
+    }
+
+    .linkt{
+        font-size: 20px;
+    }
+
+    p.CSA{
+        font-size: 14px;
+        padding: 2%;
+    }
+
+    .playful{
+        font-size: 16px;
+    }
+
+    .button{
+        display: flex;
     }
 
     .card{
@@ -619,6 +651,16 @@ ul.foot{
     
     .CSA{
         font-size: 24px;
+    }
+
+    button{
+        width: 75%;
+        font-size: 16px;
+    }
+
+    .button2{
+        width: 95%;
+        font-size: 16px;
     }
 
 

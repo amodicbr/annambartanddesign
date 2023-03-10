@@ -7,7 +7,11 @@
     opacity: 75%;
 }
 
-/* */   
+/* */  
+
+.empty{
+    height: 250px;
+}
       
       /************** BOOTSTRAP NAV *******************/ 
 
@@ -161,14 +165,14 @@ p{
 
 
 .card-group{
-    padding: 5% !important;
-    background-color: #4c4ecc97;
+    padding: 2% !important;
+    background-color: #4c4ecc46;
 }
 
 .card{
-    background-color: #7879eaaf;
+    background-color: #c3c4f086;
     border: none;
-    padding: 2%;
+    padding: 4%;
     
 }
 
@@ -229,9 +233,10 @@ small.text-muted{
 /*** FOOTER ***/
 
 .ft{
-    z-index: 1;
-    position: relative;
-    padding-top: 50%;
+    z-index: 1030;
+    position: absolute;
+    width: 100%;
+    padding-top: 15%;
 }
 
 li{
@@ -249,8 +254,7 @@ li{
 
 .Anna{
     width: 300px;
-    padding-left: 5%;
-    padding-top: 15%;
+    padding-left: 2%;
 }
 
 
@@ -261,14 +265,13 @@ ul.foot{
 
 .social{
     width: 50px;
-    padding: 2%;
 }
 
 .footer{
+    padding: 2%;
     font-size: 24px;
     color: #ffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 2%;
 }
 
 
@@ -286,4 +289,36 @@ h1{
     padding: 25%;
     text-align: center;
     margin-bottom: 60%;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 701px){
+.ft{
+    z-index: 1030;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 700px) and (min-width: 375px){
+
+    .wave2{
+        position: absolute;
+        z-index: 1;
+        opacity: 75%;
+        padding-top: 60%;
+    }
+
+}
+
+
+@media screen and (max-width: 374px){
+
+    .wave2{
+        position: absolute;
+        z-index: 1;
+        opacity: 75%;
+        padding-top: 65%;
+    }
+
 }

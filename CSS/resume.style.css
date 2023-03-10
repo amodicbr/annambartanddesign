@@ -197,3 +197,35 @@ ul.foot{
 
 
 /*End Footer*/
+@media screen and (max-width: 1200px) and (min-width: 701px){
+    .ft{
+        z-index: 1030;
+        position: absolute;
+        width: 100%;
+        padding: 0;
+    }
+    }
+    
+    @media screen and (max-width: 700px) and (min-width: 375px){
+    
+        .wave2{
+            position: absolute;
+            z-index: 1;
+            opacity: 75%;
+            padding-top: 60%;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width: 374px){
+    
+        .wave2{
+            position: absolute;
+            z-index: 1;
+            opacity: 75%;
+            padding-top: 65%;
+        }
+    
+    }
+    

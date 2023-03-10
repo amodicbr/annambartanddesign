@@ -229,13 +229,20 @@ ul.foot{
 
 .footer{
     font-size: 24px;
-    color:#C387BF;
+    color:#2b0e29ab;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 2%;
 }
 
 
 /*End Footer*/
+
+.wave2{
+    position: absolute;
+    z-index: -1;
+    opacity: 75%;
+}
+
  
 @media (max-width: 1000px){
 
@@ -348,17 +355,10 @@ ul.foot{
             margin: 0 auto;
         }
 
-
-        ul{
-         display: block;
-         padding-top: 0% !important;
-         padding-left: 0% !important;
-         padding-right: 0% !important;
-        }
-
+    
           .card-text{
         margin: 0 auto !important;
-        color:#f1f2f9 !important;
+        color:#242634;
         font-size: 16px !important;
         font-weight: 300 !important;
         text-align: center !important;
@@ -405,3 +405,38 @@ ul.foot{
         }
 
     }
+
+    @media screen and (max-width: 1200px) and (min-width: 701px){
+        .ft{
+            z-index: 1030;
+            position: absolute;
+            width: 100%;
+            padding: 0;
+        }
+
+    
+        }
+        
+        @media screen and (max-width: 700px) and (min-width: 375px){
+        
+            .wave2{
+                position: absolute;
+                z-index: 1;
+                opacity: 75%;
+                padding-top: 60%;
+            }
+        
+        }
+        
+        
+        @media screen and (max-width: 374px){
+        
+            .wave2{
+                position: absolute;
+                z-index: 1;
+                opacity: 75%;
+                padding-top: 65%;
+            }
+        
+        }
+        
