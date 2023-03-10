@@ -210,22 +210,11 @@ ul.foot{
     
         .wave2{
             position: absolute;
-            z-index: 1;
+            z-index: -1;
             opacity: 75%;
-            padding-top: 60%;
+            padding-top: 100%;
         }
     
     }
     
-    
-    @media screen and (max-width: 374px){
-    
-        .wave2{
-            position: absolute;
-            z-index: 1;
-            opacity: 75%;
-            padding-top: 65%;
-        }
-    
-    }
     
