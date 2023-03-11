@@ -139,8 +139,6 @@ body{
 
 .blink{
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 
@@ -594,7 +592,7 @@ ul.foot{
     }
 
     .UX, .UI{
-        font-size: 16px;
+        font-size: 24px;
     }
 
 
