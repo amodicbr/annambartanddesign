@@ -201,7 +201,12 @@ ul.foot{
 
 
 /*End Footer*/
-@media screen and (max-width: 1200px) and (min-width: 701px){
+@media screen and (max-width: 1300px) and (min-width: 701px){
+
+    .Anna{
+        margin-top: 20%;
+    }
+
     .ft{
         z-index: 1030;
         position: absolute;
@@ -213,9 +218,17 @@ ul.foot{
         font-size: 20px;
     }
 
+    .wave2{
+        padding-top: 50%;
+    }
+
     }
     
-    @media screen and (max-width: 700px) and (min-width: 300px){
+    @media screen and (max-width: 700px) and (min-width: 501px){
+
+        .myresume{
+            margin-top: 25%;
+        }
     
         .wave2{
             position: absolute;
@@ -224,9 +237,40 @@ ul.foot{
             padding-top: 110%;
         }
 
-        li.footer{
-            font-size: 18px;
+        .Anna{
+            width: 80%;
+            margin-top: 30%;
         }
+
+        li.footer{
+            font-size: 16px;
+        }
+
+    
+    }
+
+    @media screen and (max-width: 500px) and (min-width: 200px){
+
+        .myresume{
+            margin-top: 25%;
+        }
+    
+        .wave2{
+            position: absolute;
+            z-index: -1;
+            opacity: 75%;
+            padding-top: 110%;
+        }
+
+        .Anna{
+            width: 80%;
+            margin-top: 10%;
+        }
+
+        li.footer{
+            font-size: 16px;
+        }
+
     
     }
     

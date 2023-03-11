@@ -252,8 +252,17 @@ ul.foot{
     padding-top: 40%;
 }
 
+@media screen and (max-width: 1300px){
+    .wave2{
+        position: absolute;
+        z-index: -1;
+        opacity: 75%;
+        padding-top: 50%;
+    }
+
+}
  
-@media (max-width: 1000px){
+@media screen and (max-width: 1000px){
 
     body{
         background-color:#b8bff1;
@@ -432,10 +441,6 @@ ul.foot{
         
          }
 
-         .Anna{
-            padding-top: 10%;
-        }
-
     }
 
     @media screen and (max-width: 1200px) and (min-width: 700px){
@@ -467,8 +472,14 @@ ul.foot{
         }
         
         @media screen and (max-width: 699px) and (min-width: 200px){
+
+            .ani{
+                width: 80%;
+            }
+
             .Anna{
                 width: 75%;
+                padding-top: 40%;
             }
 
             .ft{
@@ -485,20 +496,13 @@ ul.foot{
                 padding-top: 0;   
             
              }
-        
+    
             .wave2{
-                position: absolute;
-                z-index: -1;
-                opacity: 75%;
-                padding-top: 150%;
-            }
-
-            .Anna{
-                padding-top: 10%;
+                padding-top: 100%;
             }
     
-        }
         
+        }
         
 
         

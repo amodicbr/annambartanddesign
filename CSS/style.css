@@ -392,7 +392,7 @@ ul.foot{
 
 /*End Footer*/
 
-@media screen and (max-width: 1200px) and (min-width: 701px){
+@media screen and (max-width: 1300px) and (min-width: 701px){
     nav{
         padding: 5%;
     }
