@@ -3,9 +3,7 @@
     color:#d3d7fd;
   }
 
-/** WAVES **/
-
-h2{
+  h2{
     color:#f9f9f9;
     text-align: center;
     font-weight: 300;
@@ -18,18 +16,22 @@ h3{
     font-weight: 200;
 }
 
+
+/** WAVES **/
+
+
 .wave{
     z-index: -1;
     position: absolute;
-    height: 75px;
     opacity: 60%;
+    width: 100%;
 }
 
 .wave2{
     z-index: -1;
     position: absolute;
     margin-top: 40rem;
-    
+    width: 100%;
 }
 
 .footerwave{
@@ -39,11 +41,6 @@ h3{
     padding: 0;
 }
 
-.bold{
-    font-size: 24px;
-    font-weight: 600;
-    color:#b8248ce6;
-}
 
 /** **/
 
@@ -53,8 +50,14 @@ nav{
     z-index: 1030 !important;
     position: absolute !important;
     justify-content: end !important;
-    width: 100%;
     padding: 5%;
+    width: 98%;
+}
+
+.bold{
+    font-size: 24px;
+    font-weight: 600;
+    color:#b8248ce6;
 }
 
 
@@ -117,9 +120,9 @@ body{
 .UXUI{
     margin: 0 auto;
     text-align: center;
-    padding:0;
     z-index: 2;
     position: relative;
+    padding: 0;
 }
 
 .UX, .UI{
@@ -147,7 +150,6 @@ body{
     font-size: 36px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
-    padding-top: 10%;
 }
 
 
@@ -193,6 +195,10 @@ button{
     color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+}
+
+.b{
+    padding: 2%;
 }
 
 
@@ -759,7 +765,12 @@ ul.foot{
 
 }
 
+@media screen and (max-width: 1200px) and (min-width: 200px){
+    .UXUI{
+        padding-top: 25%;
+    }
 
+}
 
 /* Other */
 
@@ -780,4 +791,5 @@ p{
 .empty{
     height: 500px;
 }
+
 
