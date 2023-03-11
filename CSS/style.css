@@ -1,4 +1,8 @@
 
+ a{
+    color:#d3d7fd;
+  }
+
 /** WAVES **/
 
 h2{
@@ -50,6 +54,7 @@ nav{
     position: absolute !important;
     justify-content: end !important;
     width: 100%;
+    padding: 5%;
 }
 
 
@@ -167,17 +172,15 @@ body{
 .button{
     display: flex;
     justify-content: center;
+    margin: 5%;
 }
 
-.buttons{
-    padding: 1%;
-}
 
 button{
     height: 60px;
     width: 250px;
     border-radius: 5px;
-    margin: 5%;
+    margin-right: 5%;
     background-color: #ee60c3d0;
     color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -188,7 +191,7 @@ button{
     height: 60px;
     width: 250px;
     border-radius: 5px;
-    margin: 5%;
+    margin-left: 5%;
     background-color: #ee60c3d0;
     color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -387,9 +390,12 @@ ul.foot{
 /*End Footer*/
 
 @media screen and (max-width: 1200px) and (min-width: 701px){
+    nav{
+        padding: 5%;
+    }
     
     #resume, #about, #work{
-        width: 65px;
+        width: 75px;
     }
     
     #work{
