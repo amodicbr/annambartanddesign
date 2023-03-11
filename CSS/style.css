@@ -110,6 +110,7 @@ body{
     z-index: 2;
     position: relative;
     margin-top: 2%;
+    width: 99%;
 }
 
 
@@ -510,7 +511,7 @@ ul.foot{
 }
 
 
-@media screen and (max-width: 700px) and (min-width: 401px){
+@media screen and (max-width: 700px) and (min-width: 451px){
   
 
     .nav{
@@ -569,7 +570,7 @@ ul.foot{
 }
 
 
-@media screen and (max-width: 400px)and (min-width: 200px){
+@media screen and (max-width: 450px) and (min-width: 200px){
 
 
     .bold{
@@ -584,8 +585,8 @@ ul.foot{
 
 
     #about, #resume, #work{
-        width: 50px !important;
-        z-index: 2 !important;
+        width: 65px !important;
+        z-index: 1030 !important;
     }
 
     .UXUI{
@@ -605,17 +606,30 @@ ul.foot{
         font-size: 20px;
     }
 
-    p.CSA{
+    #look{
+        margin-bottom: 10%;
+    }
+
+    .CSA{
         font-size: 14px;
         padding: 2%;
+        margin-bottom: 20%;
     }
+
+
 
     .playful{
         font-size: 16px;
     }
 
+    .blu{
+        padding: 5%;
+    }
+    
+
     .button{
         display: flex;
+        margin-bottom: 10%;
     }
 
     .card{
@@ -669,12 +683,7 @@ ul.foot{
     }
 
     button{
-        width: 75%;
-        font-size: 16px;
-    }
-
-    .button2{
-        width: 95%;
+        width: 98%;
         font-size: 16px;
     }
 
@@ -725,7 +734,7 @@ ul.foot{
 
 
     .Anna{
-        width: 100px;
+        width: 50%;
         height: 125px;
         padding: 0;
     }

@@ -40,8 +40,7 @@
 }
     
     button.navbar-toggler {
-        width: 10% !important;
-        height: 75px !important;
+        width: 20%;
         font-size: var(--bs-navbar-toggler-font-size);
         line-height: 1;
         color: #5c76ee;
@@ -311,7 +310,7 @@ ul.foot{
             position: absolute;
             z-index: -1;
             opacity: 75%;
-            padding-top: 100%;
+            padding-top: 110%;
         }
     
     }

@@ -23,7 +23,7 @@
 
 .bg-body-tertiary {
    --bs-bg-opacity: 0;
-   background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+   background-color: rgba(255, 255, 255, 0);
 }
 
 
@@ -36,6 +36,7 @@ z-index: 1030;
 }
 
 button.navbar-toggler {
+    width: 20%;
    height: 75px !important;
    font-size: var(--bs-navbar-toggler-font-size);
    line-height: 1;
@@ -73,7 +74,7 @@ button.navbar-toggler {
 
 .offcanvas {
    position: fixed;
-   background-color:#081151a4 !important;
+   background-color:#081151b4 !important;
 }
 
 
@@ -81,7 +82,7 @@ button.navbar-toggler {
    --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
    --bs-btn-close-opacity: 0.5;
    --bs-btn-close-hover-opacity: 0.75;
-   --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+   --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
    --bs-btn-close-focus-opacity: 1;
    --bs-btn-close-disabled-opacity: 0.25;
    --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
@@ -411,8 +412,15 @@ ul.foot{
         .ft{
             z-index: 1030;
             position: absolute;
-            width: 100%;
+            width: 106%;
             padding: 0;
+        }
+        .wave2{
+            padding-top: 20%;
+        }
+
+        li.footer{
+            font-size: 20px;
         }
 
     
@@ -428,10 +436,10 @@ ul.foot{
                 position: absolute;
                 z-index: -1;
                 opacity: 75%;
-                padding-top: 106%;
+                padding-top: 110%;
 
             }
-        
+    
         }
         
         

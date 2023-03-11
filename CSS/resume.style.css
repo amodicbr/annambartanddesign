@@ -44,6 +44,7 @@ a{
 }
     
     button.navbar-toggler {
+        width: 20%;
         height: 75px !important;
         font-size: var(--bs-navbar-toggler-font-size);
         line-height: 1;
@@ -207,6 +208,11 @@ ul.foot{
         width: 100%;
         padding: 0;
     }
+
+    li.footer{
+        font-size: 20px;
+    }
+
     }
     
     @media screen and (max-width: 700px) and (min-width: 300px){
@@ -216,6 +222,10 @@ ul.foot{
             z-index: -1;
             opacity: 75%;
             padding-top: 110%;
+        }
+
+        li.footer{
+            font-size: 18px;
         }
     
     }

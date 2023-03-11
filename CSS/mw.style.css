@@ -34,8 +34,8 @@
     
     
     .bg-body-tertiary {
-        --bs-bg-opacity: .1;
-        background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+        --bs-bg-opacity: 0;
+        background-color: rgba(255, 255, 255, 0);
     }
 
 
@@ -48,6 +48,7 @@
 }
     
     button.navbar-toggler {
+        width: 20%;
         height: 75px !important;
         font-size: var(--bs-navbar-toggler-font-size);
         line-height: 1;
@@ -148,6 +149,7 @@ p{
 .casestudiessection{
     z-index: 2;
     position: relative;
+    width: 99%;
 }
 
 #ct{
@@ -301,9 +303,16 @@ h1{
     width: 100%;
     padding: 0;
 }
+
+li.footer{
+    font-size: 20px;
+}
 }
 
 @media screen and (max-width: 700px) and (min-width: 300px){
+    li.footer{
+        font-size: 18px;
+    }
 
     .wave2{
         position: absolute;
