@@ -395,7 +395,7 @@ ul.foot{
     }
     
     #resume, #about, #work{
-        width: 75px;
+        width: 85px;
     }
     
     #work{
@@ -510,7 +510,9 @@ ul.foot{
 }
 
 
-@media screen and (max-width: 700px) and (min-width: 376px){
+@media screen and (max-width: 700px) and (min-width: 401px){
+  
+
     .nav{
         padding-top: 10%;
     }
@@ -567,7 +569,9 @@ ul.foot{
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 400px)and (min-width: 200px){
+
+
     .bold{
         font-size: 16px;
     }
@@ -727,19 +731,19 @@ ul.foot{
     }
 
 
-    .footerwave{
-    z-index: 1;
-    width: 100%;
-    height: 20%;
-    }
-
     .ft{
     padding-bottom: 0;
     }
 
     ul.foot{
     padding-left: 5%;
-    padding-top: 5%;
+    }
+
+
+    .footerwave{
+        z-index: -1;
+        width: 100%;
+        padding-top: 75%;
     }
 
 

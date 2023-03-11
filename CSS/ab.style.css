@@ -2,7 +2,7 @@
   
 
   a{
-    color:#d3d7fd;
+    color:#26329f;
   }
   
   /************** BOOTSTRAP NAV *******************/ 
@@ -36,7 +36,6 @@ z-index: 1030;
 }
 
 button.navbar-toggler {
-   width: 10% !important;
    height: 75px !important;
    font-size: var(--bs-navbar-toggler-font-size);
    line-height: 1;
@@ -235,7 +234,7 @@ ul.foot{
 
 .footer{
     font-size: 24px;
-    color:#2b0e29ab;
+    color:#2b0e29;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 2%;
 }
@@ -419,8 +418,7 @@ ul.foot{
     
         }
         
-        @media screen and (max-width: 699px) and (min-width: 375px){
-
+        @media screen and (max-width: 699px) and (min-width: 300px){
             .ft{
                 padding: 0px;
 
@@ -430,7 +428,8 @@ ul.foot{
                 position: absolute;
                 z-index: -1;
                 opacity: 75%;
-                padding-top: 60%;
+                padding-top: 106%;
+
             }
         
         }
