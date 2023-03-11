@@ -1,9 +1,9 @@
 
- a{
+a{
     color:#d3d7fd;
-  }
+}
 
-  h2{
+h2{
     color:#f9f9f9;
     text-align: center;
     font-weight: 300;
@@ -37,7 +37,7 @@ h3{
 .footerwave{
     z-index: -1;
     position: absolute;
-    width: 100%;
+    width: 110%;
     padding: 0;
 }
 
@@ -155,8 +155,8 @@ body{
 
 #logo{
     width: 75%;
-    margin-left: 15%;
-    margin-right: 20%;
+    margin-left: 10%;
+
 }
 
 .blurb{
@@ -518,11 +518,17 @@ ul.foot{
 
     .nav{
         padding-top: 10%;
+        padding-bottom: 10%;
     }
     
+    #about, #resume, #work{
+        width: 70px !important;
+        z-index: 1030 !important;
+    }
 
-    .UXUI{
-    padding-top: 40%;
+
+    #logo{
+        margin-left: 5%;
     }
 
     .card{
@@ -540,7 +546,6 @@ ul.foot{
 
     .button{
         justify-content: center;
-        margin-left: 10%;
     }
 
     #ct{
@@ -572,6 +577,7 @@ ul.foot{
 }
 
 
+
 @media screen and (max-width: 450px) and (min-width: 200px){
 
 
@@ -581,14 +587,18 @@ ul.foot{
 
     nav{
     z-index: 2 !important;
-    padding: 5% !important;
-    margin-right: 10%;
+    padding: 1% !important;
     }
 
 
     #about, #resume, #work{
         width: 65px !important;
         z-index: 1030 !important;
+    }
+
+    #work{
+        padding: 0;
+        margin: 0;
     }
 
     .UXUI{
@@ -602,7 +612,14 @@ ul.foot{
 
     .hero{
     margin: 0 auto;
-    width: 99%;
+    }
+
+    .CSA{
+       font-size: 16px;
+    }
+
+    #light{
+        width: 0%;
     }
 
     .linkt{
@@ -612,18 +629,6 @@ ul.foot{
     #look{
         margin-bottom: 10%;
     }
-
-    .blink{
-        width: 75%;
-    }
-
-    .CSA{
-        font-size: 14px;
-        padding: 5%;
-        margin-bottom: 20%;
-    }
-
-
 
     .playful{
         font-size: 20px;
@@ -644,7 +649,8 @@ ul.foot{
     }
     
     #work{
-        padding-top: 80px;
+        padding-top: 70px;
+        margin-right: 6%;
     }
     
     #resume{
@@ -657,12 +663,7 @@ ul.foot{
 
     #logo{
         display:flex;
-        align-items: flex-end;
-        margin-left: auto;
-        margin-right: auto;
-        width: 98%;
         padding-top: 20px;
-        padding-left: 100px;
         padding-bottom: 50px;
     }
 
@@ -684,10 +685,7 @@ ul.foot{
         padding:0;
     }
 
-    
-    .CSA{
-        font-size: 24px;
-    }
+
 
     button{
         width: 98%;
@@ -741,7 +739,7 @@ ul.foot{
 
 
     .Anna{
-        width: 50%;
+        width: 60%;
         height: 125px;
         padding: 0;
     }
@@ -755,11 +753,14 @@ ul.foot{
     padding-left: 5%;
     }
 
+    .footer{
+        font-size: 16px;
+    }
 
     .footerwave{
         z-index: -1;
         width: 100%;
-        padding-top: 75%;
+        padding-top: 105%;
     }
 
 
@@ -767,7 +768,7 @@ ul.foot{
 
 @media screen and (max-width: 1200px) and (min-width: 200px){
     .UXUI{
-        padding-top: 25%;
+        padding-top: 40%;
     }
 
 }
@@ -793,3 +794,10 @@ p{
 }
 
 
+
+@media screen and (max-width: 280px) and (min-width: 200px){
+#about, #resume, #work{
+    width: 55px !important;
+    z-index: 1030 !important;
+}
+}
