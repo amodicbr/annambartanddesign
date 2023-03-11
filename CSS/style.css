@@ -135,8 +135,6 @@ body{
 }
 
 
-
-
 .blink{
     display: flex;
 }
@@ -597,7 +595,8 @@ ul.foot{
 
 
     .hero{
-    margin-top: 0;
+    margin: 0 auto;
+    width: 99%;
     }
 
     .linkt{
@@ -608,16 +607,20 @@ ul.foot{
         margin-bottom: 10%;
     }
 
+    .blink{
+        width: 75%;
+    }
+
     .CSA{
         font-size: 14px;
-        padding: 2%;
+        padding: 5%;
         margin-bottom: 20%;
     }
 
 
 
     .playful{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .blu{
