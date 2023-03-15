@@ -448,20 +448,22 @@ li{
     padding-top: 8%;
 }
 
-
-ul.foot{
-    padding-left: 5%;
-}
-
-.social{
-    width: 50px;
-    padding: 4%;
-}
-
 .email{
     padding: 2%;
     width: 50px;
 }
+
+
+ul.foot{
+    padding-left: 15%;
+}
+
+.social{
+    width: 50px;
+    padding: 1%;
+}
+
+
 
 #social{
     padding: 1%;
@@ -483,12 +485,20 @@ ul.foot{
         font-size: 20px;
     }
 
+    .subtitle{
+        padding-top: 7%;
+    }
+
   
 }
 
 
 @media screen and (max-width: 1200px) and (min-width: 900px){
 
+    .subtitle{
+        padding-top: 7%;
+    }
+    
 
     /** FOOTER WAVE **/
 
@@ -496,9 +506,6 @@ ul.foot{
         font-size: 20px;
     }
 
-    .UXUI{
-        padding-top: 40%;
-    }
 
     .UX, .UI{
         color: rgba(255, 255, 255, 0.797);
@@ -577,6 +584,13 @@ ul.foot{
 
 @media screen and (max-width: 899px) and (min-width: 601px){
 
+    .subtitle{
+        padding-top: 10%;
+    }
+
+    .content{
+        padding-top: 20%;
+    }
 
     .footer{
         font-size: 20px;
@@ -585,6 +599,15 @@ ul.foot{
 }
 
 @media screen and (max-width: 600px) and (min-width: 451px){
+
+    .subtitle{
+        padding-top: 12%;
+    }
+
+
+    .content{
+        padding-top: 40%;
+    }
 
     .footer{
         font-size: 20px;
@@ -627,11 +650,14 @@ ul.foot{
 
 @media screen and (max-width: 450px) and (min-width: 200px){
 
-    .Anna{
-        padding: 0;
-        width: 60%;
+    .subtitle{
+        padding-top: 12%;
     }
 
+
+    .content{
+        padding-top: 10%;
+    }
 
     .footer{
         font-size: 16px;

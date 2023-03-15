@@ -176,14 +176,19 @@ li{
 
 
 .Anna{
-    width: 300px;
+    width: 220px;
     padding-left: 5%;
-    padding-top: 15%;
+    padding-top: 8%;
+}
+
+.email{
+    padding: 2%;
+    width: 50px;
 }
 
 
 ul.foot{
-    padding-left: 20%;
+    padding-left: 10%;
 
 }
 
@@ -238,7 +243,6 @@ ul.foot{
         }
 
         .Anna{
-            width: 80%;
             margin-top: 30%;
         }
 
@@ -263,7 +267,6 @@ ul.foot{
         }
 
         .Anna{
-            width: 80%;
             margin-top: 10%;
         }
 

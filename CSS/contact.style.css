@@ -262,14 +262,19 @@ li{
 
 
 .Anna{
-    width: 300px;
+    width: 250px;
     padding-left: 5%;
-    padding-top: 15%;
+    padding-top: 8%;
+}
+
+.email{
+    padding: 2%;
+    width: 50px;
 }
 
 
 ul.foot{
-    padding-left: 20%;
+    padding-left: 10%;
 
 }
 

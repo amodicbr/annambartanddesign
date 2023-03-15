@@ -241,7 +241,6 @@ small.text-muted{
     z-index: 1030;
     position: absolute;
     width: 100%;
-    padding-top: 15%;
 }
 
 li{
@@ -258,18 +257,25 @@ li{
 
 
 .Anna{
-    width: 300px;
-    padding-left: 2%;
+    width: 225px;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.email{
+    padding: 2%;
+    width: 50px;
 }
 
 
 ul.foot{
-    padding-left: 20%;
+    padding-left: 10%;
 
 }
 
 .social{
-    width: 50px;
+    width: 45px;
+    padding: 2%;
 }
 
 .footer{
@@ -298,10 +304,6 @@ h1{
 
 @media screen and (max-width: 1300px) and (min-width: 701px){
 
-    .Anna{
-        width: 65%;
-    }
-
 
     .ft{
          z-index: 1030;
@@ -324,10 +326,6 @@ h1{
 
 @media screen and (max-width: 700px) and (min-width: 401px){
 
-    .Anna{
-        width: 70%;
-        padding-top: 0%;
-    }
 
     li.footer{
         font-size: 16px;
@@ -345,10 +343,6 @@ h1{
 
 @media screen and (max-width: 400px) and (min-width: 200px){
 
-    .Anna{
-        width: 70%;
-        padding-top: 15%;
-    }
 
     li.footer{
         font-size: 16px;

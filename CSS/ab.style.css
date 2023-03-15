@@ -199,6 +199,7 @@ body{
 .ft{
     z-index: 1;
     background-color: #08115100;
+    padding: 5%;
 }
 
 li{
@@ -213,17 +214,20 @@ li{
     justify-content: end;
 }
 
+.imganna{
+    padding-top: 5%;
+    width: 175px;
+}
 
-.Anna{
-    width: 300px;
-    padding-left: 5%;
-    padding-top: 50%;
-    opacity: 75%;
+
+.email{
+    padding: 2%;
+    width: 50px;
 }
 
 
 ul.foot{
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 .footer{
@@ -245,10 +249,8 @@ ul.foot{
 /*End Footer*/
 
 .wave2{
-    position: absolute;
     z-index: -1;
-    opacity: 75%;
-    padding-top: 40%;
+    position: absolute;
 }
 
 @media screen and (max-width: 1300px){
@@ -477,7 +479,7 @@ ul.foot{
             }
 
             .Anna{
-                width: 75%;
+                width: 40%;
                 padding-top: 40%;
             }
 
