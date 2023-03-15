@@ -1,0 +1,605 @@
+/** WAVES **/
+
+
+.wave{
+    z-index: -1;
+    position: absolute;
+    opacity: 60%;
+    width: 100%;
+}
+
+.wave2{
+    z-index: -1;
+    position: absolute;
+    margin-top: 40rem;
+    width: 100%;
+}
+
+.footerwave{
+    z-index: -1;
+    position: absolute;
+    width: 110%;
+    padding: 0;
+}
+
+/** **/
+      
+      /************** BOOTSTRAP NAV *******************/ 
+      nav{
+        z-index: 1030 !important;
+        position: absolute !important;
+        justify-content: end !important;
+        padding: 5%;
+        width: 98%;
+    }
+    
+    .navbar{
+         justify-content: end !important;
+         padding-right: 25px;
+    }
+    
+    
+    .nav-link{
+        color: #f2a0e2 !important;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    
+    
+    .bg-body-tertiary {
+        --bs-bg-opacity: 0;
+        background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+    }
+
+
+   .fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+    
+    button.navbar-toggler {
+        width: 20%;
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: #5c76ee;
+        background-color: #d675c39d;
+        border: var(--bs-border-width) solid ;
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        border-color:#795ced!important;
+        border-width: 2px;
+        transition: var(--bs-navbar-toggler-transition);
+    }
+    
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-zindex: 1045;
+        --bs-offcanvas-width: 400px;
+        --bs-offcanvas-height: 30vh;
+        --bs-offcanvas-padding-x: 1rem;
+        --bs-offcanvas-padding-y: 1rem;
+        --bs-offcanvas-color: rgb(198, 180, 248);
+        --bs-offcanvas-title-line-height: none !important;
+    }
+    
+    
+    .offcanvas-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    }
+
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-zindex: 1045;
+        --bs-offcanvas-title-line-height: none !important;
+    }
+    
+    .offcanvas {
+        position: fixed;
+        background-color:#081151a4 !important;
+    }
+    
+    
+    .btn-close {
+        --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
+        --bs-btn-close-opacity: 0.5;
+        --bs-btn-close-hover-opacity: 0.75;
+        --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        --bs-btn-close-focus-opacity: 1;
+        --bs-btn-close-disabled-opacity: 0.25;
+        --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+        box-sizing: content-box;
+        width: 1em;
+        height: 1em;
+        padding: 0.25em 0.25em;
+        color: var(--bs-btn-close-color);
+        background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
+        border: 0;
+        border-radius: 0.375rem;
+    }
+    
+    #offcanvasNavbarLabel{
+        color:#c3cdf5;
+    }
+    
+    .nav-linkH{
+        color:#fff;
+        font-size: 24px;
+        font-weight: 800;
+        text-decoration: none;
+    }
+
+
+.nav-linkR{
+    color:#e94fca99;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 5%;
+}
+
+/************** END BOOTSTRAP NAV *******************/
+
+
+
+
+/*** FOOTER ***/
+
+
+.ft{
+    z-index: 1;
+    position: relative;
+    padding-left: 5%;
+}
+
+li{
+    justify-content: end;
+    display: inline-block;
+}
+
+
+.navul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
+    justify-content: end;
+}
+
+
+.Anna{
+    width: 300px;
+    padding-left: 5%;
+    padding-top: 15%;
+}
+
+
+ul.foot{
+    padding-left: 20%;
+}
+
+.social{
+    width: 50px;
+    padding: 2%;
+}
+
+.footer{
+    font-size: 24px;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2%;
+}
+
+
+/*End Footer*/
+
+@media screen and (max-width: 1300px) and (min-width: 701px){
+    nav{
+        padding: 5%;
+    }
+    
+    #resume, #about, #work{
+        width: 85px;
+    }
+    
+    #work{
+        padding-top: 10%;
+    }
+    
+    #resume{
+        padding-top: 15%;
+    }
+    
+    #about{
+        padding-top: 30%;
+    }
+    
+    .UXUI{
+        padding-top: 20%;
+    }
+
+    .UX, .UI{
+        color: rgba(255, 255, 255, 0.797);
+        font-size: 25px;
+        font-weight:500;
+        font-style: italic;
+    }
+
+    .containerGrid{
+        font-size: 36px;
+    }
+
+    .header{
+        font-size: 48px;
+    }
+
+    .hero{
+        z-index: 2;
+        position: relative;
+        margin-top: 8%;
+    }
+
+     .blurb{
+        font-size: 18px;
+        padding:10%;
+    }
+
+    .CSA{
+        font-size: 24px;
+    }
+
+    .caseimg{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #lift{
+        align-content: center;
+        justify-content: center;
+    }
+
+    #ltitle{
+        font-size: 20px;
+    }
+
+    #htitle{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #linfo, #hinfo, #tinfo{
+        font-size: 14px;
+    }
+
+    #liftup, #humanesoc, #treasd{
+        width: 100%;
+    }
+
+    .subtitle{
+        font-size: 20px;
+    }
+
+    .buttonall{
+        font-size: 18px;
+        width: 300px;
+        height: 75px;
+    }
+    
+    .button3{
+        width: 125px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+
+    .Anna{
+        width: 200px;
+        height: 125px;
+        padding: 0;
+    }
+
+    .ft{
+        padding-top: 40%;
+    }
+
+    ul.foot{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .footerwave{
+        height: 25%;
+    }
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 451px){
+  
+
+    .nav{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    #about, #resume, #work{
+        width: 70px !important;
+        z-index: 1030 !important;
+    }
+
+
+    #logo{
+        margin-left: 5%;
+    }
+
+    .card{
+        padding: 3%;
+    }
+
+    .CSA{
+        padding-top: 20%;
+        font-size: 24px;
+    }
+
+    .blurb{
+        padding-bottom: 20%;
+    }
+
+    .button{
+        justify-content: center;
+    }
+
+    #ct{
+        padding: 10%;
+    }
+
+    .ft{
+        padding: 0;
+    }
+
+    li{
+        display: block;
+    }
+
+    ul.foot{
+        padding-left: 10%;
+    }
+
+    .ft{
+        padding-top: 50%;
+    }
+
+    .footerwave{
+        z-index: -1;
+        width: 100%;
+        height: 40%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 450px) and (min-width: 200px){
+
+
+    .bold{
+        font-size: 16px;
+    }
+
+    nav{
+    z-index: 2 !important;
+    padding: 1% !important;
+    }
+
+
+    #about, #resume, #work{
+        width: 65px !important;
+        z-index: 1030 !important;
+    }
+
+    #work{
+        padding: 0;
+        margin: 0;
+    }
+
+    .UXUI{
+        margin-top: 40%;
+    }
+
+    .UX, .UI{
+        font-size: 24px;
+    }
+
+
+    .hero{
+    margin: 0 auto;
+    }
+
+    .CSA{
+       font-size: 16px;
+    }
+
+    #light{
+        width: 0%;
+    }
+
+    .linkt{
+        font-size: 20px;
+    }
+
+    #look{
+        margin-bottom: 10%;
+    }
+
+    .playful{
+        font-size: 20px;
+    }
+
+    .blu{
+        padding: 5%;
+    }
+    
+
+    .button{
+        display: flex;
+        margin-bottom: 10%;
+    }
+
+    .card{
+        padding: 8%;
+    }
+    
+    #work{
+        padding-top: 70px;
+        margin-right: 6%;
+    }
+    
+    #resume{
+        padding-top: 75px;
+    }
+    
+    #about{
+        padding-top: 70px;
+    }
+
+    #logo{
+        display:flex;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+
+    .containerGrid{
+        font-size: 36px;
+    }
+
+    .header{
+        font-size: 48px;
+    }
+
+    .navli{
+        display: inline-block;
+        }
+
+     .blurb{
+        font-size: 18px;
+        padding:0;
+    }
+
+
+
+    button{
+        width: 98%;
+        font-size: 16px;
+    }
+
+
+    .caseimg{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #lift{
+        align-content: center;
+        justify-content: center;
+    }
+
+    #ltitle{
+        font-size: 20px;
+    }
+
+    #htitle{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #linfo, #hinfo, #tinfo{
+        font-size: 14px;
+    }
+
+    #liftup, #humanesoc, #treasd{
+        width: 100%;
+    }
+
+    .subtitle{
+        font-size: 20px;
+    }
+
+    .buttonall{
+        font-size: 18px;
+        width: 300px;
+        height: 75px;
+    }
+    
+    .button3{
+        width: 125px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+
+    .Anna{
+        width: 60%;
+        height: 125px;
+        padding: 0;
+    }
+
+
+    .ft{
+    padding-bottom: 0;
+    }
+
+    ul.foot{
+    padding-left: 5%;
+    }
+
+    .footer{
+        font-size: 16px;
+    }
+
+    .footerwave{
+        z-index: -1;
+        width: 100%;
+        padding-top: 105%;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 200px){
+    .UXUI{
+        padding-top: 40%;
+    }
+
+}
+
+/* Other */
+
+hr{
+    height: 1px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 95%;
+    color:#e597f35c;
+}
+
+
+p{
+    margin: auto;
+    padding: 0;
+}
+
+.empty{
+    height: 500px;
+}
+
+
+
+@media screen and (max-width: 280px) and (min-width: 200px){
+#about, #resume, #work{
+    width: 55px !important;
+    z-index: 1030 !important;
+}
+}
+

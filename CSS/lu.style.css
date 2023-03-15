@@ -1,5 +1,5 @@
 a{
-    color:#d3d7fd;
+    color:#581a59d4;
   }
 
 
@@ -132,7 +132,7 @@ h2{
 }
 
 .ITERATION{
-    background-color:#e9e9b5;
+    background-color:#fcfcea;
     width: 100%;
 }
 
@@ -289,7 +289,7 @@ h2{
 }
 
 #para{
-    color: #f8f7a8;
+    color: #f4f3d3;
     font-size: 20px;
     padding-left: 5%;
     padding-right: 5%;
@@ -297,7 +297,7 @@ h2{
 
 
 .ProBlurb{
-    color:#f8f7a8;
+    color:#f4f4cc;
     text-align:right;
     font-size: 20px;
     padding-left: 10%;
@@ -445,7 +445,7 @@ h2{
 
 
 .card{
-    border-color: rgba(254, 254, 139, 0.846);
+    border-color: rgba(213, 166, 225, 0.591);
     border-width: 1em;
     padding-left: 5%;
     padding-right: 5%;
@@ -464,7 +464,7 @@ h2{
 }
 
 .ThankYou{
-    background-color:#f8f7a8;
+    background-color:#f2f1c4;
     width: 75%;
     height: 50%;
     margin: 0 auto;

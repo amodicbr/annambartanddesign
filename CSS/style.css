@@ -1,3 +1,11 @@
+.content{
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10%;
+    z-index: 1;
+    position: absolute;
+}
 
 a{
     color:#d3d7fd;
@@ -16,6 +24,27 @@ h3{
     font-weight: 200;
 }
 
+h4{
+    color:#a20573ab;
+    text-align: center;
+}
+
+h5{
+    color: #d3d7fd8a;
+    text-align: center;
+    font-style: italic;
+}
+
+
+body{
+    background-color: #081151 ;
+    width: 100%;
+}
+
+.empty{
+    height: 400px;
+}
+
 
 /** WAVES **/
 
@@ -23,105 +52,165 @@ h3{
 .wave{
     z-index: -1;
     position: absolute;
-    opacity: 60%;
+    opacity: 100%;
     width: 100%;
 }
 
 .wave2{
     z-index: -1;
     position: absolute;
-    margin-top: 40rem;
+    margin-top: 85%;
     width: 100%;
 }
 
-.footerwave{
+.wavefoot{
     z-index: -1;
     position: absolute;
-    width: 110%;
-    padding: 0;
 }
 
+/** END WAVE **/
 
-/** **/
+      
+      /************** BOOTSTRAP NAV *******************/ 
 
-/* navigation section */
 
-nav{
-    z-index: 1030 !important;
-    position: absolute !important;
-    justify-content: end !important;
-    padding: 5%;
-    width: 98%;
+      .navbar{
+        justify-content: end !important;
+        padding-right: 25px;
+   }
+   
+   
+   .nav-link{
+       color: #f2a0e2 !important;
+       font-size: 20px;
+       font-weight: 800;
+   }
+   
+   
+   .bg-body-tertiary {
+       --bs-bg-opacity: 0;
+       background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+   }
+
+
+  .fixed-top {
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1030;
+}
+   
+   button.navbar-toggler {
+       width: 20%;
+       font-size: var(--bs-navbar-toggler-font-size);
+       line-height: 1;
+       color: #5c76ee;
+       background-color: #d675c39d;
+       border: var(--bs-border-width) solid ;
+       border-radius: var(--bs-navbar-toggler-border-radius);
+       border-color:#795ced!important;
+       border-width: 2px;
+       transition: var(--bs-navbar-toggler-transition);
+   }
+   
+   .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+       --bs-offcanvas-zindex: 1045;
+       --bs-offcanvas-width: 400px;
+       --bs-offcanvas-height: 30vh;
+       --bs-offcanvas-padding-x: 1rem;
+       --bs-offcanvas-padding-y: 1rem;
+       --bs-offcanvas-color: rgb(198, 180, 248);
+       --bs-offcanvas-title-line-height: none !important;
+   }
+   
+   
+   .offcanvas-header {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+   }
+
+   .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+       --bs-offcanvas-zindex: 1045;
+       --bs-offcanvas-title-line-height: none !important;
+   }
+   
+   .offcanvas {
+       position: fixed;
+       background-color:#081151a4 !important;
+   }
+   
+   
+   .btn-close {
+       --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
+       --bs-btn-close-opacity: 0.5;
+       --bs-btn-close-hover-opacity: 0.75;
+       --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+       --bs-btn-close-focus-opacity: 1;
+       --bs-btn-close-disabled-opacity: 0.25;
+       --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+       box-sizing: content-box;
+       width: 1em;
+       height: 1em;
+       padding: 0.25em 0.25em;
+       color: var(--bs-btn-close-color);
+       background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
+       border: 0;
+       border-radius: 0.375rem;
+   }
+   
+   #offcanvasNavbarLabel{
+       color:#c3cdf5;
+   }
+   
+   .nav-linkH{
+       color:#fff;
+       font-size: 24px;
+       font-weight: 800;
+       text-decoration: none;
+   }
+
+
+.nav-linkR{
+   color:#e94fca99;
+   font-size: 20px;
+   font-weight: 400;
+   text-decoration: none;
+   padding-left: 5%;
 }
 
-.bold{
-    font-size: 24px;
-    font-weight: 600;
-    color:#b8248ce6;
-}
+/************** BOOTSTRAP NAV *******************/
 
 
-#about{
-    margin-top: 10%;
-}
-
-#resume{
-    margin-top: 40%;
-}
-
-
-.navul{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffff;
-    justify-content: end;
-}
-
-#about, #resume, #work{
-    align-items: flex-start;
-    justify-content: center;
-    width: 100px;
-
-}
-
-/*END NAV*/
-
-body{
-    background-color: #081151 ;
-    width: 100%;
-}
 
 /** Hero Img **/
 
 .name{
-    color:rgb(241, 152, 228);
+    color:rgba(205, 22, 178, 0.739);
+    font-size: 20px;
+    padding-top: 5%;
     padding-left: 2%;
-    font-size: 16px;
-    z-index: 4;
-    padding-top: 2%;
+    z-index: 1;
+    position: absolute
 }
 
 .subtitle{
     color:#f693e6a0;
     font-size: 20px;
     font-weight: 300;
-    z-index: 3;
-    padding-left: 15%;
+    padding-left: 5%;
+    padding-top: 8%;
+    z-index: 1;
+    position: absolute;
 }
 
-
-.hero{
-    z-index: 2;
-    position: relative;
-    margin-top: 2%;
-    width: 99%;
-}
 
 
 .UXUI{
     margin: 0 auto;
     text-align: center;
-    z-index: 2;
-    position: relative;
     padding: 0;
 }
 
@@ -140,16 +229,18 @@ body{
 
 .blink{
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 
 .CSA{
     color:#fbfbeede;
-    display: flex;
-    justify-content: center;
     font-size: 36px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
+    padding: 5%;
+
 }
 
 
@@ -208,14 +299,6 @@ button{
 }
 
 
-/** Hero Image **/
-
-/** Strengths Card **/
-
-.strengthCard{
-    padding: 10%;
-    margin-bottom: 5px;
-}
 
 .linkt{
     color:rgb(241, 152, 228);
@@ -256,11 +339,6 @@ button{
 
 /*** CASE STUDIES ***/
 
-.casestudiessection{
-    z-index: 2;
-    position: relative;
-}
-
 #ct{
     display: flex;
 }
@@ -270,16 +348,10 @@ button{
     font-size: 32px;
     font-weight: 300px;
     padding: 5%;
-}
-
-.case-studies{
-    background-color: #081151;
+    text-align: center;
 }
 
 
-.card-group{
-    background-color: #4c4ecc00;
-}
 
 .card{
     background-color: #787aea00;
@@ -344,18 +416,22 @@ small.text-muted{
 
 /** Case Studies **/
 
-/*** FOOTER ***/
+/*** FOOTER **/
 
-
+/**
 .ft{
-    z-index: 1;
-    position: relative;
-    padding-left: 5%;
+    background-image: url(/IMGS/Footer\ Wave.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
 }
+**/
+
 
 li{
     justify-content: end;
     display: inline-block;
+    padding: 1%;
 }
 
 
@@ -367,54 +443,61 @@ li{
 
 
 .Anna{
-    width: 300px;
+    width: 250px;
     padding-left: 5%;
-    padding-top: 15%;
+    padding-top: 8%;
 }
 
 
 ul.foot{
-    padding-left: 20%;
+    padding-left: 5%;
 }
 
 .social{
     width: 50px;
+    padding: 4%;
+}
+
+.email{
     padding: 2%;
+    width: 50px;
+}
+
+#social{
+    padding: 1%;
 }
 
 .footer{
-    font-size: 24px;
+    font-size: 20px;
     color: #ffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 2%;
 }
 
 
 /*End Footer*/
 
-@media screen and (max-width: 1300px) and (min-width: 701px){
-    nav{
-        padding: 5%;
+/*End Footer*/
+@media screen and (max-width: 1500px) and (min-width: 1201px){
+
+    .footer{
+        font-size: 20px;
     }
-    
-    #resume, #about, #work{
-        width: 85px;
+
+  
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 900px){
+
+
+    /** FOOTER WAVE **/
+
+    .footer{
+        font-size: 20px;
     }
-    
-    #work{
-        padding-top: 10%;
-    }
-    
-    #resume{
-        padding-top: 15%;
-    }
-    
-    #about{
-        padding-top: 30%;
-    }
-    
+
     .UXUI{
-        padding-top: 20%;
+        padding-top: 40%;
     }
 
     .UX, .UI{
@@ -433,8 +516,6 @@ ul.foot{
     }
 
     .hero{
-        z-index: 2;
-        position: relative;
         margin-top: 8%;
     }
 
@@ -491,39 +572,22 @@ ul.foot{
         font-size: 18px;
     }
 
-
-    .Anna{
-        width: 200px;
-        height: 125px;
-        padding: 0;
-    }
-
-    .ft{
-        padding-top: 40%;
-    }
-
-    ul.foot{
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    .footerwave{
-        height: 25%;
-    }
 }
 
 
-@media screen and (max-width: 700px) and (min-width: 451px){
-  
+@media screen and (max-width: 899px) and (min-width: 601px){
 
-    .nav{
-        padding-top: 10%;
-        padding-bottom: 10%;
+
+    .footer{
+        font-size: 20px;
     }
-    
-    #about, #resume, #work{
-        width: 70px !important;
-        z-index: 1030 !important;
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 451px){
+
+    .footer{
+        font-size: 20px;
     }
 
 
@@ -552,26 +616,9 @@ ul.foot{
         padding: 10%;
     }
 
-    .ft{
-        padding: 0;
-    }
 
     li{
         display: block;
-    }
-
-    ul.foot{
-        padding-left: 10%;
-    }
-
-    .ft{
-        padding-top: 50%;
-    }
-
-    .footerwave{
-        z-index: -1;
-        width: 100%;
-        height: 40%;
     }
 
 }
@@ -580,33 +627,28 @@ ul.foot{
 
 @media screen and (max-width: 450px) and (min-width: 200px){
 
+    .Anna{
+        padding: 0;
+        width: 60%;
+    }
 
-    .bold{
+
+    .footer{
         font-size: 16px;
     }
 
-    nav{
-    z-index: 2 !important;
-    padding: 1% !important;
+
+    .bold{
+        font-size: 14px;
     }
 
-
-    #about, #resume, #work{
-        width: 65px !important;
-        z-index: 1030 !important;
-    }
-
-    #work{
-        padding: 0;
-        margin: 0;
-    }
 
     .UXUI{
         margin-top: 40%;
     }
 
     .UX, .UI{
-        font-size: 24px;
+        font-size: 20px;
     }
 
 
@@ -623,7 +665,7 @@ ul.foot{
     }
 
     .linkt{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #look{
@@ -631,7 +673,7 @@ ul.foot{
     }
 
     .playful{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .blu{
@@ -645,21 +687,9 @@ ul.foot{
     }
 
     .card{
-        padding: 8%;
+        padding: 2%;
     }
-    
-    #work{
-        padding-top: 70px;
-        margin-right: 6%;
-    }
-    
-    #resume{
-        padding-top: 75px;
-    }
-    
-    #about{
-        padding-top: 70px;
-    }
+
 
     #logo{
         display:flex;
@@ -669,22 +699,17 @@ ul.foot{
 
 
     .containerGrid{
-        font-size: 36px;
+        font-size: 24px;
     }
 
     .header{
-        font-size: 48px;
+        font-size: 32px;
     }
-
-    .navli{
-        display: inline-block;
-        }
 
      .blurb{
-        font-size: 18px;
+        font-size: 16px;
         padding:0;
     }
-
 
 
     button{
@@ -738,66 +763,10 @@ ul.foot{
     }
 
 
-    .Anna{
-        width: 60%;
-        height: 125px;
-        padding: 0;
-    }
-
-
-    .ft{
-    padding-bottom: 0;
-    }
-
-    ul.foot{
-    padding-left: 5%;
-    }
-
-    .footer{
-        font-size: 16px;
-    }
-
-    .footerwave{
-        z-index: -1;
-        width: 100%;
-        padding-top: 105%;
-    }
-
+  
 
 }
 
-@media screen and (max-width: 1200px) and (min-width: 200px){
-    .UXUI{
-        padding-top: 40%;
-    }
-
-}
-
-/* Other */
-
-hr{
-    height: 1px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 95%;
-    color:#e597f35c;
-}
-
-
-p{
-    margin: auto;
-    padding: 0;
-}
-
-.empty{
-    height: 500px;
-}
 
 
 
-@media screen and (max-width: 280px) and (min-width: 200px){
-#about, #resume, #work{
-    width: 55px !important;
-    z-index: 1030 !important;
-}
-}
