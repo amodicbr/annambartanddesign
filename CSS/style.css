@@ -1,10 +1,13 @@
 .content{
+    margin: 0 auto;
     padding-top: 10%;
     padding-left: 4%;
     padding-right: 4%;
     padding-bottom: 10%;
-    z-index: 1;
-    position: absolute;
+    width: 100%;
+    background-image: url(/IMGS/Nav\ HOME.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 a{
@@ -46,35 +49,14 @@ body{
 }
 
 
-/** WAVES **/
 
 
-.wave{
-    z-index: -1;
-    position: absolute;
-    opacity: 100%;
-    width: 100%;
-}
-
-.wave2{
-    z-index: -1;
-    position: absolute;
-    margin-top: 85%;
-    width: 100%;
-}
-
-.wavefoot{
-    z-index: -1;
-    position: absolute;
-}
-
-/** END WAVE **/
 
       
       /************** BOOTSTRAP NAV *******************/ 
 
 
-      .navbar{
+.navbar{
         justify-content: end !important;
         padding-right: 25px;
    }
@@ -245,9 +227,8 @@ body{
 
 
 #logo{
-    width: 75%;
-    margin-left: 10%;
-
+    width: 60%;
+    margin-left: 25%;
 }
 
 .blurb{
@@ -255,8 +236,6 @@ body{
     font-size: 20px;
     font-weight: 200;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .button{
@@ -418,14 +397,14 @@ small.text-muted{
 
 /*** FOOTER **/
 
-/**
 .ft{
     background-image: url(/IMGS/Footer\ Wave.png) ;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
+    padding-bottom: 10%;
 }
-**/
+
 
 
 li{
