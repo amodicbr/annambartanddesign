@@ -2,7 +2,7 @@
   
 
   a{
-    color:#26329f;
+    color:#070a21;
   }
   
   /************** BOOTSTRAP NAV *******************/ 
@@ -195,7 +195,6 @@ body{
 }
 
 /*** FOOTER ***/
-
 .ft{
     background-image: url(/IMGS/Footer\ Wave.png) ;
     background-repeat: no-repeat;
@@ -242,12 +241,6 @@ li{
 }
 
 
-
-
-.footer{
-    padding: 1%;
-}
-
 .social{
     width: 50px;
     padding: 2%;
@@ -261,11 +254,6 @@ li{
 
 
 /*End Footer*/
-
-.wave2{
-    z-index: -1;
-    position: absolute;
-}
 
 @media screen and (max-width: 1300px){
     .wave2{
