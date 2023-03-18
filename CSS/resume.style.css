@@ -27,6 +27,12 @@ a{
         font-size: 20px;
         font-weight: 800;
     }
+
+    #contactme{
+        color:#ffffff;
+        font-size: 20px;
+        font-weight: 500;
+       }
     
     
     .bg-body-tertiary {
@@ -132,11 +138,19 @@ body{
     background-color: #081151;
 }
 
-/* */
+.resume{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
 
 .myresume{
-    padding: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
+
+/* */
+
 
 .button{
     display: flex;
@@ -159,7 +173,21 @@ button{
 /*** FOOTER ***/
 
 .ft{
-    z-index: 1;
+    background-image: url(/IMGS/Footer\ Wave.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+ul.foot{
+    padding-left: 10%;
+    padding-bottom: 25%;
+}
+
+.imganna{
+    padding-top: 5%;
+    margin-left: 10%;
+    width: 175px;
 }
 
 li{
@@ -175,22 +203,11 @@ li{
 }
 
 
-.Anna{
-    width: 220px;
-    padding-left: 5%;
-    padding-top: 8%;
-}
-
 .email{
     padding: 2%;
     width: 50px;
 }
 
-
-ul.foot{
-    padding-left: 10%;
-
-}
 
 .social{
     width: 50px;
@@ -205,7 +222,7 @@ ul.foot{
 }
 
 
-/*End Footer*/
+/*End Footer
 @media screen and (max-width: 1300px) and (min-width: 701px){
 
     .Anna{

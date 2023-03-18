@@ -243,10 +243,24 @@ body {
 
 
 /*** FOOTER ***/
-
 .ft{
-    z-index: 1;
+    background-image: url(/IMGS/Footer\ Wave.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
 }
+
+ul.foot{
+    padding-left: 10%;
+    padding-bottom: 25%;
+}
+
+.imganna{
+    padding-top: 5%;
+    margin-left: 10%;
+    width: 175px;
+}
+
 
 li{
     justify-content: end;
@@ -261,22 +275,11 @@ li{
 }
 
 
-.Anna{
-    width: 250px;
-    padding-left: 5%;
-    padding-top: 8%;
-}
-
 .email{
     padding: 2%;
     width: 50px;
 }
 
-
-ul.foot{
-    padding-left: 10%;
-
-}
 
 .social{
     width: 50px;

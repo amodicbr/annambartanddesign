@@ -197,9 +197,21 @@ body{
 /*** FOOTER ***/
 
 .ft{
-    z-index: 1;
-    background-color: #08115100;
-    padding: 5%;
+    background-image: url(/IMGS/Footer\ Wave.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+ul.foot{
+    padding-left: 10%;
+    padding-bottom: 25%;
+}
+
+.imganna{
+    padding-top: 5%;
+    margin-left: 10%;
+    width: 175px;
 }
 
 li{
@@ -214,10 +226,14 @@ li{
     justify-content: end;
 }
 
-.imganna{
-    padding-top: 5%;
-    width: 175px;
-}
+
+#contactme{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 500;
+   }
+   
+
 
 
 .email{
@@ -226,9 +242,7 @@ li{
 }
 
 
-ul.foot{
-    padding-left: 10%;
-}
+
 
 .footer{
     padding: 1%;

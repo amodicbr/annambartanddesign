@@ -236,11 +236,22 @@ small.text-muted{
 
 
 /*** FOOTER ***/
-
 .ft{
-    z-index: 1030;
-    position: absolute;
+    background-image: url(/IMGS/Footer\ Wave.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 100%;
+}
+
+ul.foot{
+    padding-left: 10%;
+    padding-bottom: 25%;
+}
+
+.imganna{
+    padding-top: 5%;
+    margin-left: 10%;
+    width: 175px;
 }
 
 li{
@@ -256,22 +267,11 @@ li{
 }
 
 
-.Anna{
-    width: 225px;
-    padding-left: 5%;
-    padding-top: 8%;
-}
-
 .email{
     padding: 2%;
     width: 50px;
 }
 
-
-ul.foot{
-    padding-left: 10%;
-
-}
 
 .social{
     width: 45px;
