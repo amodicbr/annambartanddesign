@@ -1,10 +1,7 @@
 
 /* WAVES */
-
-.wave2{
-    position: absolute;
-    z-index: -1;
-    opacity: 75%;
+.empty{
+    height: 300px;
 }
 
 /* */   
