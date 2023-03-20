@@ -1,8 +1,13 @@
-
-/* WAVES */
 .empty{
     height: 300px;
 }
+
+
+/* Waves */
+
+.img-fluid{
+    width: 100% !important;
+  }
 
 /* */   
       

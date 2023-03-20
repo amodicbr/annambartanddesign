@@ -5,11 +5,9 @@ a{
 
 /* WAVES */
 
-.wave2{
-    position: absolute;
-    z-index: -1;
-    opacity: 75%;
-}
+.img-fluid{
+    width: 100% !important;
+  }
 
 /* */   
       

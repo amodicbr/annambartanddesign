@@ -4,12 +4,11 @@
   }
 
 /* WAVES */
+.img-fluid{
+    width: 100% !important;
+  }
 
-.wave2{
-    position: absolute;
-    z-index: 1;
-    opacity: 75%;
-}
+
 
 /* */  
 

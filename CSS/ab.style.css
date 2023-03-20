@@ -1,5 +1,7 @@
 
-  
+  .img-fluid{
+    width: 100% !important;
+  }
 
   a{
     color:#070a21;
@@ -199,11 +201,12 @@ body{
     background-image: url(/IMGS/Footer\ Wave.png) ;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 100%;
+    padding: 2%;
 }
 
 ul.foot{
     padding-left: 10%;
+    padding-right: 5%;
     padding-bottom: 25%;
 }
 
@@ -255,15 +258,6 @@ li{
 
 /*End Footer*/
 
-@media screen and (max-width: 1300px){
-    .wave2{
-        position: absolute;
-        z-index: -1;
-        opacity: 75%;
-        padding-top: 50%;
-    }
-
-}
  
 @media screen and (max-width: 1000px){
 
@@ -450,7 +444,7 @@ li{
         .ft{
             z-index: 1030;
             position: absolute;
-            width: 106%;
+            width: 100%;
             padding: 0;
         }
         .wave2{
@@ -483,11 +477,6 @@ li{
             .Anna{
                 width: 40%;
                 padding-top: 40%;
-            }
-
-            .ft{
-                padding: 0px;
-
             }
 
             li.footer{
