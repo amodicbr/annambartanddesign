@@ -244,6 +244,10 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.b{
+    padding: 2%;
+}
+
 .button{
     display: flex;
     justify-content: center;
