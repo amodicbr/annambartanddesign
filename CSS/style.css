@@ -273,10 +273,6 @@ button{
     font-size: larger;
 }
 
-.b{
-    padding: 2%;
-}
-
 
 
 .blu{
@@ -616,8 +612,19 @@ ul.foot{
         padding-bottom: 20%;
     }
 
+
+   
+    button{
+        width: 200px;
+    }
+
     .button{
         justify-content: center;
+        display: inline-block;
+    }
+
+    .b{
+        padding: 5%;
     }
 
     #ct{
@@ -692,9 +699,17 @@ ul.foot{
     }
     
 
+    button{
+        width: 200px;
+    }
+
     .button{
-        display: flex;
-        margin-bottom: 10%;
+        justify-content: center;
+        display: inline-block;
+    }
+
+    .b{
+        padding: 5%;
     }
 
     .card{
@@ -720,12 +735,6 @@ ul.foot{
      .blurb{
         font-size: 16px;
         padding:0;
-    }
-
-
-    button{
-        width: 98%;
-        font-size: 16px;
     }
 
 
