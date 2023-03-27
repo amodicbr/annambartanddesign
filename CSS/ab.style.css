@@ -4,7 +4,7 @@
   }
 
   a{
-    color:#070a21;
+    color:#0f1a6f;
   }
   
   /************** BOOTSTRAP NAV *******************/ 
@@ -21,6 +21,13 @@
    font-weight: 800;
 }
 
+
+.nav-link-mute{
+    color:#f28fffb5;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
 
 .bg-body-tertiary {
    --bs-bg-opacity: 0;

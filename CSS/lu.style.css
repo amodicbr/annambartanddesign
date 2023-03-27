@@ -5,80 +5,361 @@ a{
 
 /* ------------------------  MEDIA QUERIES ------------------------ */
 
-@media screen and (max-width:375){
-    .DC{
+@media screen and (max-width: 1200px) and (min-width: 701px){
+    .luhero{
+        display: flex;
+    }
+
+
+    .img-fl{
+    z-index: 1;
+    width: 100%;
+    opacity: 90%;
+    padding: 0;
+  }
+
+  /** END NAV WAVE **/
+
+
+  .fluffy{
+    z-index: 1030;
+    width: 30%;
+    position: absolute;
+    margin-left: 10%;
+  }
+
+  .liftuplogo{
+    width: 100%;
+  }
+
+  .logogif{
+    width: 70%;
+  }
+
+  .hero{
+    background-color: #954bdf3d;
+    border-radius: 2%;
+    width: 90%;
+    margin: 5%;
+    }
+
+    .luhero{
+        display: block;
+    }
+
+    .luherotxt{
+        width: 45%;
+    }
+
+    .logoText{
+        color:rgb(243, 245, 207);
+        font-size: 16px;
+        font-weight: 300;
         text-align: center;
-    }
-}
-
-@media screen and (max-width:1000) {
-    
-    .DC{
-        text-align: center;
-    }
-}
-
-@media screen and (max-width:375){
-    p{
-        font-size: 16px !important;
-    }
-}
-
-@media screen and (max-width:800){
-   p{
-        font-size: 16px !important;
+        padding-top: 5%;;
+        padding-bottom: 5%;
+        margin: 0 auto;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
-}
 
-/* -------------------------------- NAVIGATION STYLING ---------------------------------------------- */
+    .lg{
+    font-size: 20px;
+    color:#e8e49e;
+    font-weight:400;
+    }
 
+    .LU{
+    color:rgb(243, 240, 70);
+    font-size: 24px;
+    font-weight: 600;
+    }
 
-h3{
-    padding-left: 5%;
-    padding-top: 2%;
-
-}
-
-.navbar {
-    background:#9f4eef;
-    margin: 0, auto;
-}
-
-.nav-link,
-.navbar-brand {
+    .LU1{
     color: #fff;
-    cursor: pointer;
-}
-.nav-link {
-    margin-right: 1em !important;
-}
-.nav-link:hover {
-    color: rgb(245, 251, 64);
-    text-decoration-line: underline;
-}
-.navbar-collapse {
-    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 500;
+    }
+
+
+    .DC{
+        text-align: start;
+    }
+
+    .TY{
+        color:#f8f7a8;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        padding: 5%;
+    }
+
+    
 }
 
-/*------------------------------------ END NAVIGATION ----------------------------------------------*/
+
+
+@media screen and (max-width: 700px) and (min-width: 200px){
+    h1.card-header{
+        font-size: 20px;
+    }
+
+    h5.card-title{
+        font-size: 14px;
+    }
+
+    span.hs{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
+
+    ul{
+        font-size: 14px;
+    }
+
+    .bodyBold{
+        text-align: center;
+    }
+
+
+
+    .lilDudesDown2, .littlestar, .lilDudesDown{
+        width: 0%;
+    }
+
+    .AnnaIMG{
+        width: 35%;
+    }
+
+    .social{
+        width: 2%;
+        padding: 2%;
+    }
+
+
+    .footer{
+        font-size: 16px;
+        color: rgb(8, 5, 48);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+}
+
+/** NAV WAVE **/
+
+
+.img-fl{
+    z-index: 1;
+    width: 100%;
+    opacity: 90%;
+    padding: 0;
+  }
+
+  /** END NAV WAVE **/
+
+
+  .fluffy{
+    z-index: 1030;
+    width: 15%;
+    position: absolute;
+    margin-left: 10%;
+  }
+
+  .liftuplogo{
+    width: 100%;
+  }
+
+  .logogif{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .hero{
+    background-color: #954bdf3d;
+    border-radius: 2%;
+    margin: 5%;
+    padding: 2%;
+    }
+
+    .luhero{
+        display: block;
+    }
+
+    .luherotxt{
+        width: 100%;
+        padding: 2%;
+    }
+
+    .logoText{
+        color:rgb(243, 245, 207);
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 1%;;
+        padding-bottom: 10%;
+    }
+
+
+    .lg{
+    font-size: 16px;
+    color:#e8e49e;
+    font-weight:400;
+    }
+
+    .LU{
+    color:rgb(243, 240, 70);
+    font-size: 20px;
+    font-weight: 600;
+    }
+
+    .LU1{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    }
+
+
+
+   /************** BOOTSTRAP NAV *******************/ 
+
+
+.navbar{
+ justify-content: end !important;
+ padding-right: 25px;
+}
+
+
+.nav-link{
+   color: #f2a0e2 !important;
+   font-size: 20px;
+   font-weight: 800;
+}
+
+.nav-link-mute{
+color:#f28fff;
+font-size: 20px;
+font-weight: 500;
+text-decoration: none;
+}
+
+.bg-body-tertiary {
+   --bs-bg-opacity: 0;
+   background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+
+.fixed-top {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+
+button.navbar-toggler {
+   width: 20%;
+   font-size: var(--bs-navbar-toggler-font-size);
+   line-height: 1;
+   color: #5c76ee;
+   background-color: #d675c39d;
+   border: var(--bs-border-width) solid ;
+   border-radius: var(--bs-navbar-toggler-border-radius);
+   border-color:#795ced!important;
+   border-width: 2px;
+   transition: var(--bs-navbar-toggler-transition);
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+   --bs-offcanvas-zindex: 1045;
+   --bs-offcanvas-width: 400px;
+   --bs-offcanvas-height: 30vh;
+   --bs-offcanvas-padding-x: 1rem;
+   --bs-offcanvas-padding-y: 1rem;
+   --bs-offcanvas-color: rgb(198, 180, 248);
+   --bs-offcanvas-title-line-height: none !important;
+}
+
+
+.offcanvas-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+   --bs-offcanvas-zindex: 1045;
+   --bs-offcanvas-title-line-height: none !important;
+}
+
+.offcanvas {
+   position: fixed;
+   background-color:#081151a4 !important;
+}
+
+
+.btn-close {
+   --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
+   --bs-btn-close-opacity: 0.5;
+   --bs-btn-close-hover-opacity: 0.75;
+   --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+   --bs-btn-close-focus-opacity: 1;
+   --bs-btn-close-disabled-opacity: 0.25;
+   --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+   box-sizing: content-box;
+   width: 1em;
+   height: 1em;
+   padding: 0.25em 0.25em;
+   color: var(--bs-btn-close-color);
+   background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
+   border: 0;
+   border-radius: 0.375rem;
+}
+
+#offcanvasNavbarLabel{
+   color:#c3cdf5;
+}
+
+.nav-linkH{
+   color:#fff;
+   font-size: 24px;
+   font-weight: 800;
+   text-decoration: none;
+}
+
+
+.nav-linkR{
+color:#e94fca99;
+font-size: 20px;
+font-weight: 400;
+text-decoration: none;
+padding-left: 5%;
+}
+
+/************** BOOTSTRAP NAV *******************/
+
 
 /* -------------------------------   OVERALL BLANKET STYLES  ------------------------------------------ */
 
 span{
-    font-weight: 750;
-    color:#831beb
+    font-weight: 700;
+    color:#4c0b8e
 }
 
 body {
     background: rgb(228, 186, 255);
+    width: 100%;
 }
 
 
 h1{
     text-align: center;
     color:#8a45d0;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 600;
     padding: 5%;
 }
@@ -102,24 +383,11 @@ h2{
     color:#9c18ab;
 }
 
-.hs{
-    text-decoration: underline;
-    color:#9c18ab;
-    font-size: 24px;
-}
-
 .row{
     padding: 5;
 }
 
 
-.hero{
-    background-color: #954bdf76;
-    display: flex;
-    border-radius: 2%;
-    width: 90%;
-    margin: 0 auto;
-}
 
 
 /*------------------------------------ END OVERALL STYLES ----------------------------------------------*/
@@ -144,6 +412,12 @@ h2{
 
 
 /* -------------------------------           IMAGES        ------------------------------------------ */
+
+
+.AnnaIMG{
+    width: 40%;
+}
+
 .HIFIimg{
    padding-top: 10%;
    padding-bottom: 20%;
@@ -167,6 +441,7 @@ h2{
 
 .moreRoom{
     padding: 10%;
+    width: 75%;
 }
 
 /* ------- **** Nintendo Dudes **** -------- */
@@ -192,16 +467,22 @@ h2{
 
 /* -------------------------------    TEXT STYLES   ------------------------------------------ */
 
-.logoText{
-    color:rgb(243, 245, 207);
+.hs{
+    color:#a307b4;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.whatif{
+    color:rgb(117, 9, 123);
     font-size: 20px;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 25%;
-    padding-bottom: 25%;
-    margin: 0 auto;
-    padding-right: 10%;
-    padding-left: 10%;
+    font-weight: 800;
+}
+
+#whatif1{
+    color:#9b0faa;
+    font-size: 28px;
+    font-weight: 800;
 }
 
 .card-text{
@@ -228,20 +509,22 @@ h2{
 
 .DC{
     color:#f8f7a8;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 20px;
-    text-align: start;
+    text-align: center;
     padding: 5%;
-    padding-top: 25%;
+}
 
+#InDirText{
+    padding: 10%;
 }
 
 
 .TY{
     color:#f8f7a8;
-    font-weight: 500;
-    font-size: 20px;
-    text-align: start;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
     padding: 5%;
 }
 
@@ -255,35 +538,30 @@ h2{
 
 .HIFI{
     color: #f8f7a8;
-    text-align: right;
+    text-align: center;
     padding-left: 10%;
-    padding-right: 25%;
+    padding-right: 10%;
     margin: 0 auto;
     font-size: 20px;
-    padding-top: 30%;
-    padding-bottom: 25%;
 }
 
 .kirby{
     color:#821aea;
     font-size: 20px;
     padding: 10%;
-    padding-top: 40%;
+    padding-top: 20%;
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20%;
 }
 
-#kirb{
-    padding-bottom: 20%;
-}
 
 .ProBlurbs{
     color:#f8f7a8;
-    text-align:left;
-    font-size: 20px;
-    padding-top: 25%;
-    padding-left: 25%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 35%;
+    padding-left: 10%;
     padding-right: 10%;
 
 }
@@ -298,23 +576,19 @@ h2{
 
 .ProBlurb{
     color:#f4f4cc;
-    text-align:right;
-    font-size: 20px;
-    padding-left: 10%;
-    padding-right: 2%;
-    padding-top: 25%;
-
+    text-align: center;
+    font-size: 18px;
+    padding-right: 10%;
+    padding-top: 15%;
 }
 
 .ProImgs{
     width: 500px;
     height: 550px;
-    padding-left: 10%;
 }
 
 .Pos{
-    padding-left: 30px;
-    padding-top: 40px;
+    padding: 10%;
 }
 
 .Pos2{
@@ -324,7 +598,7 @@ h2{
 .ProText{
     color:#f8f7a8;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     padding: 2%;
 }
@@ -333,33 +607,16 @@ h2{
     color:#f8f7a8;
     text-decoration: underline;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
 .proBold{
     color:#f8f7a8;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
 
-.lg{
-    font-size: 26px;
-    color:#e8e49e;
-    font-weight:400;
-}
-
-.LU{
-    color:rgb(243, 240, 70);
-    font-size: 32px;
-    font-weight: 600;
-}
-
-.LU1{
-    color: #fff;
-    font-size: 36px;
-    font-weight: 500;
-}
 
 /*------------------------------------ END TEXT ----------------------------------------------*/
 
@@ -378,6 +635,11 @@ h2{
 .card-title{
     color:#9e0fad;
     font-size: 24px;
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
 }
 
 .title2{
@@ -401,13 +663,18 @@ h2{
 
 
 /* -------------------------------    DIV STYLES    ------------------------------------------ */
+.col-12{
+    padding: 5%;
+}
+
+.proFluffy{
+    display: flex;
+}
 
 .kp{
-    background-color: #f0e4f585;
+    background-color: #f0e4f5a6;
     height: 80%;
-    width: 95%;
     margin: 0 auto;
-    border-radius: 2%;
 }
 
 .card-body{
@@ -452,12 +719,8 @@ h2{
     background-color: #f8f1ff;
 }
 
-.around{
-    padding-bottom: 5%;
-}
-
 .aroundcard{
-    padding-top: 10%;
+    padding-top: 2%;
     padding-left: 10%;
     padding-right: 10%;
     background-color:#f7f6e0;
@@ -500,11 +763,6 @@ h2{
     padding: 5%;
 }
 
-#efluffy{
-    width: 200px;
-    height: 250px;
-    padding: 5%;
-}
 
 #Thankyou{
     font-weight: 800;
@@ -538,13 +796,21 @@ h2{
 /** FOOTER **/
 
 .ft{
-    z-index: 1;
-    background-color:#08115100;
+    width: 100%;
 }
 
 li{
     justify-content: end;
     display: inline-block;
+}
+
+.email{
+    font-size: 12px;
+}
+
+.social{
+    width: 50px;
+    padding: 2%;
 }
 
 
@@ -555,27 +821,9 @@ li{
 }
 
 
-.Anna{
-    width: 300px;
-    padding-left: 5%;
-    padding-top: 15%;
-}
-
-
-ul.foot{
-    padding-left: 20%;
-
-}
-
-.social{
-    width: 50px;
-    padding: 2%;
-}
-
-
 .footer{
-    font-size: 24px;
+    font-size: 18px;
     color: rgb(8, 5, 48);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 2%;
 }
+

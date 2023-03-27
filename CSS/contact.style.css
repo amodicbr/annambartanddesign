@@ -25,6 +25,14 @@
         font-size: 20px;
         font-weight: 800;
     }
+
+
+    .nav-link-mute{
+        color:#f28fffb7;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+    }
     
     
     .bg-body-tertiary {

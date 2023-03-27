@@ -45,11 +45,13 @@
         font-weight: 800;
     }
 
-    #contactme{
-        color:#ffffff;
+
+    .nav-link-mute{
+        color:#f28fff;
         font-size: 20px;
         font-weight: 500;
-       }
+        text-decoration: none;
+    }
     
     
     .bg-body-tertiary {
