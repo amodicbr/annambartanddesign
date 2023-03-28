@@ -28,10 +28,13 @@ a{
 
 
 .hero{
-    width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
+}
+
+.img{
+    width: 99%;
 }
 
 
@@ -299,6 +302,10 @@ li{
     width: 50px;
 }
 
+.emailtext{
+    font-size: 12px;
+}
+
 
 .social{
     width: 50px;
@@ -369,7 +376,7 @@ p{
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 200px){
+@media screen and (max-width: 800px) and (min-width: 200px){
 
     .img{
         margin-left: 10%;
@@ -378,6 +385,7 @@ p{
 
 .hero{
     width: 100%;
+    padding-top: 25%;
     padding-left: 10%;
     padding-right: 10%;
     display: block;

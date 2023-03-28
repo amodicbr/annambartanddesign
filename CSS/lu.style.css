@@ -226,18 +226,33 @@ a{
 
    /************** BOOTSTRAP NAV *******************/ 
 
+.casestudy{
+    width: 35%;
+    opacity: 100%;
+    padding: 2%;
+}
+
 
 .navbar{
  justify-content: end !important;
  padding-right: 25px;
 }
 
+.nav-item{
+    align-self: flex-end;
+}
+
+.nav-itemQ{
+    padding-top: 20%;
+}
 
 .nav-link{
    color: #f2a0e2 !important;
-   font-size: 20px;
-   font-weight: 800;
+   font-size: 18px;
+   font-weight: 400;
 }
+
+
 
 .nav-link-mute{
 color:#f28fff;
@@ -329,21 +344,25 @@ button.navbar-toggler {
    font-size: 24px;
    font-weight: 800;
    text-decoration: none;
+   padding-left: 2%;
 }
 
 
-.nav-linkR{
-color:#e94fca99;
-font-size: 20px;
-font-weight: 400;
-text-decoration: none;
-padding-left: 5%;
-}
 
 /************** BOOTSTRAP NAV *******************/
 
 
 /* -------------------------------   OVERALL BLANKET STYLES  ------------------------------------------ */
+
+#herobutton{
+    z-index: 1030;
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 1%;
+    font-size: medium;
+    font-weight: 400;
+    color:rgb(222, 210, 255)
+}
 
 span{
     font-weight: 700;
@@ -804,9 +823,12 @@ li{
     display: inline-block;
 }
 
+    
 .email{
-    font-size: 12px;
+    padding: 2%;
+    width: 50px;
 }
+
 
 .social{
     width: 50px;
