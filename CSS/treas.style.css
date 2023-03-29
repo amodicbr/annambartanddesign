@@ -1,8 +1,26 @@
 
 
  a{
-    color:#d3d7fd;
+    color:#0b1038;
   }
+
+  .casestudy{
+    width: 35%;
+    opacity: 100%;
+    padding: 2%;
+}
+
+.nav-linkH{
+    padding-left: 10%;
+}
+
+.nav-item{
+    align-self: flex-end;
+}
+
+.offcanvas-body{
+    background-color:rgba(128, 128, 94, 0.272);
+}
 
 .italic{
     font-style: italic;
@@ -428,6 +446,10 @@ ul.foot{
     padding: 2%;
 }
 
+.email{
+    padding: 2%;
+    width: 50px;
+}
 
 .footer{
     font-size: 24px;
