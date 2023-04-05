@@ -1,48 +1,61 @@
-.content{
-    margin: 0 auto;
-    padding-top: 10%;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 10%;
-    width: 100%;
-    background-image: url(/IMGS/Nav\ HOME.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+
+
 
 a{
     color:#d3d7fd;
+    text-decoration: none;
+}
+
+h1{
+    color:rgb(253, 253, 253);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2{
     color:#f9f9f9;
     text-align: center;
     font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2%;
 }
 
 h3{
-    color:#f47bd0c9;
+    color:#f8ffcaec;
     text-align: center;
-    font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
 }
 
-h4{
-    color:#a20573ab;
-    text-align: center;
-}
 
 h5{
     color: #d3d7fd8a;
     text-align: center;
-    font-style: italic;
 }
 
 
 body{
-    background-color: #081151 ;
-    width: 100%;
+    background-color: #060b33;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
+h3.AnnaT{
+    padding-left: 5%;
+}
+
+.hero{
+    display: block;
+}
+
+.casestudies{
+   margin: 0 auto;
+}
+
 
 .empty{
     height: 400px;
@@ -60,20 +73,25 @@ body{
         justify-content: end !important;
         padding-right: 25px;
    }
+
+   .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
    
    
    .nav-link{
-       color: #f2a0e2 !important;
+       color: #f5f5c2 !important;
        font-size: 20px;
-       font-weight: 800;
+       font-weight: 400;
    }
 
-   .nav-link-mute{
-    color:#f28fff;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-}
    
    .bg-body-tertiary {
        --bs-bg-opacity: 0;
@@ -90,14 +108,14 @@ body{
 }
    
    button.navbar-toggler {
-       width: 20%;
+        width: 10%;
        font-size: var(--bs-navbar-toggler-font-size);
        line-height: 1;
-       color: #5c76ee;
-       background-color: #d675c39d;
+       color: #f7f9c9;
+       background-color: #fffff892;
        border: var(--bs-border-width) solid ;
        border-radius: var(--bs-navbar-toggler-border-radius);
-       border-color:#795ced!important;
+       border-color:#fffead00!important;
        border-width: 2px;
        transition: var(--bs-navbar-toggler-transition);
    }
@@ -127,7 +145,7 @@ body{
    
    .offcanvas {
        position: fixed;
-       background-color:#081151a4 !important;
+       background-color:#020625a4 !important;
    }
    
    
@@ -135,7 +153,7 @@ body{
        --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
        --bs-btn-close-opacity: 0.5;
        --bs-btn-close-hover-opacity: 0.75;
-       --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+       --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(253, 233, 13, 0.717);
        --bs-btn-close-focus-opacity: 1;
        --bs-btn-close-disabled-opacity: 0.25;
        --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
@@ -153,21 +171,7 @@ body{
        color:#c3cdf5;
    }
    
-   .nav-linkH{
-       color:#fff;
-       font-size: 24px;
-       font-weight: 800;
-       text-decoration: none;
-   }
 
-
-.nav-linkR{
-   color:#e94fca99;
-   font-size: 20px;
-   font-weight: 400;
-   text-decoration: none;
-   padding-left: 5%;
-}
 
 /************** BOOTSTRAP NAV *******************/
 
@@ -175,83 +179,65 @@ body{
 
 /** Hero Img **/
 
-.name{
-    color:rgba(205, 22, 178, 0.739);
+.AnnaMB{
+    color:#f5f5c2;
     font-size: 20px;
-    padding-top: 5%;
+    width: 60%;
+    z-index: 10;
+    position: relative;
+}
+
+.AnnaT{
+    text-align: start;
+    padding-top: 1%;
+    margin-left: 25%;
+    font-size: 22px;
+}
+
+
+.imghero{
+    width: 100%;
     padding-left: 2%;
-    z-index: 1;
-    position: absolute
 }
 
-.subtitle{
-    color:#f693e6a0;
-    font-size: 20px;
-    font-weight: 300;
-    padding-left: 5%;
-    padding-top: 8%;
-    z-index: 1;
-    position: absolute;
-}
-
-
-
-.UXUI{
-    margin: 0 auto;
-    text-align: center;
-    padding: 0;
-}
-
-.UX, .UI{
-    color: rgba(255, 255, 255, 0.797);
-    font-size: 32px;
-    font-weight:600;
-    font-style: italic;
-    padding-top: 0;
-}
-
-.UX{
-    padding-left: 10%;
-}
 
 
 .blink{
     display: flex;
-    text-align: center;
     justify-content: center;
 }
 
 
 .CSA{
     color:#fbfbeede;
-    font-size: 36px;
+    font-size: 32px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
-    padding: 5%;
+    padding-left: 5%;
 
 }
 
+.hero{
+    display: flex;
+    width: 100%;
+}
 
 #logo{
-    width: 60%;
-    margin-left: 25%;
+    width: 40%;
+    padding: 10%;
+    z-index: 1045;
+    position: relative;
 }
 
-.blurb{
-    color:aliceblue;
-    font-size: 20px;
-    font-weight: 200;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.space{
+    padding: 5%;
 }
 
-.b{
-    padding: 2%;
-}
-
-.button{
+.bs{
+    margin-left: 20%;
+    margin-top: 10%;
     display: flex;
-    justify-content: center;
-    margin: 5%;
 }
 
 
@@ -259,80 +245,43 @@ button{
     height: 60px;
     width: 250px;
     border-radius: 5px;
-    margin-right: 5%;
-    background-color: #ee60c3d0;
-    color:aliceblue;
+    background-color: #eff0e1;
+    color:rgb(27, 10, 110);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 }
-
-.button2{
-    height: 60px;
-    width: 250px;
-    border-radius: 5px;
-    margin-left: 5%;
-    background-color: #ee60c3d0;
-    color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-}
-
-
 
 .blu{
-    text-align: center;
+    text-align: start;
+    padding-left: 8%;
 }
 
-
-
-.linkt{
-    color:rgb(241, 152, 228);
-    font-size: 32px;
-    font-weight: 300;
-    text-decoration: underline;
-    padding-left: 15%;
-    padding-top: 0;
-    z-index: 2;
-    position: relative;
-}
-
-#look{
-    font-size: 24px;
-    font-weight: 200;
-    color: rgba(255, 255, 255, 0.91);
-    padding-left: 15%;
-}
-
-#light{
-    width: 20px;
-}
-
-
-#light, #look{
-    display: inline-block;
-}
 
 
 /** BLURB **/
 
 .playful{
-    color:#f5d3eb;
+    color:#f9f9f9;
     font-size: 20px;
-    font-weight: 200; 
-    font-style: italic;
+    font-weight: 300; 
+}
+
+.link{
+    color:#f9f9f9;
+    font-size: 22px;
+    font-weight: 300; 
+    text-decoration: underline;
 }
 
 /*** CASE STUDIES ***/
 
-#ct{
-    display: flex;
-}
+
+
 
 .casetitle{
     color: rgb(253, 253, 253);
     font-size: 32px;
     font-weight: 300px;
-    padding: 5%;
     text-align: center;
 }
 
@@ -346,67 +295,14 @@ button{
 }
 
 
-small.text-muted{
-    color:rgb(241, 152, 228) !important;
-    text-decoration: underline;
-    font-size: 24px;
-}
 
-.text-muted-s{
-    font-size: 20px;
-    color:rgba(72, 13, 72, 0.969);
-}
 
-.card-img-top-t{
-    padding-bottom: 25px;
-}
-
-.card-img-top-lu{ 
-    padding-bottom: 20px;
-}
-
-.card-body-lu{
-    background-color: rgba(204, 221, 253, 0.61);
-    padding: 5%;
-    height: 95%;
-}
-
-.card-img-top-hs{
-    padding-bottom: 13.75px;
-}
-
-.card-body{
-    background-color: rgba(204, 221, 253, 0.61);
-    padding-top: 25px;
-    height: 60%;
-}
-
-.card-text{
-    color:#081151;
-}
-
-.card-title{
-    text-align: center;
-    color:#a20573;
-    font-size: 26px;
-}
-
-.card-title-lu{
-    text-align: center;
-    color:#a20573;
-    font-size: 26px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
 
 /** Case Studies **/
 
 /*** FOOTER **/
 
 .ft{
-    background-image: url(/IMGS/Footer\ Wave.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     padding-bottom: 10%;
 }
@@ -448,8 +344,6 @@ ul.foot{
     padding: 1%;
 }
 
-
-
 #social{
     padding: 1%;
 }
@@ -470,9 +364,6 @@ ul.foot{
         font-size: 20px;
     }
 
-    .subtitle{
-        padding-top: 7%;
-    }
 
   
 }
@@ -480,10 +371,6 @@ ul.foot{
 
 @media screen and (max-width: 1200px) and (min-width: 900px){
 
-    .subtitle{
-        padding-top: 7%;
-    }
-    
 
     /** FOOTER WAVE **/
 
@@ -491,25 +378,6 @@ ul.foot{
         font-size: 20px;
     }
 
-
-    .UX, .UI{
-        color: rgba(255, 255, 255, 0.797);
-        font-size: 25px;
-        font-weight:500;
-        font-style: italic;
-    }
-
-    .containerGrid{
-        font-size: 36px;
-    }
-
-    .header{
-        font-size: 48px;
-    }
-
-    .hero{
-        margin-top: 8%;
-    }
 
      .blurb{
         font-size: 18px;
@@ -520,48 +388,50 @@ ul.foot{
         font-size: 24px;
     }
 
-    .caseimg{
-        width: 200px;
-        height: 200px;
-        padding: 10px;
-    }
 
-    #lift{
-        align-content: center;
-        justify-content: center;
-    }
 
-    #ltitle{
-        font-size: 20px;
-    }
+}
 
-    #htitle{
-        font-size: 16px;
-        margin: 0 auto;
-    }
-
-    #linfo, #hinfo, #tinfo{
-        font-size: 14px;
-    }
-
-    #liftup, #humanesoc, #treasd{
+@media screen and (max-width: 950px) and (min-width: 200px){
+    
+    .AnnaMB{
+        text-align: center;
         width: 100%;
     }
 
-    .subtitle{
-        font-size: 20px;
+    .blu{
+        width: 100%;
+        padding: 5%;
     }
 
-    .buttonall{
-        font-size: 18px;
-        width: 300px;
-        height: 75px;
+    .blurb{
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
     }
-    
-    .button3{
-        width: 125px;
-        height: 65px;
-        font-size: 18px;
+
+
+    .hero{
+        display: block;
+    }
+
+    .link{
+        text-align: center;
+    }
+
+    .casestudies{
+        margin: 0 auto;
+    }
+
+    .bs{
+        margin-left: 25%;
+        margin-top: 10%;
+        display: block;
+    }
+
+    .space{
+        margin: 0;
+        padding: 5%;
     }
 
 }
@@ -569,29 +439,31 @@ ul.foot{
 
 @media screen and (max-width: 899px) and (min-width: 601px){
 
-    .subtitle{
-        padding-top: 10%;
-    }
-
-    .content{
-        padding-top: 20%;
-    }
 
     .footer{
         font-size: 20px;
     }
+
+
+    .CSA{
+        color:#fbfbeede;
+        font-size: 24px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+
 
 }
 
 @media screen and (max-width: 600px) and (min-width: 451px){
 
-    .subtitle{
-        padding-top: 12%;
-    }
 
-
-    .content{
-        padding-top: 40%;
+    .CSA{
+        color:#fbfbeede;
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 10%;
+    
     }
 
     .footer{
@@ -599,37 +471,20 @@ ul.foot{
     }
 
 
-    #logo{
-        margin-left: 5%;
-    }
-
     .card{
         padding: 3%;
-    }
-
-    .CSA{
-        padding-top: 20%;
-        font-size: 24px;
     }
 
     .blurb{
         padding-bottom: 20%;
     }
 
-
    
     button{
         width: 200px;
     }
 
-    .button{
-        justify-content: center;
-        display: inline-block;
-    }
-
-    .b{
-        padding: 5%;
-    }
+   
 
     #ct{
         padding: 10%;
@@ -646,15 +501,6 @@ ul.foot{
 
 @media screen and (max-width: 450px) and (min-width: 200px){
 
-    .subtitle{
-        padding-top: 12%;
-    }
-
-
-    .content{
-        padding-top: 10%;
-    }
-
     .footer{
         font-size: 16px;
     }
@@ -664,35 +510,10 @@ ul.foot{
         font-size: 14px;
     }
 
-
-    .UXUI{
-        margin-top: 40%;
-    }
-
-    .UX, .UI{
-        font-size: 20px;
-    }
-
-
-    .hero{
-    margin: 0 auto;
-    }
-
     .CSA{
        font-size: 16px;
     }
 
-    #light{
-        width: 0%;
-    }
-
-    .linkt{
-        font-size: 18px;
-    }
-
-    #look{
-        margin-bottom: 10%;
-    }
 
     .playful{
         font-size: 16px;
@@ -707,29 +528,8 @@ ul.foot{
         width: 200px;
     }
 
-    .button{
-        justify-content: center;
-        display: inline-block;
-    }
-
-    .b{
-        padding: 5%;
-    }
-
     .card{
         padding: 2%;
-    }
-
-
-    #logo{
-        display:flex;
-        padding-top: 20px;
-        padding-bottom: 50px;
-    }
-
-
-    .containerGrid{
-        font-size: 24px;
     }
 
     .header{
@@ -740,57 +540,7 @@ ul.foot{
         font-size: 16px;
         padding:0;
     }
-
-
-    .caseimg{
-        width: 200px;
-        height: 200px;
-        padding: 10px;
-    }
-
-    #lift{
-        align-content: center;
-        justify-content: center;
-    }
-
-    #ltitle{
-        font-size: 20px;
-    }
-
-    #htitle{
-        font-size: 16px;
-        margin: 0 auto;
-    }
-
-    #linfo, #hinfo, #tinfo{
-        font-size: 14px;
-    }
-
-    #liftup, #humanesoc, #treasd{
-        width: 100%;
-    }
-
-    .subtitle{
-        font-size: 20px;
-    }
-
-    .buttonall{
-        font-size: 18px;
-        width: 300px;
-        height: 75px;
-    }
-    
-    .button3{
-        width: 125px;
-        height: 65px;
-        font-size: 18px;
-    }
-
-
-  
-
 }
-
 
 
 
