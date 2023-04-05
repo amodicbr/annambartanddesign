@@ -239,26 +239,19 @@ body {
   
 
 
-/*** FOOTER ***/
+/*** FOOTER **/
+
 .ft{
     width: 100%;
+    padding-bottom: 10%;
 }
 
-ul.foot{
-    padding-left: 10%;
-    padding-bottom: 25%;
-}
-
-.Anna{
-    padding-top: 5%;
-    margin-left: 10%;
-    width: 175px;
-}
 
 
 li{
     justify-content: end;
     display: inline-block;
+    padding: 1%;
 }
 
 
@@ -269,26 +262,40 @@ li{
 }
 
 
+.Anna{
+    width: 250px;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
 .email{
     padding: 2%;
     width: 50px;
 }
 
 
+ul.foot{
+    padding-left: 15%;
+}
+
 .social{
     width: 50px;
-    padding: 2%;
+    padding: 1%;
+}
+
+#social{
+    padding: 1%;
 }
 
 .footer{
-    font-size: 24px;
+    font-size: 20px;
     color: #ffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 2%;
 }
 
 
 /*End Footer*/
+
 @media screen and (max-width: 1200px) and (min-width: 701px){
     .ft{
             z-index: 1030;

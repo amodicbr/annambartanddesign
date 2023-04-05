@@ -786,8 +786,7 @@ h2{
     background-color: #dcc0f824;
 }
 
-/** FOOTER **/
-
+/*** FOOTER **/
 
 .ft{
     width: 100%;
@@ -810,7 +809,7 @@ li{
 }
 
 
-.AnnaIMG{
+.Anna{
     width: 250px;
     padding-left: 5%;
     padding-top: 8%;
@@ -841,3 +840,5 @@ ul.foot{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+/*End Footer*/
