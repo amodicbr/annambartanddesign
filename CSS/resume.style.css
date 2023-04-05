@@ -14,122 +14,112 @@ a{
       /************** BOOTSTRAP NAV *******************/ 
 
 
-    .navbar{
-         justify-content: end !important;
-         padding-right: 25px;
-    }
-    
-    
-    .nav-link{
-        color: #f2a0e2 !important;
-        font-size: 20px;
-        font-weight: 800;
-    }
+      .navbar{
+        justify-content: end !important;
+        padding-right: 25px;
+   }
 
-
-    .nav-link-mute{
-        color:#f28fffb4;
-        font-size: 20px;
-        font-weight: 500;
-        text-decoration: none;
-    }
-    
-    .bg-body-tertiary {
-        --bs-bg-opacity: 0;
-        background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
-    }
-
-
-   .fixed-top {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+   .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
-    
-    button.navbar-toggler {
-        width: 20%;
-        height: 75px !important;
-        font-size: var(--bs-navbar-toggler-font-size);
-        line-height: 1;
-        color: #5c76ee;
-        background-color: #d675c39d;
-        border: var(--bs-border-width) solid ;
-        border-radius: var(--bs-navbar-toggler-border-radius);
-        border-color:#795ced!important;
-        border-width: 2px;
-        transition: var(--bs-navbar-toggler-transition);
-    }
-    
-    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
-        --bs-offcanvas-zindex: 1045;
-        --bs-offcanvas-width: 400px;
-        --bs-offcanvas-height: 30vh;
-        --bs-offcanvas-padding-x: 1rem;
-        --bs-offcanvas-padding-y: 1rem;
-        --bs-offcanvas-color: rgb(198, 180, 248);
-        --bs-offcanvas-title-line-height: none !important;
-    }
-    
-    
-    .offcanvas-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
-    }
+   
+   
+   .nav-link{
+       color: #f5f5c2 !important;
+       font-size: 20px;
+       font-weight: 400;
+   }
 
-    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
-        --bs-offcanvas-zindex: 1045;
-        --bs-offcanvas-title-line-height: none !important;
-    }
-    
-    .offcanvas {
-        position: fixed;
-        background-color:#081151a4 !important;
-    }
-    
-    
-    .btn-close {
-        --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
-        --bs-btn-close-opacity: 0.5;
-        --bs-btn-close-hover-opacity: 0.75;
-        --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-        --bs-btn-close-focus-opacity: 1;
-        --bs-btn-close-disabled-opacity: 0.25;
-        --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
-        box-sizing: content-box;
-        width: 1em;
-        height: 1em;
-        padding: 0.25em 0.25em;
-        color: var(--bs-btn-close-color);
-        background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
-        border: 0;
-        border-radius: 0.375rem;
-    }
-    
-    #offcanvasNavbarLabel{
-        color:#c3cdf5;
-    }
-    
-    .nav-linkH{
-        color:#fff;
-        font-size: 24px;
-        font-weight: 800;
-        text-decoration: none;
-    }
+   
+   .bg-body-tertiary {
+       --bs-bg-opacity: 0;
+       background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+   }
 
 
-.nav-linkR{
-    color:#e94fca99;
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    padding-left: 5%;
+  .fixed-top {
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 1030;
 }
+   
+   button.navbar-toggler {
+        width: 10%;
+       font-size: var(--bs-navbar-toggler-font-size);
+       line-height: 1;
+       color: #f7f9c9;
+       background-color: #fffff892;
+       border: var(--bs-border-width) solid ;
+       border-radius: var(--bs-navbar-toggler-border-radius);
+       border-color:#fffead00!important;
+       border-width: 2px;
+       transition: var(--bs-navbar-toggler-transition);
+   }
+   
+   .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+       --bs-offcanvas-zindex: 1045;
+       --bs-offcanvas-width: 400px;
+       --bs-offcanvas-height: 30vh;
+       --bs-offcanvas-padding-x: 1rem;
+       --bs-offcanvas-padding-y: 1rem;
+       --bs-offcanvas-color: rgb(198, 180, 248);
+       --bs-offcanvas-title-line-height: none !important;
+   }
+   
+   
+   .offcanvas-header {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+   }
+
+   .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+       --bs-offcanvas-zindex: 1045;
+       --bs-offcanvas-title-line-height: none !important;
+   }
+   
+   .offcanvas {
+       position: fixed;
+       background-color:#020625a4 !important;
+   }
+   
+   
+   .btn-close {
+       --bs-btn-close-bg: url(/IMGS/Vector.png) !important;
+       --bs-btn-close-opacity: 0.5;
+       --bs-btn-close-hover-opacity: 0.75;
+       --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(253, 233, 13, 0.717);
+       --bs-btn-close-focus-opacity: 1;
+       --bs-btn-close-disabled-opacity: 0.25;
+       --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+       box-sizing: content-box;
+       width: 1em;
+       height: 1em;
+       padding: 0.25em 0.25em;
+       color: var(--bs-btn-close-color);
+       background: transparent var(--bs-btn-close-bg) center/1em auto no-repeat;
+       border: 0;
+       border-radius: 0.375rem;
+   }
+   
+   #offcanvasNavbarLabel{
+       color:#c3cdf5;
+   }
+   
+
 
 /************** BOOTSTRAP NAV *******************/
+
 
 /**** BODY ****/
 
@@ -160,8 +150,8 @@ button{
     height: 60px;
     width: 250px;
     border-radius: 5px;
-    background-color: #a20573;
-    color:aliceblue;
+    background-color: #f0fac1;
+    color:rgb(0, 5, 65);
     margin-bottom: 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
@@ -172,9 +162,6 @@ button{
 /*** FOOTER ***/
 
 .ft{
-    background-image: url(/IMGS/Footer\ Wave.png) ;
-    background-repeat: no-repeat;
-    background-size: contain;
     width: 100%;
 }
 
@@ -190,7 +177,7 @@ ul.foot{
 }
 
 
-.imganna{
+.Anna{
     padding-top: 5%;
     margin-left: 10%;
     width: 175px;
