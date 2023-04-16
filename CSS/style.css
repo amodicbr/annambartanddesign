@@ -204,7 +204,7 @@ h3.AnnaT{
 
 .blink{
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 
@@ -384,6 +384,12 @@ ul.foot{
         padding:10%;
     }
 
+    .blink{
+        display: flex;
+        justify-content: center;
+    }
+    
+
     .CSA{
         font-size: 24px;
     }
@@ -410,6 +416,11 @@ ul.foot{
         text-align: center;
     }
 
+    .blink{
+        display: flex;
+        justify-content: center;
+    }
+    
 
     .hero{
         display: block;
@@ -495,6 +506,12 @@ ul.foot{
         display: block;
     }
 
+    .blink{
+        display: flex;
+        justify-content: center;
+    }
+    
+
 }
 
 
@@ -540,6 +557,12 @@ ul.foot{
         font-size: 16px;
         padding:0;
     }
+
+    .blink{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 
 
